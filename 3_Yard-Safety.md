@@ -2,9 +2,11 @@
 
 ## The claim
 
-The yard stays a yard. Grass, a walk, a playset. The Backyard Generating Station sits five to ten feet under that, inside a lead-lined concrete vault, and the extra dose a person picks up on the lawn is meant to be **a few mrem a year, if anything you can tell from ordinary background**.
+The yard stays a yard. Grass, a walk, a playset. The Backyard Generating Station sits five to ten feet under that, inside a lead-lined concrete vault.
 
-That is the design target, not a hope. The vault does the stopping. The dirt is extra. A playset on that grass is the test: if a child can spend the year there and the added number is still a few mrem, the yard is doing what a yard does.
+The extra dose is meant to be **a few mrem a year if a person lived on the grass over the vault, all day, every day**. That is the conservative number: someone camping on that spot for 8,760 hours. Nobody does that. A playset is an hour here and there. At one hour a day for a year, the extra is a **small fraction of one cross-country flight**, not a flight.
+
+That is the design target, not a hope. The vault does the stopping. The dirt is extra.
 
 ---
 
@@ -12,16 +14,25 @@ That is the design target, not a hope. The vault does the stopping. The dirt is 
 
 Dose is how much radiation energy a body absorbs. The everyday US unit is the **mrem** (millirem: one-thousandth of a rem). People already get a dose every year from the sky, the dirt, and the air in the house. That ordinary background in the United States is on the order of **300 mrem a year**. It is higher in the mountains than at the coast. It changes from house to house.
 
-A few mrem a year on top of that is about **one percent of background**, or less. It is in the same size class as a cross-country flight, or as the difference between living in a low-background town and a higher one. It is far below the usual public limit for a licensed source, which is **100 mrem a year** from that source.
+A few mrem a year on top of that, **for a person who lived on the grass**, is about **one percent of background**, or less. That full-time lawn number is in the same size class as **one cross-country flight**. It is far below the usual public limit for a licensed source, which is **100 mrem a year** from that source.
 
-**A note on the units.** mrem is a yearly kind of number when we talk about a lawn. A survey meter on the grass reads a *rate* (how hard it is right now). A person who spent every hour of the year on that spot would turn that rate into a yearly mrem total. Nobody does that. The design still pretends they might, so a playset is covered.
+**A note on the units.** mrem is a yearly kind of number when we talk about a lawn. A survey meter on the grass reads a *rate* (how hard it is right now). Multiply that rate by the hours you actually stand there, and you get the year’s extra. The design uses the hardest case: every hour of the year on that spot. A playset uses a slice of those hours.
+
+One hour a day is 365 hours out of 8,760, about **4% of the year**:
+
+```
+a few mrem/year (if you lived there) × (365 / 8,760) ≈ 0.15 to 0.2 mrem/year
+```
+
+That is about **one-fifteenth to one-twentieth of one coast-to-coast flight**.
 
 | What | About how much | What that means |
 | --- | --- | --- |
 | Ordinary US background | ~300 mrem/year | Sky, dirt, and house air. Already happening. |
-| Extra from a well-built buried vault, on the grass | a few mrem/year, if it is measurable at all | The design target. About 1% of background or less. |
+| Extra if a person *lived* on the grass over the vault, 24/7 | a few mrem/year, if it is measurable at all | The design target. About 1% of background. About one cross-country flight, spread over the whole year. |
+| Extra for a child on a playset ~1 hour a day | ~0.15 to 0.2 mrem/year | A fraction of one flight, not a flight. |
 | Public limit from a licensed source | 100 mrem/year | A ceiling, not a goal. The vault is built well below it. |
-| Cross-country flight | a few mrem | One trip, then it is over. The lawn number is spread across the year. |
+| Cross-country flight | a few mrem | One trip. Same size as the *live-on-the-lawn* number, much larger than the playset number. |
 
 The honest sentence is not “zero radiation.” Nothing shields to zero, and the yard already has background. The honest sentence is: **the vault is built so the lawn does not become a special place.**
 
@@ -68,9 +79,9 @@ Scatter exists. A neutron can bounce. The point of the underside chase is not ma
 
 A playset is hours, not minutes, and it is children, and it is right on the grass. If that is acceptable, a walk across the yard is not a special event.
 
-The dose target is a yearly number on the grass, as if someone lived there. A child on a playset is a few feet higher than the grass. Air does not shield much, so the playset is about the same as standing on the lawn, maybe a little lower because they are farther from the lid. The conservative picture is: **treat the playset as the lawn, all year.**
+The dose target is a yearly number on the grass **as if someone lived there**. A child on a playset is a few feet higher than the grass. Air does not shield much, so each hour on the set is about the same as an hour on the lawn, maybe a little less because they are farther from the lid.
 
-If the extra on that lawn is a few mrem a year, a child who lived on the set would still be adding about one percent of ordinary background, or less. The rest of their year (the house, the car, a flight, a town at a different altitude) already moves the number by more than that.
+They are not living on the set. One hour a day is about 4% of the live-there number. If living on the grass is a few mrem a year (about one flight), the playset year is a **fraction of that flight**. The rest of their year (the house, the car, an actual flight, a town at a different altitude) already moves the number by more than the playset does.
 
 Two practical rules sit next to the physics:
 
@@ -109,4 +120,4 @@ Startup happens after the hole is backfilled and the chase is closed. Until then
 
 ## What this document is
 
-This is the yard chapter: lid-to-grass depth, the vault as the shield, wet dirt better than dry dirt, holes out the bottom, and a playset as the occupancy test. The claim is a few mrem a year extra on the grass, if anything you can separate from the 300 mrem a year the yard already has. Later chapters can put a real shield stack and a real soil type on a drawing. The rule here is: if the kids cannot play on it, it is not buried deep enough and the box is not thick enough.
+This is the yard chapter: lid-to-grass depth, the vault as the shield, wet dirt better than dry dirt, holes out the bottom, and a playset as the occupancy test. The claim is a few mrem a year extra **if a person lived on the grass**, which is about one cross-country flight; a playset hour a day is a fraction of that flight. Later chapters can put a real shield stack and a real soil type on a drawing. The rule here is: if the kids cannot play on it, it is not buried deep enough and the box is not thick enough.
