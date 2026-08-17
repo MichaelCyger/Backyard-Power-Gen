@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="620" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 1. Site section, BGS-8 (not to construction scale)</text>
+ <text x="24" y="48" font-size="11" fill="#444">Lid-to-grass 1.5 to 3.0 m. Vault 2.46 m OD x 2.60 m H. Chase floor-only, two 90-degree bends. House skid is replaceable.</text>
+
+ <!-- sky -->
+ <rect x="40" y="70" width="1020" height="70" fill="#dce8f0"/>
+ <!-- grass -->
+ <rect x="40" y="140" width="620" height="16" fill="#5a8f4a"/>
+ <text x="50" y="134" font-size="11" fill="#2d4a28">Playset / grass (dose target: d5 mrem/y if occupied 24/7)</text>
+ <!-- playset -->
+ <line x1="120" y1="140" x2="120" y2="100" stroke="#5a3a1a" stroke-width="4"/>
+ <line x1="200" y1="140" x2="200" y2="100" stroke="#5a3a1a" stroke-width="4"/>
+ <line x1="120" y1="100" x2="200" y2="100" stroke="#5a3a1a" stroke-width="4"/>
+ <line x1="140" y1="100" x2="140" y2="128" stroke="#333" stroke-width="1.5"/>
+ <line x1="180" y1="100" x2="180" y2="128" stroke="#333" stroke-width="1.5"/>
+ <text x="128" y="92" font-size="10" fill="#333">Playset (shallow footings only)</text>
+
+ <!-- soil -->
+ <rect x="40" y="156" width="620" height="110" fill="#c4a574"/>
+ <text x="50" y="210" font-size="12" font-weight="600" fill="#4a3520">Soil cover 1.5-3.0 m (5-10 ft) above lid</text>
+ <text x="50" y="226" font-size="10" fill="#4a3520">Bonus shield. Vault must meet dose with lid bare.</text>
+ <!-- dimension soil -->
+ <line x1="640" y1="156" x2="640" y2="266" stroke="#1a1a1a" stroke-width="1"/>
+ <text x="648" y="216" font-size="10" fill="#1a1a1a">1.5-3.0 m</text>
+
+ <!-- vault -->
+ <rect x="160" y="266" width="280" height="220" fill="#8b8b84" stroke="#333" stroke-width="2"/>
+ <rect x="176" y="282" width="248" height="28" fill="#5c5c5c"/>
+ <text x="250" y="301" font-size="10" fill="#fff">Lead + concrete lid</text>
+ <rect x="200" y="318" width="200" height="36" fill="#6b3a1f"/>
+ <text x="228" y="341" font-size="11" fill="#fff">Glass dump hopper</text>
+ <rect x="220" y="362" width="160" height="56" fill="#c45c26"/>
+ <text x="248" y="386" font-size="11" fill="#fff" font-weight="600">Core 35 kWth</text>
+ <text x="242" y="402" font-size="10" fill="#fff">TRISO + 24 Na HP</text>
+ <rect x="200" y="426" width="200" height="28" fill="#3d6b8a"/>
+ <text x="232" y="445" font-size="10" fill="#fff">Bottom shield + labyrinth</text>
+ <text x="248" y="478" font-size="11" font-weight="600" fill="#1a1a1a">Vault ~42 t - 2.46 x 2.60 m</text>
+
+ <!-- pad -->
+ <rect x="140" y="486" width="320" height="18" fill="#7a7a72"/>
+ <text x="230" y="500" font-size="9" fill="#fff">Crushed-stone pad</text>
+
+ <!-- deep soil -->
+ <rect x="40" y="266" width="120" height="238" fill="#b89568"/>
+ <rect x="440" y="266" width="220" height="238" fill="#b89568"/>
+ <rect x="40" y="504" width="620" height="36" fill="#a68558"/>
+
+ <!-- chase -->
+ <path d="M300 454 L300 520 L520 520 L520 400 L700 400" fill="none" stroke="#c47a2a" stroke-width="6"/>
+ <path d="M300 454 L300 520 L520 520 L520 400 L700 400" fill="none" stroke="#8a5010" stroke-width="2" stroke-dasharray="4 3"/>
+ <text x="330" y="540" font-size="10" fill="#6a3a08">Double-wall oil + I&amp;C - two 90-degree bends - no lid penetrations</text>
+
+ <!-- house -->
+ <rect x="700" y="200" width="340" height="280" fill="#e8dcc8" stroke="#5a4a38" stroke-width="2"/>
+ <polygon points="700,200 870,130 1040,200" fill="#8a4a32"/>
+ <text x="800" y="188" font-size="12" font-weight="700" fill="#1a1a1a">House / garage skid</text>
+ <rect x="720" y="220" width="140" height="50" fill="#2a6f9a"/>
+ <text x="738" y="250" font-size="11" fill="#fff">Stirling x5 (10 kWe)</text>
+ <rect x="880" y="220" width="140" height="50" fill="#2a6f9a"/>
+ <text x="908" y="250" font-size="11" fill="#fff">Inverter + gateway</text>
+ <rect x="720" y="286" width="140" height="50" fill="#4a90a4"/>
+ <text x="748" y="316" font-size="11" fill="#fff">Hydronic HX 27 kW</text>
+ <rect x="880" y="286" width="140" height="50" fill="#3d6b4a"/>
+ <text x="900" y="316" font-size="11" fill="#fff">Battery 27-40 kWh</text>
+ <rect x="720" y="352" width="300" height="40" fill="#c47a2a"/>
+ <text x="760" y="377" font-size="11" fill="#fff">Oil pump - 0.40 kg/s - ~350 C max</text>
+ <text x="720" y="420" font-size="11" fill="#333">To floors / tank / greenhouse or 27 kW dry cooler</text>
+ <text x="720" y="440" font-size="11" fill="#333">240 V split-phase - IEEE 1547 export</text>
+ <text x="720" y="460" font-size="10" fill="#555">Skid is serviceable. Vault is not opened.</text>
+</svg>

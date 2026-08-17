@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1000" height="640" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 2. Radial shield stack (half-section, type unit)</text>
+ <text x="24" y="48" font-size="11" fill="#444">Outer diameter 2.46 m. Layers ordered so capture gammas born in BPE hit lead next. Soil is not shown; it is bonus above the lid.</text>
+
+ <!-- concentric from outside in, drawn as full circles centered 360,360 -->
+ <g transform="translate(360,360)">
+ <circle r="246" fill="#6e7c80" stroke="#222" stroke-width="1"/>
+ <circle r="242" fill="#9a9a92"/>
+ <circle r="162" fill="#5c5c5c"/>
+ <circle r="146" fill="#7a8a6a"/>
+ <circle r="116" fill="#3d6b8a"/>
+ <circle r="66" fill="#8a8a8a"/>
+ <circle r="64" fill="#4a4a4a"/>
+ <circle r="40" fill="#c45c26"/>
+ <circle r="8" fill="#f0d0a0"/>
+ <!-- cut line -->
+ <line x1="0" y1="-246" x2="0" y2="246" stroke="#111" stroke-width="1" stroke-dasharray="3 3"/>
+ </g>
+
+ <!-- radius ticks on the right half -->
+ <g stroke="#111" stroke-width="1" font-size="10" fill="#111">
+ <line x1="360" y1="360" x2="606" y2="360"/>
+ <line x1="400" y1="356" x2="400" y2="364"/><text x="388" y="378">200</text>
+ <line x1="424" y1="356" x2="424" y2="364"/><text x="408" y="348">320</text>
+ <line x1="426" y1="356" x2="426" y2="364"/>
+ <line x1="476" y1="356" x2="476" y2="364"/><text x="458" y="378">582</text>
+ <line x1="506" y1="356" x2="506" y2="364"/><text x="488" y="348">732</text>
+ <line x1="522" y1="356" x2="522" y2="364"/><text x="508" y="378">812</text>
+ <line x1="602" y1="356" x2="602" y2="364"/><text x="568" y="348">1228 mm r</text>
+ </g>
+ <text x="430" y="400" font-size="10" fill="#333">Radii at layer OD (mm)</text>
+
+ <!-- legend -->
+ <g font-size="12" fill="#1a1a1a">
+ <rect x="700" y="80" width="18" height="18" fill="#c45c26"/><text x="728" y="94">Core 400 mm OD - TRISO + 24 Na HP</text>
+ <rect x="700" y="110" width="18" height="18" fill="#4a4a4a"/><text x="728" y="124">Graphite reflector 120 mm</text>
+ <rect x="700" y="140" width="18" height="18" fill="#8a8a8a"/><text x="728" y="154">SS316L inner vessel 12 mm</text>
+ <rect x="700" y="170" width="18" height="18" fill="#3d6b8a"/><text x="728" y="184">BPE 5% B - 250 mm (neutrons)</text>
+ <rect x="700" y="200" width="18" height="18" fill="#7a8a6a"/><text x="728" y="214">Borated concrete 150 mm</text>
+ <rect x="700" y="230" width="18" height="18" fill="#5c5c5c"/><text x="728" y="244">Lead ASTM B29 - 80 mm (gamma)</text>
+ <rect x="700" y="260" width="18" height="18" fill="#9a9a92"/><text x="728" y="274">Reinforced concrete 400 mm</text>
+ <rect x="700" y="290" width="18" height="18" fill="#6e7c80"/><text x="728" y="304">Steel outer shell 16 mm</text>
+ </g>
+ <text x="700" y="350" font-size="11" fill="#444">If MCNP misses DB-5 / DB-6, add BPE or lead.</text>
+ <text x="700" y="368" font-size="11" fill="#444">Do not fix dose by adding dirt.</text>
+ <text x="700" y="400" font-size="11" fill="#444">Same stack above and below the core.</text>
+ <text x="700" y="418" font-size="11" fill="#444">Glass hopper sits above the core,</text>
+ <text x="700" y="436" font-size="11" fill="#444">still inside the vessel.</text>
+</svg>

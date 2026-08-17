@@ -8,6 +8,8 @@ The extra dose is meant to be **a few mrem a year if a person lived on the grass
 
 That is the design target, not a hope. The vault does the stopping. The dirt is extra.
 
+![Site section: playset, soil, vault, house](diagrams/01-site-section.svg)
+
 ---
 
 ## What a few mrem means

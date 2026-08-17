@@ -8,6 +8,10 @@ Chapter 3 is the yard. This chapter is the last ten feet: how the Backyard Gener
 
 Pipes and cables leave through the **bottom** of the vault, bend in the dirt, and come up in a utility room, a basement, or a garage wall. That is the same idea as a buried propane line or a sewer lateral, with one extra rule: there is no straight shot back to the lid. Chapter 3 explains why. Here, the point is only that the house end is where people work.
 
+![Heat and power from vault to house](diagrams/03-heat-power.svg)
+
+![Electrical one-line](diagrams/04-electrical.svg)
+
 Three things come out of that chase:
 
 - **Power cables** to an inverter and then to the electrical panel

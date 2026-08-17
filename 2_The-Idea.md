@@ -114,7 +114,7 @@ The numbers stay small on purpose.
 
 A house-scale electrical output of 5 to 10 kW goes with about **20 to 40 kW of heat** from the core. That is furnace scale, not power-plant scale. After the unit is shut down, the leftover heat that has to go somewhere drops to about as much as a small space heater, then lower over the following hours and days. Dirt, concrete, and time can take that. There is no cooling tower.
 
-Fuel use at this output, over a century, is measured in kilograms, not tons: on the order of 10 kilograms (about 20 pounds), a coffee-can of heavy metal inside a beer-keg-to-dishwasher-sized core, itself inside the septic-tank vault. The vault is the thing the crane sees. The core is never a backyard project.
+Fuel use at this output, over a century, is measured in kilograms, not tons: about 30 kilograms loaded (about 66 pounds), a paint-can of heavy metal inside a beer-keg-to-dishwasher-sized core, itself inside the septic-tank vault. Chapter 8 is the arithmetic. The vault is the thing the crane sees. The core is never a backyard project.
 
 Because the core is run cold and slow (a trickle of heat in a lot of mass), it can be built for a very long sealed life. Material mixed into the fuel is used up as the fuel is used up, so the output stays even. There is no refueling truck. There is no hatch for the owner.
 
@@ -240,7 +240,7 @@ Nothing is opened in the yard.
 
 At the end of life, or if a unit is swapped early, a licensed crew isolates the house, cranes the vault out as one piece, and sets the next one in the same hole. The old vault goes to a licensed facility. Shielding, metal, and concrete are recycled or reused where that is possible. The homeowner does not store, cut, or dispose of anything.
 
-The fuel that did the work began as a coffee-can of heavy metal (about 10 kilograms, or 20 pounds). After a century, what cannot be recycled or reused is still in that size class: a coffee-can receptacle at a licensed site, not a hillside of waste behind the house. The septic-tank vault was almost all shield and box. That is what the crane was for.
+The fuel that did the work began as about 30 kilograms (66 pounds) of heavy metal. After a century, what cannot be recycled or reused is still in that size class: a paint-can receptacle at a licensed site, not a hillside of waste behind the house. The septic-tank vault was almost all shield and box. That is what the crane was for.
 
 A replacement price should be sold as a **swap**: new unit, removal, haul, and processing of the old one, plus the reconnect. It should not be a surprise line item after someone has lived with the appliance for decades. Whether that is a prepaid end-of-life fee, an included core-exchange, or a posted swap tariff is a later-chapter problem. The rule for this chapter is: replacement means the old station leaves, and the cost of that leaving is part of replacement, not a hidden chore for the household.
 
@@ -259,7 +259,7 @@ A replacement price should be sold as a **swap**: new unit, removal, haul, and p
 - **A size that is meant to be regulated as an appliance.** The whole point of staying at house scale is a path that does not look like siting a 1,000 MW campus.
 - **A path that can sit next to the solar tax credit.** Carbon-free generation at the house, and fewer new commercial stations that communities do not want nearby.
 - **Power at the house while the country is getting short.** Demand is rising faster than plants are being built. Rates have been climbing about 4% to 6% a year. A unit that covers the whole bill, not a slice of it, gets more valuable as that happens.
-- **A clean end.** One lift, one replacement, processing included in the swap. Recycle and reuse where possible. What cannot be processed fits a coffee-can receptacle after a 100-year life.
+- **A clean end.** One lift, one replacement, processing included in the swap. Recycle and reuse where possible. What cannot be processed fits a paint-can receptacle after a 100-year life.
 
 ---
 
@@ -271,7 +271,7 @@ A replacement price should be sold as a **swap**: new unit, removal, haul, and p
 - **In summer the house often does not want the warmth.** The station is still making heat while it makes electricity. If that heat is not sent to showers or a greenhouse, it has to be dumped on purpose through a small outdoor radiator (the same kind of box a heat pump already uses on the side of a house). If it is not dumped on purpose, it soaks into the soil around the vault. That does not heat the neighborhood, but that patch of yard runs warmer than the rest of the lot, and a vault close to the house can make the air conditioner work a little harder. August heat is a design job, not a free extra.
 - **The first approval does not exist yet.** The exemption-by-size story is the strategy. It is not a stamp on the wall.
 - **The buried unit is a controlled object.** It is sealed and heavy on purpose. That is a benefit for the household and a responsibility for the people who make, move, and take it back.
-- **End of life is specialized.** The swap includes removal and processing. That is not the same as stacking old panels on a pallet, even if the leftover fuel fits a coffee-can receptacle.
+- **End of life is specialized.** The swap includes removal and processing. That is not the same as stacking old panels on a pallet, even if the leftover fuel fits a paint-can receptacle.
 - **Insurance, appraisal, and resale will have to learn a new appliance.** Solar already fought this fight. This one is newer and heavier.
 - **Public comfort will lag the physics.** A septic-tank-sized vault in the yard will need a clearer story than a datasheet.
 

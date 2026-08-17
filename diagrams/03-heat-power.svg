@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 580" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="580" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 3. Heat and power cascade</text>
+ <text x="24" y="48" font-size="11" fill="#444">35 kWth in the vault. 8 kWe and 27 kWth out at the house. No shaft in the vault.</text>
+
+ <defs>
+ <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+ <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a1a1a"/>
+ </marker>
+ </defs>
+
+ <rect x="40" y="80" width="200" height="70" rx="6" fill="#c45c26"/>
+ <text x="70" y="110" font-size="13" fill="#fff" font-weight="700">Core 35 kWth</text>
+ <text x="62" y="130" font-size="11" fill="#fff">TRISO - ~650-750 C</text>
+
+ <line x1="240" y1="115" x2="300" y2="115" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+
+ <rect x="300" y="80" width="220" height="70" rx="6" fill="#8a3a1a"/>
+ <text x="318" y="110" font-size="13" fill="#fff" font-weight="700">24 Na heat pipes</text>
+ <text x="328" y="130" font-size="11" fill="#fff">1.6 kW each - ~600 C</text>
+
+ <line x1="520" y1="115" x2="580" y2="115" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+
+ <rect x="580" y="80" width="200" height="70" rx="6" fill="#5c5c5c"/>
+ <text x="610" y="110" font-size="13" fill="#fff" font-weight="700">Floor HX</text>
+ <text x="600" y="130" font-size="11" fill="#fff">Sealed in vault floor</text>
+
+ <line x1="780" y1="115" x2="840" y2="115" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+
+ <rect x="840" y="80" width="220" height="70" rx="6" fill="#c47a2a"/>
+ <text x="858" y="110" font-size="13" fill="#fff" font-weight="700">Double-wall oil</text>
+ <text x="852" y="130" font-size="11" fill="#fff">0.40 kg/s - ~350 C</text>
+
+ <line x1="950" y1="150" x2="950" y2="210" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+ <text x="820" y="200" font-size="10" fill="#555">chase (house side of vault)</text>
+
+ <rect x="800" y="210" width="260" height="70" rx="6" fill="#2a6f9a"/>
+ <text x="828" y="240" font-size="13" fill="#fff" font-weight="700">Stirling skid 5 x 2 kWe</text>
+ <text x="848" y="260" font-size="11" fill="#fff"> - = 0.25 - replaceable</text>
+
+ <line x1="800" y1="245" x2="560" y2="245" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+ <line x1="930" y1="280" x2="930" y2="340" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+
+ <rect x="300" y="210" width="260" height="70" rx="6" fill="#1e4a6e"/>
+ <text x="328" y="240" font-size="13" fill="#fff" font-weight="700">8 kWe to inverter</text>
+ <text x="338" y="260" font-size="11" fill="#fff">Battery 27-40 kWh - gateway</text>
+
+ <rect x="800" y="340" width="260" height="70" rx="6" fill="#4a90a4"/>
+ <text x="838" y="370" font-size="13" fill="#fff" font-weight="700">27 kWth reject water</text>
+ <text x="848" y="390" font-size="11" fill="#fff">80-120 degF after mixing</text>
+
+ <line x1="800" y1="375" x2="620" y2="375" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+ <line x1="930" y1="410" x2="930" y2="460" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+ <line x1="800" y1="430" x2="800" y2="460" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+
+ <rect x="360" y="340" width="240" height="56" rx="6" fill="#5a8f4a"/>
+ <text x="400" y="374" font-size="13" fill="#fff" font-weight="700">House hydronic</text>
+
+ <rect x="40" y="460" width="300" height="56" rx="6" fill="#3d6b4a"/>
+ <text x="90" y="494" font-size="13" fill="#fff" font-weight="700">Greenhouse loop</text>
+
+ <rect x="800" y="460" width="260" height="56" rx="6" fill="#6a6a6a"/>
+ <text x="838" y="494" font-size="13" fill="#fff" font-weight="700">27 kW dry cooler</text>
+
+ <text x="40" y="555" font-size="11" fill="#444">If the oil pump or Stirling skid stops, condenser temperature rises and analog drum springs drive shutdown. Decay heat then goes to the vault mass and earth.</text>
+</svg>

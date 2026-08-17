@@ -17,6 +17,10 @@ Inside, in layers:
 
 The dirt above the lid is extra. The vault is sized to do the stopping on its own, including in dry soil. Chapter 3 is that argument.
 
+![Vault vertical cutaway](diagrams/08-vault-cutaway.svg)
+
+![Radial shield stack](diagrams/02-radial-stack.svg)
+
 ---
 
 ## How it makes power
@@ -33,11 +37,11 @@ The core is run **cold and slow**: a trickle of heat in a lot of mass. That is h
 
 ---
 
-## The coffee-can of fuel
+## The paint-can of fuel
 
-Fuel use at this output, over a century, is measured in kilograms, not tons: on the order of **10 kilograms (about 20 pounds)**. That is a coffee-can of heavy metal inside the core, inside the vault. The vault is almost all shield and box. The crane is for the box.
+Fuel use at this output, over a century, is measured in kilograms, not tons. Chapter 8 works the inventory: about **15 to 25 kilograms burned**, about **30 kilograms (about 66 pounds) loaded**, still a paint-can of heavy metal inside the core, inside the vault. The vault is almost all shield and box. The crane is for the box.
 
-Material mixed into the fuel is used up as the fuel is used up, so the output stays even. There is no refueling truck. There is no hatch. At the end, what cannot be recycled is still in that coffee-can size class at a licensed site (Chapter 7).
+Material mixed into the fuel is used up as the fuel is used up, so the output stays even. There is no refueling truck. There is no hatch. At the end, what cannot be recycled is still in that paint-can size class at a licensed site (Chapter 7).
 
 The fuel is assembled in the factory, in a shutdown state, and never handled on the lot.
 
@@ -85,4 +89,4 @@ It is not a 1,000 MW station made small by wish. It is a 20 to 40 kW heat source
 
 ## What this document is
 
-This is the vault: layers, furnace-scale heat, two products (electricity and warmth), a coffee-can of fuel, no pumps you service, a glass dump that is not expected to run, and a truck that carries a locked box. Chapter 3 is the grass. Chapter 4 is the utility room. Chapter 6 is the stamp. The rule here is: if it needs a hatch in the yard, it is the wrong machine.
+This is the vault: layers, furnace-scale heat, two products (electricity and warmth), a paint-can of fuel, no pumps you service, a glass dump that is not expected to run, and a truck that carries a locked box. Chapter 3 is the grass. Chapter 4 is the utility room. Chapter 6 is the stamp. The rule here is: if it needs a hatch in the yard, it is the wrong machine.

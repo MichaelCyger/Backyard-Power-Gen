@@ -22,7 +22,7 @@ The truck goes to a licensed facility, not to the town dump.
 
 **The box.** Lead, steel, and concrete are recycled or reused where that is possible. The vault was almost all shield and box. That mass is ordinary industrial material once it is clean enough for the facility’s rules.
 
-**The fuel.** The work began as a coffee-can of heavy metal: on the order of **10 kilograms (about 20 pounds)**. After a century, what cannot be recycled or reused is still in that size class. It goes into a coffee-can receptacle at a licensed site. It does not become a hillside behind the house. It does not stay in the hole.
+**The fuel.** The work began as about **30 kilograms (66 pounds)** of heavy metal (Chapter 8). After a century, what cannot be recycled or reused is still in that size class. It goes into a paint-can receptacle at a licensed site. It does not become a hillside behind the house. It does not stay in the hole.
 
 The owner never takes title to a waste drum. Take-back is the factory’s (or the licensed operator’s) job, paid as part of the swap.
 
@@ -69,10 +69,10 @@ The hole, the crane path, and the chase were supposed to stay usable (Chapter 4)
 
 The vault is designed to run for on the order of a hundred years without a hatch. That is a design life, not a promise that the first owner’s great-grandchildren must keep the same serial number. A swap can happen when the unit is done, when a better vault exists, or when the house is reworked.
 
-Until that day, there is no refueling truck and no backyard cracking. After that day, the story is one lift, one new vault, one coffee-can at a licensed site.
+Until that day, there is no refueling truck and no backyard cracking. After that day, the story is one lift, one new vault, one paint-can at a licensed site.
 
 ---
 
 ## What this document is
 
-This is the end: locks in, crane out, same hole, recycle the box, coffee-can the rest, and a replacement price that already includes leaving. Chapters 3 to 6 are how the yard, the house, the vault, and the stamp make that day boring. The rule here is: if the household is asked to keep a piece, the swap failed.
+This is the end: locks in, crane out, same hole, recycle the box, paint-can the rest, and a replacement price that already includes leaving. Chapters 3 to 6 are how the yard, the house, the vault, and the stamp make that day boring. The rule here is: if the household is asked to keep a piece, the swap failed.

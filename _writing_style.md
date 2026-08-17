@@ -2,7 +2,7 @@
 
 Use this file for every Backyard Generating Station chapter.
 
-Chapter order: 1 The Need, 2 The Idea, 3 Yard Safety, 4 The House, 5 The Vault, 6 The Approval, 7 The Swap.
+Chapter order: 1 The Need, 2 The Idea, 3 Yard Safety, 4 The House, 5 The Vault, 6 The Approval, 7 The Swap. Engineering design basis: 8 Vault Spec.
 
 ## Voice
 
@@ -24,7 +24,7 @@ Chapter order: 1 The Need, 2 The Idea, 3 Yard Safety, 4 The House, 5 The Vault, 
 
 - Do not lead with nuclear. Lead with the house, the yard, the bill, or the object in the ground.
 - Name fission only in the section that explains how power is made, or in a later chapter that cannot be honest without it (shielding, fuel, end of life).
-- Even then, keep the scale: furnace heat, coffee-can of fuel, septic-tank vault.
+- Even then, keep the scale: furnace heat, paint-can of fuel (~30 kg / 66 lb loaded), septic-tank vault.
 
 ## Units and numbers
 

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="900" height="700" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 8. Vault vertical cutaway</text>
+ <text x="24" y="48" font-size="11" fill="#444">2.60 m outer height. Same shield above and below the core. Hopper is last-ditch only (plug 750 C). No owner hatch.</text>
+
+ <!-- outer -->
+ <rect x="220" y="70" width="280" height="560" fill="#6e7c80" stroke="#222" stroke-width="2"/>
+ <rect x="236" y="86" width="248" height="528" fill="#9a9a92"/>
+ <rect x="268" y="118" width="184" height="464" fill="#5c5c5c"/>
+ <rect x="284" y="134" width="152" height="432" fill="#7a8a6a"/>
+ <rect x="300" y="150" width="120" height="400" fill="#3d6b8a"/>
+ <rect x="318" y="168" width="84" height="364" fill="#4a4a4a"/>
+ <!-- hopper -->
+ <polygon points="330,190 390,190 380,230 340,230" fill="#6b3a1f"/>
+ <text x="332" y="214" font-size="8" fill="#fff">frit</text>
+ <!-- core -->
+ <rect x="336" y="250" width="48" height="80" fill="#c45c26"/>
+ <text x="340" y="296" font-size="8" fill="#fff">core</text>
+ <!-- pipes up through -->
+ <line x1="348" y1="250" x2="348" y2="400" stroke="#f0d0a0" stroke-width="2"/>
+ <line x1="360" y1="250" x2="360" y2="400" stroke="#f0d0a0" stroke-width="2"/>
+ <line x1="372" y1="250" x2="372" y2="400" stroke="#f0d0a0" stroke-width="2"/>
+ <rect x="328" y="400" width="64" height="28" fill="#5c5c5c"/>
+ <text x="334" y="418" font-size="8" fill="#fff">HP cond.</text>
+ <rect x="328" y="432" width="64" height="36" fill="#8a8a8a"/>
+ <text x="338" y="454" font-size="8" fill="#1a1a1a">HX</text>
+ <!-- floor out -->
+ <path d="M360 468 L360 520 L400 520" fill="none" stroke="#c47a2a" stroke-width="4"/>
+
+ <!-- dim -->
+ <line x1="520" y1="70" x2="520" y2="630" stroke="#111" stroke-width="1"/>
+ <text x="528" y="360" font-size="11" fill="#111">2.60 m</text>
+ <line x1="220" y1="650" x2="500" y2="650" stroke="#111" stroke-width="1"/>
+ <text x="330" y="668" font-size="11" fill="#111">2.46 m OD</text>
+
+ <g font-size="12" fill="#1a1a1a">
+ <text x="560" y="100" font-weight="700">Top to bottom</text>
+ <text x="560" y="128">Steel skin 16 mm</text>
+ <text x="560" y="148">Concrete 400 mm</text>
+ <text x="560" y="168">Lead 80 mm</text>
+ <text x="560" y="188">Borated concrete 150 mm</text>
+ <text x="560" y="208">BPE 250 mm</text>
+ <text x="560" y="228">Graphite / vessel</text>
+ <text x="560" y="260">Glass hopper (80 kg frit + 15 kg B4C)</text>
+ <text x="560" y="280">Fusible plug 750 +/- 20 C</text>
+ <text x="560" y="312">Core 400 x 500 mm - 35 kWth</text>
+ <text x="560" y="332">24 Na heat pipes to condenser</text>
+ <text x="560" y="364">Floor HX - oil out via labyrinth</text>
+ <text x="560" y="400">Mass ~42 t - will not float</text>
+ <text x="560" y="420">No lid hatch</text>
+ </g>
+</svg>
