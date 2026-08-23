@@ -1,10 +1,12 @@
 # 8. Vault and core design specification
 
 **Document type:** Preliminary design basis (not a licensed safety analysis).  
-**Unit:** Backyard Generating Station, type BGS-8.  
+**Unit:** Backyard Generating Station, type **BGS-8**. The 8 is the electrical size (8 kWe), not “the eighth try.” This is the first type unit. Family band is 5 to 10 kWe.  
 **Audience:** Mechanical, nuclear, shielding, and electrical engineers. Chapter 5 is the homeowner story. This file is what you size, buy, and analyze.
 
-An engineer can use this to start a sign-off package. They cannot stamp the vault from this file alone. Required follow-on work is listed in §16. Numbers below are closed arithmetic or standard handbook values. Where a transport code (MCNP, SCALE) or an ASME stress report is mandatory, the spec says so and gives the requirement the code run must meet.
+In one paragraph: a sealed heat source in a septic-tank vault, **3.0 m (10 ft) of soil above the lid**, heat pipes to a double-wall oil chase, electricity made in the **utility room** by replaceable Stirling engines. The vault is the shield. Dirt is bonus. Dose is designed with the lid bare. The core kit (TRISO, heat pipes, drums, Stirling) is a known class of hardware, licensed or built from that class, not a new reaction.
+
+An engineer can use this to start a sign-off package. They cannot stamp the vault from this file alone. Required follow-on work is listed in §16. Numbers below are closed arithmetic or standard handbook values. Where a transport code (**MCNP**, Monte Carlo N-Particle: the standard program that tracks neutrons and gammas through the shield to predict dose), SCALE, or an ASME stress report is mandatory, the spec says so and gives the requirement the code run must meet.
 
 No owner hatch. No in-vault service pumps. Power conversion that wears is on the house side of the chase. The vault is a sealed heat source.
 
@@ -26,7 +28,7 @@ No owner hatch. No in-vault service pumps. Power conversion that wears is on the
 | DB-10 | No vault-side pump required for core cooling or shutdown decay heat. |
 | DB-11 | Excess reactivity after shutdown margin shall be **<0.8$** so a single failure cannot make the core prompt-critical. |
 | DB-12 | Last-ditch borosilicate + B₄C dump, fusible, no power required. Not credited for normal operation. |
-| DB-13 | All in-vault materials are items a US nuclear or ASME shop can buy or already fabricates. No unobtainium. |
+| DB-13 | All in-vault materials are items a US nuclear or ASME shop can buy or already fabricates. No exotic materials. |
 
 ---
 
@@ -79,13 +81,13 @@ m_burned (t) = 1,278.4 / B
 | 80 GWd/t | 16.0 kg | TRISO-UCO, realistic target |
 | 100 GWd/t | 12.8 kg | Aggressive TRISO |
 
-**Loaded inventory is larger than burned mass** (need leftover fissile at year 100, burnable poison, and a critical geometry). Specify:
+**Inventory at first start is larger than mass consumed** (need leftover fissile at year 100, burnable poison, and a critical geometry). Specify:
 
 | Item | Value |
 | --- | --- |
-| Loaded heavy metal | **30 kg (66 lb)** |
-| Burned HM at 80 GWd/t | 16 kg (35 lb) |
-| Residual HM at EOL | ~14 kg in the same compacts |
+| Heavy metal at first start | **30 kg (66 lb)** |
+| Consumed HM at 80 GWd/t, end of life | 16 kg (35 lb) |
+| Residual HM at end of life | ~14 kg in the same compacts |
 
 Layman Chapter 5’s older “~10 kg” was order-of-magnitude at a lower thermal power. This spec supersedes it for engineering.
 
@@ -140,11 +142,13 @@ Soil far-field plus 28°C at the wall after a few hours. Acceptable. **Do not us
 
 ## 3. Core
 
+In plain language: the core is a beer-keg-sized graphite block full of coated uranium particles (TRISO), not a pool of water and not a bundle of bare rods. About 20% of the uranium is U-235. Sodium sits only inside sealed heat pipes. There is no water in the core and nothing that can “boil dry.” Heat pipes fail by freezing in place. Heritage is Kilopower / KRUSTY and eVinci-class hardware, scaled to house power, not a new reaction.
+
 ### 3.1 Type (baseline)
 
 **Heat-pipe microreactor, TRISO-UCO fuel, graphite moderator/reflector, sodium heat pipes.**
 
-Heritage: NASA KRUSTY (heat pipes + Stirling), Westinghouse eVinci (heat-pipe microreactor), X-energy / BWXT TRISO. All components exist in some form. This unit is smaller than eVinci (that is MWt-class) and hotter-lived than KRUSTY (that was a short ground test).
+Heritage: NASA KRUSTY (heat pipes + Stirling), Westinghouse eVinci (heat-pipe microreactor), X-energy / BWXT TRISO. All components exist in some form. This product would license or build from that class. This unit is smaller than eVinci (that is MWt-class) and longer-lived than KRUSTY (that was a short ground test). It is built from that class of hardware, not a copy of either machine.
 
 **Why TRISO, not UZrH, as baseline:** TRIGA UZrH has a stronger prompt negative coefficient (good). Hydrogen migration and hydride stability over 100 years are not a signed-off materials program. TRISO-UCO in graphite is the US path that already has a fuel fabrication line. Prompt feedback is Doppler in the kernel (negative, weaker than UZrH). Safety then also depends on **DB-11** (little excess reactivity) plus the glass dump.
 
@@ -157,7 +161,7 @@ Alternate (if a materials program qualifies it): UZrH-LEU 19.75% rods, TRIGA geo
 | Kernel | UCO, 19.75 ± 0.20 wt% U-235 | Standard US research / HALEU assay. Not HEU. |
 | Particle | TRISO: IPyC / SiC / OPyC on kernel | BWXT / X-energy class process |
 | Compact | Cylindrical graphite compact, TRISO packed ~35 vol% | Prismatic microreactor practice |
-| Loaded HM | 30 kg (66 lb) | §2.3 |
+| HM at first start | 30 kg (66 lb) | §2.3 |
 | Burnable poison | Er₂O₃ or Gd₂O₃ integral in compact or as discrete rods | Standard PWR/microreactor practice |
 | Design burnup | 80 GWd/t peak compact, 100 GWd/t not required | TRISO has been taken past this in AGR/HTGR tests |
 | Fission-gas | Held in TRISO buffer; no vented fuel | Required for a sealed vault |
@@ -222,11 +226,13 @@ t_100y = 3.15576×10⁹ s
 Φ ~ 3×10²⁰ to 7×10²⁰ n/cm²
 ```
 
-That is research-reactor cladding fluence, not a 40-year PWR barrel. SS316L, graphite, and TRISO SiC are in a plausible range. **dpa and graphite shrinkage still need a materials assessment** (§16). This is why power density was kept pathetic on purpose.
+That is research-reactor cladding fluence, not a 40-year PWR barrel. SS316L, graphite, and TRISO SiC are in a plausible range. **dpa and graphite shrinkage still need a materials assessment** (§16). This is why power density was kept low on purpose.
 
 ---
 
 ## 4. Heat transport (in the vault: no pumps)
+
+In plain language: sodium stays inside 24 sealed heat pipes. Those pipes hand heat to a sealed exchanger in the vault floor. Double-wall oil carries that heat through the buried chase to the utility room. House water never enters the vault. An oil leak is a trench or room cleanup. A sodium leak stays in that pipe and freezes. If the utility-room engines stop, drums spring in and leftover heat goes to the 42 t box and the earth.
 
 ### 4.1 Sodium heat pipes
 
@@ -245,17 +251,19 @@ Kilopower/KRUSTY ran sodium heat pipes on a real critical core. This is the most
 
 ### 4.2 Temperature cascade (CHP)
 
-```
-Fuel compact        ~650 to 750°C   (TRISO SiC is fine well above this)
-Heat-pipe vapor     ~600°C
-Primary HX          ~550°C metal
-Secondary loop      ~350°C thermal oil  (or 500°C if NaK secondary)
-Stirling hot end    ~300 to 500°C     (house skid)
-Stirling reject     ~40 to 50°C water
-House hydronic      80 to 120°F (27 to 49°C) after a mixing valve
-```
+Heat steps down, on purpose, from the fuel to the house. Each row is cooler than the one above it.
 
-Carnot from 600 K hot / 320 K cold ≈ 47%. Real Stirling 25% is 0.53 of Carnot. Honest.
+| Where | About how hot | Why |
+| --- | --- | --- |
+| Fuel compact | 650 to 750°C | TRISO ceramic is fine well above this |
+| Heat-pipe vapor | ~600°C | Sodium vapor inside the sealed pipes |
+| Primary exchanger | ~550°C metal | Vault floor, still inside the box |
+| Oil loop in the chase | ~350°C | Double-wall; or 500°C if a later NaK loop |
+| Stirling hot end (utility room) | 300 to 500°C | Replaceable engines, not in the vault |
+| Stirling cool end | 40 to 50°C water | The leftover heat product |
+| House heat loop | 80 to 120°F (27 to 49°C) | After a mixing valve, floor and tank range |
+
+A perfect heat engine between those Stirling temperatures (about 600 K hot, 320 K cold) could turn at most about 47% of the heat into electricity. That ceiling is called Carnot. A real Stirling at 25% is about half of that ceiling. That is a normal real engine, not a calculation error.
 
 ### 4.3 Secondary loop (vault floor → chase → house)
 
@@ -268,7 +276,7 @@ c_p ≈ 2.2 kJ/kg·K
 m = Q / (c_p ΔT) = 35 / (2.2 × 40) = 0.40 kg/s  ≈ 6 to 7 gpm
 ```
 
-Pipe: 25 mm (1 in) inner process + 40 mm containment. Two pipes (hot/return) in the chase. Circulation pump is **on the house skid**, not in the vault. Vault-side flow through the primary HX is driven by the heat pipes (vapor to condenser). The oil loop can sit still during shutdown; decay heat does not need it.
+Pipe: 25 mm (1 in) inner process + 40 mm containment. Two pipes (hot/return) in the chase. Circulation pump is **in the utility room**, not in the vault. Vault-side flow through the primary HX is driven by the heat pipes (vapor to condenser). The oil loop can sit still during shutdown; decay heat does not need it.
 
 **Primary HX:** printed-circuit or helical-coil SS316L, bolted in a sealed floor compartment of the vault, welded closed at the factory. Oil in, oil out, through the floor only.
 
@@ -284,28 +292,34 @@ Pipe: 25 mm (1 in) inner process + 40 mm containment. Two pipes (hot/return) in 
 - greenhouse loop, or
 - dry cooler: **27 kW** air coil, ~10-ton HVAC condenser class, COTS (Modine / Guntner / any chiller reject).
 
-If the oil pump stops and Stirlings stop, 35 kW has nowhere to go except the vault and soil. **Overtemp on the condenser block rotates drums in** (analog, spring or gravity, two channels). Core goes to decay heat. That is the protected fault for “house skid offline.”
+If the oil pump stops and Stirlings stop, 35 kW has nowhere to go except the vault and soil. **Overtemp on the condenser block rotates drums in** (analog, spring or gravity, two channels). Core goes to decay heat. That is the protected fault for “utility room offline.”
 
 ---
 
-## 5. Power conversion (house skid, replaceable)
+## 5. Power conversion (utility room, replaceable)
 
-**The vault has no shaft.** 100-year flexure-bearing Stirling inside a sealed vault is not a demonstrated part. Demonstrated convertor life is a decade-class, not a century. So conversion is Chapter 4 equipment.
+In plain language: the vault is a sealed heater. Electricity is made in the utility room. A 100-year sealed Stirling inside the vault is not a demonstrated part. Demonstrated engine life is a decade, not a century. So the engines sit where a furnace sits, and they get swapped there.
+
+**The vault has no shaft.** Conversion is Chapter 4 equipment.
 
 | Item | Spec |
 | --- | --- |
 | Convertors | 5 × 2.0 kWe hermetic free-piston Stirling (10 kWe installed) |
+| Envelope | ~300 mm OD × 450 mm H, ~50 kg each (Microgen 1–2 kWe class). Five plus oil HX and pump fit a utility room, not a closet. |
+| First-cost class | $8k to $20k per unit today; $3k to $6k factory target. Set: $40k to $100k today, $15k to $30k factory (Chapter 2). |
 | Dispatch | 4 of 5 for 8 kWe; 1 spare online or rotating |
-| Life | 10 to 15 years each; swap on the wall, vault stays closed |
+| Life | 10 to 15 years each; swap on the wall, vault stays closed. Decade swap is not in Chapter 2 simple payback. |
 | Output | 200 to 400 VDC → hybrid inverter (IEEE 1547 / UL 1741) |
 | Gateway | Required for islanding (Chapter 4). Without it the house goes dark when the utility does. |
 | Battery | 2 to 3 × 13.5 kWh (27 to 40 kWh), 10 to 15 kW peak |
 
-**Alternate 6.3, no moving parts:** skid is a TE array. η ≈ 0.08 → core must be **100 kWth**, fuel and shield grow (~2.9× burnup, larger vault). Use only if a customer forbids a Stirling skid.
+**Alternate 6.3, no moving parts:** utility room is a thermoelectric array. η ≈ 0.08 → core must be **100 kWth**, fuel and shield grow (~2.9× burnup, larger vault). Use only if a customer forbids a Stirling set.
 
 ---
 
 ## 6. Shielding and dose
+
+In plain language: the vault, not the dirt, is the shield. Ten feet of soil is the yard you see and extra attenuation. The live-on-the-grass number (≤5 mrem/y) must still hold with the lid bare and the soil dry. A playset at one hour a day is then about 0.2 mrem/y. MCNP (defined in the header) has to confirm the stack. Until that run exists, 5 mrem/y is a requirement, not a measured result.
 
 ### 6.1 Sources (running, 35 kWth)
 
@@ -329,7 +343,7 @@ That is immediately unsurvivable. The shield is not optional.
 
 | Location | Running | Shutdown (1 d) |
 | --- | --- | --- |
-| Grass, 1.5 to 3.0 m soil above lid, dry soil | ≤ 0.57 µrem/h (→ 5 mrem/8,760 h) | ≪ running |
+| Grass, 3.0 m (10 ft) soil above lid, dry soil | ≤ 0.57 µrem/h (→ 5 mrem/8,760 h) | ≪ running |
 | Lid outer surface, **no soil** (scour) | ≤ 0.57 µrem/h | same target |
 | Side of buried vault, in soil, 1 m from wall | ≤ 5 µrem/h (occupational not applicable; this is dirt) | — |
 | House chase, after two bends | ≤ 50 µrem/h contact on the pipe chase (worker, short time) | — |
@@ -474,7 +488,7 @@ The vault **does not float**. No hold-down straps required for buoyancy. Still g
 
 ### 8.4 Lid-to-grass
 
-**1.5 m minimum, 3.0 m preferred** of backfill above the lid (5 to 10 ft). Vault height 2.60 m + 1.5 m cover → excavation ~4.1 m (13.5 ft) to the pad. That is a normal deep septic / tank hole, shored.
+**3.0 m (10 ft) of backfill above the lid.** Dose still designed to DB-5 / DB-6 with the lid bare. Soil is bonus. Vault height 2.60 m + 3.0 m cover → excavation ~5.6 m (about 18.5 ft) to the pad. That is a deep buried-tank hole, shored, in the same class as a large underground fuel tank or cistern, not a shallow septic lid. Grass footprint of the object is about **10 × 10 ft**. Setbacks from the house are a local buried-tank permit, not this spec.
 
 ---
 
@@ -483,7 +497,7 @@ The vault **does not float**. No hold-down straps required for buoyancy. Still g
 ```
           GRASS / PLAYSET
          ================
-              1.5–3.0 m soil
+              3.0 m (10 ft) soil
          +------------------+
          |   top shield     |
          |   glass hopper   |
@@ -496,7 +510,7 @@ The vault **does not float**. No hold-down straps required for buoyancy. Still g
                   \   |
                    ===|===  double-wall oil + instrument + ground
                       |
-                      +--> house skid (Stirling, pump, hydronic, inverter)
+                      +--> utility room (Stirling, pump, hydronic, inverter)
 ```
 
 **Through the floor only:**
@@ -537,7 +551,7 @@ FACTORY_SHUTDOWN  →  (seal)  →  TRANSPORT  →  SET  →  CONNECT
 - Seismic switch (optional, cheap)
 - Manual licensed trip at the house panel (key, not an app)
 
-App / inverter: battery reserve only (Chapter 2). Not a drum control.
+App / inverter: status only (Chapter 2). Not a drum control. Not a storm mode.
 
 ### 10.3 Instruments (ex-core)
 
@@ -557,7 +571,7 @@ App / inverter: battery reserve only (Chapter 2). Not a drum control.
 | Dry sand | Shield analysis at 5 wt% water. |
 | Design soil T | −20 to 40°C far field |
 | Seismic | ASCE 43 or IBC site class D, 0.3 g, vault as a rigid box on a pad. No in-core mechanisms except drums (latched). |
-| Tornado / missile | Buried. Lid under 1.5 m soil. Bare-lid case is flood/scour, not a missile. |
+| Tornado / missile | Buried. Lid under 3.0 m soil. Bare-lid case is flood/scour, not a missile. |
 | Fire (transport) | 10 CFR 71 800°C / 30 min. Glass dump may fire; that is acceptable if k_eff stays down. |
 | Design basis excavation | Assume a backhoe can hit the shell. Contact dose on bare shell still a **worker** number, not a playset number. Keep it low enough for a 1-hour unplanned exposure < 100 mrem. That is another MCNP tally. |
 
@@ -578,7 +592,7 @@ App / inverter: battery reserve only (Chapter 2). Not a drum control.
 | Drums | B₄C in SS cladding, geared, lockable | Control-drum vendors, research-reactor shops |
 | Frit dump | Borosilicate + B₄C, eutectic plug | Glass + specialty metals |
 | Oil loop | Double-wall A312, Dowtherm A | Process / CSP contractors |
-| Stirling skid | Hermetic free-piston, 2 kWe class | Sunpower / Qnergy class |
+| Stirling (utility room) | Hermetic free-piston, 2 kWe class | Sunpower / Qnergy class |
 | Inverter / gateway | UL 1741, IEEE 1547 | Tesla / Schneider / SolarEdge class |
 | Dry cooler | 27 kW air coil | Any HVAC OEM |
 
@@ -597,7 +611,7 @@ Cold critical at the factory is a real nuclear operation (a licensed facility). 
 | Hydronic | 27 kWth, 80 to 120°F, isolated plate HX, ~7 gpm house water |
 | Dry cooler | 27 kW, outdoor |
 | Oil loop | 0.40 kg/s, 350°C max, double-wall |
-| Clearances | Vault 1.5 m from foundation if practicable; dry cooler as a condenser; crane path kept for Chapter 7 |
+| Clearances | Grass patch ~10 × 10 ft; setbacks are a local buried-tank permit; dry cooler as a condenser; crane path kept for Chapter 7 |
 | Flooded house | Inverter, battery, Stirling **above** design flood. Vault may be underwater. |
 
 ---
@@ -613,7 +627,7 @@ Cold critical at the factory is a real nuclear operation (a licensed facility). 
 7. **Fresh core is cold on the truck.**  
 8. **Conversion failures trip the core;** they do not open it.  
 9. **46 t, no float, crane-only access.**  
-10. **Take-back is a sealed lift** (Chapter 7). Residual HM is still tens of kilograms, not a hillside.
+10. **Take-back is a sealed lift** (Chapter 7). Residual HM is still tens of kilograms at a licensed site.
 
 What this does **not** claim: that MCNP has been run, that 10 CFR 71 is passed, that HALEU is contracted, or that a Stirling has run 100 years. Those are §16.
 
@@ -654,7 +668,7 @@ Until those rows are green, this is a **design specification**, not a signed rea
 
 | Risk | Why it is real | Mitigation in this spec |
 | --- | --- | --- |
-| 100-year convertor | Not demonstrated | Convertor is a house skid |
+| 100-year convertor | Not demonstrated | Convertor is in the utility room |
 | 100-year graphite / TRISO in this flux | Data exist for shorter, hotter cores | Low power density; still need a materials memo |
 | HALEU supply | US capacity is thin | 30 kg/unit is small; still a contract risk |
 | Type B + first-of-a-kind license | Cost and years | Chapter 6; size argument |
@@ -708,7 +722,7 @@ Vector drawings live in `/diagrams/`. They are type-unit schematics, not fabrica
 | --- | --- |
 | Electrical, net | 8.0 kWe (family 5 to 10) |
 | Thermal | 35 kWth |
-| Conversion | House Stirling, η = 0.25, 5 × 2 kWe |
+| Conversion | Utility-room Stirling, η = 0.25, 5 × 2 kWe |
 | Reject | 27 kWth |
 | Fuel | TRISO-UCO, 19.75% U-235, 30 kg HM (66 lb) |
 | Burnup target | 80 GWd/t |
@@ -717,7 +731,7 @@ Vector drawings live in `/diagrams/`. They are type-unit schematics, not fabrica
 | Heat pipes | 24 × 1.6 kW, sodium |
 | Vault OD × H | 2.46 m × 2.60 m |
 | Mass | ~42 t (93,000 lb) |
-| Cover | 1.5 to 3.0 m soil above lid |
+| Cover | 3.0 m (10 ft) soil above lid (dose still lid-bare) |
 | Dose, live-on-grass | ≤5 mrem/y (MCNP to confirm) |
 | Dose, 1 h/d playset | ~0.2 mrem/y |
 | Flood | Immersion OK, no float |
@@ -726,10 +740,10 @@ Vector drawings live in `/diagrams/`. They are type-unit schematics, not fabrica
 
 ---
 
-## 20. What this document is
+## 20. What this chapter covered
 
-This is the vault and core **design specification**: power, fuel, pipes, layers, mass, dose targets, states, and buyable parts. Chapter 5 is the same machine in English. Chapter 3 is the grass. Chapter 4 is the skid. Chapter 6 is the stamp. Chapter 7 is the crane.
+This is the vault and core **design specification**: power, fuel, pipes, layers, mass, dose targets, states, and buyable parts. Chapter 5 is the same machine in English. Chapter 3 is the grass. Chapter 4 is the utility room. Chapter 6 is the stamp. Chapter 7 is the crane.
 
-The arithmetic in §2, §3.3, §4.1, §4.3, §6.1, §6.5, §8 is closed. The dose **stack** in §6.3 is an engineering starting geometry. The **dose number** on the lawn is a requirement until MCNP says it is a result.
+The arithmetic in §2, §3.3, §4.1, §4.3, §6.1, §6.5, §8 is closed. Rechecked in version 1.0: 8 kWe / 0.25 = 32 kWth, specified 35 kWth; 8 × 8,760 = 70,080 kWh/y; 35 kW × 100 y = 1,278 MWd; 16 kg consumed at 80 GWd/t; 30 kg at first start; 24 × 1.6 kW = 38.4 kW pipes; oil 0.40 kg/s; vault ~42 t, will not float; playset 5 × 365/8,760 = 0.21 mrem/y. The dose **stack** in §6.3 is an engineering starting geometry. The **dose number** on the lawn is a requirement until MCNP says it is a result.
 
-If a line in this file and a line in Chapter 5 disagree, this file wins for engineering, and Chapter 5 should be updated to match (loaded fuel is 30 kg, not 10 kg).
+If a line in this file and a line in Chapter 5 disagree, this file wins for engineering, and Chapter 5 should be updated to match (heavy metal at first start is 30 kg, not 10 kg).

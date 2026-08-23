@@ -9,6 +9,7 @@ Chapter order: 1 The Need, 2 The Idea, 3 Yard Safety, 4 The House, 5 The Vault, 
 - High level, then a simple number when the physics has to land.
 - Talk to a smart homeowner, not a regulator and not a child.
 - Factual. No jokes, no wink lines, no “the yard is not a tank farm.”
+- Prefer a plain statement over a clever contrast. Do not close a point with a riddle (“not a filter, a roof, or an oil change”). Say what happens and what does not.
 - Specific over slang. Do not write “septic money.” Write what the job is and what it costs.
 - Generic US house, not one waterfront lot. A high-use bill can be the top of a range. Do not narrate a personal quote as if it were the national case.
 - Flow top to bottom. One idea per section. Later chapters can go deeper; this pass has to make sense alone.
@@ -24,7 +25,10 @@ Chapter order: 1 The Need, 2 The Idea, 3 Yard Safety, 4 The House, 5 The Vault, 
 
 - Do not lead with nuclear. Lead with the house, the yard, the bill, or the object in the ground.
 - Name fission only in the section that explains how power is made, or in a later chapter that cannot be honest without it (shielding, fuel, end of life).
-- Even then, keep the scale: furnace heat, paint-can of fuel (~30 kg / 66 lb loaded), septic-tank vault.
+- Even then, keep the scale: furnace heat, paint-can of fuel (~30 kg / 66 lb at first start), septic-tank vault.
+- Soil above the lid is **10 ft (3.0 m)**. Dose is still designed with the lid bare. Dirt is bonus.
+- The house-side equipment lives in a **utility room** (in the house or a small shed). Never “skid.”
+- A **chase** is the buried pipe-and-cable run from the underside of the vault to the utility room. Define it on first use in a chapter.
 
 ## Units and numbers
 
@@ -44,7 +48,10 @@ Chapter order: 1 The Need, 2 The Idea, 3 Yard Safety, 4 The House, 5 The Vault, 
 
 ## What not to do
 
-- No Home / Away / Storm operating modes. An app is a status window, not a control room.
+- No Home / Away / Storm operating modes. An app, if there is one, is status only. Not a control room. Not a storm toggle.
+- Do not write “burned” for fuel. Say **consumed** or **used up by the end of life**. New fuel is **at first start**, not “loaded.”
+- Close each chapter with **What this chapter covered**, not “What this document is.”
+- A 1,000 MW plant vs this unit: say it is about **1/100,000 to 1/200,000** the electrical size.
 - No hair-dryer-to-house comparisons. Keep like-for-like: house, rooftop solar, Backyard Generating Station, commercial plant.
 - No “only a fraction becomes electricity.” Heat and electricity are two products.
 - No panel-only solar stickers. Compare a complete solar-plus-battery job at the same house.

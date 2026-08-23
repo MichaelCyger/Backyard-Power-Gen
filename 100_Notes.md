@@ -17,7 +17,7 @@ The specific kit in Chapter 8 is not invented here:
 - **Heat pipes** (sealed metal tubes that move heat with no pump). Kilopower used them. Westinghouse’s eVinci uses them. The point is the same: nothing in the vault has to circulate coolant with a motor.
 - **A Stirling engine** that turns a steady heat flow into electricity. KRUSTY made real watts this way. Commercial wellhead Stirlings already run for years on heat that is not nuclear. Chapter 8 puts that engine on the house side of the chase, because a 100-year sealed Stirling *inside* the vault has not been shown.
 
-So the physics sentence is ordinary: a cold, slow, furnace-scale core (about **35 kW of heat**, about **8 kW of electricity**), TRISO, heat pipes, drums, a paint-can of heavy metal (**about 30 kg / 66 lb loaded**). You could brief that sentence to someone who already works on Kilopower or eVinci and they would recognize the machine.
+So the physics sentence is ordinary: a cold, slow, furnace-scale core (about **35 kW of heat**, about **8 kW of electricity**), TRISO, heat pipes, drums, a paint-can of heavy metal (**about 30 kg / 66 lb at first start**). You could brief that sentence to someone who already works on Kilopower or eVinci and they would recognize the machine.
 
 What has not been shown is that exact kit, sealed, running in a suburban yard for a century. KRUSTY was a short ground test. eVinci is aimed at about **5 MW of electricity** for a mine, a remote town, or a data hall, for on the order of **eight years**, not one house for a hundred. The parts are proven in pieces. The 100-year buried house appliance is not.
 
@@ -105,3 +105,18 @@ Do not say the core is unproven in the same breath as “nobody has done house s
 ## One sentence for a lawyer or an investor
 
 The core is Kilopower- and eVinci-class physics (TRISO, HALEU, heat pipes, drums, Stirling on the house side) pointed at one meter. The novelty, if any, is the product: a factory-sealed, septic-tank-sized vault, 5 to 10 kWe, heat and electricity into a house, playset-dose lawn, 100-year lock, crane-out swap, and a size-based appliance ask. Prior art is full of the kit. It is empty of that customer.
+
+---
+
+## Marketing ideas
+
+Do not invent a smaller reactor class (picoreactor, millireactor). That still says plant. The class word is **appliance**. Category under the name: **home generating appliance**.
+
+If someone asks whether it is an SMR: no. That is a small plant. This is a house appliance. Same job as rooftop solar, buried in the yard.
+
+One-liners that sell:
+
+- **One house. One appliance. Power and heat, day and night.**
+- **Set it like a tank. Use it like solar.**
+
+The title page already has a close version of the first: “One house. One backyard generating station. Electricity and heat, day and night, for 100 years.” Keep the product name on the book. Use “appliance” when you are selling the class.

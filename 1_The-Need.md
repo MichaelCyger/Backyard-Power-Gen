@@ -6,7 +6,7 @@ It must make a lot more electricity: data centers, factories, electric cars, and
 
 It must also keep the lights on with wires, poles, and buried cables that were treated as permanent and are not. In 2024 the average US customer sat through about **11 hours** without power, nearly twice the yearly average of the decade before. Major weather did most of that damage. Even in ordinary years, with the big storms stripped out, the average customer still loses about **two hours** ([US Energy Information Administration](https://www.eia.gov/todayinenergy/detail.php?id=66744)).
 
-Those two facts meet at the house. The bill is rising because new plants and new wires cost money. The outages are rising because the old plant and the old wires are failing, or because the utility turns the power off on purpose when wind and dry brush make a live line a fire starter. A house that can keep its own power on is not a luxury feature. It is how you stay cool in a heat wave, warm in a freeze, and alive if the machine in the bedroom needs a wall outlet.
+Those two facts meet at the house. The bill is rising because new plants and new wires cost money. The outages are rising because the old plant and the old wires are failing, or because the utility turns the power off on purpose when wind and dry brush make a live line a fire starter. A house that can keep its own power on is how you stay cool in a heat wave, warm in a freeze, and alive if the machine in the bedroom needs a wall outlet.
 
 The Backyard Generating Station is one answer to that need: generation at the load, compared at the same meter to rooftop solar. This chapter is the need, not the machine.
 
@@ -16,7 +16,7 @@ The Backyard Generating Station is one answer to that need: generation at the lo
 
 For a long stretch, US electricity use barely grew. Efficiency hid new gadgets. That stretch is over.
 
-The new load is lumpy and fast. A single data-center campus can ask for as much power as a small city. Car chargers and heat pumps add house by house. Seattle City Light, to take one utility that has said the quiet part out loud, expects electrical demand in its territory to **double in about twenty years**, and it is already shopping for new wind, solar, and geothermal because the old hydro will not cover it ([Seattle Times, Aug. 16, 2026](https://www.seattletimes.com/seattle-news/politics/fixing-seattles-power-outages-continues-a-1960s-class-divide/)). That utility also needs new substations at a couple hundred million dollars each, and a multi-billion-dollar dam upgrade. The pattern is national: more load, long lead times, and towns that do not want a 1,000 MW plant next door.
+The new load is lumpy and fast. A single data-center campus can ask for as much power as a small city. Car chargers and heat pumps add house by house. Seattle City Light, to take one utility that has said this publicly, expects electrical demand in its territory to **double in about twenty years**, and it is already shopping for new wind, solar, and geothermal because the old hydro will not cover it ([Seattle Times, Aug. 16, 2026](https://www.seattletimes.com/seattle-news/politics/fixing-seattles-power-outages-continues-a-1960s-class-divide/)). That utility also needs new substations at a couple hundred million dollars each, and a multi-billion-dollar dam upgrade. The pattern is national: more load, long lead times, and towns that do not want a 1,000 MW plant next door.
 
 When load grows faster than plants and transmission, two household results follow. Rates go up to pay for what does get built. Reserve margin goes down, so a hot afternoon or a cold week has less slack. Chapter 2 puts numbers on the bill. The need underneath those numbers is simple: the country is trying to electrify more of life on a grid that was not sized for that, and that is not being rebuilt at the same pace.
 
@@ -33,32 +33,32 @@ That is one city. The same aging-and-weather pattern shows up across the map:
 - **Texas, February 2021.** A winter storm and a grid that could not keep generation online left millions of homes dark in a freeze. The state later counted **246** storm-related deaths. Most were hypothermia. Others were carbon monoxide from grills and generators, house fires from space heaters, and people whose oxygen, dialysis, or other electric medical gear stopped ([Texas DSHS](https://www.dshs.texas.gov/sites/default/files/news/updates/SMOC_FebWinterStorm_MortalitySurvReport_12-30-21.pdf); [Texas Tribune](https://www.texastribune.org/2021/03/25/texas-deaths-winter-storm/)).
 - **Houston and the Gulf, July 2024.** Hurricane Beryl knocked out more than **2.1 million** CenterPoint customers, about three-quarters of that territory. Restoration ran about **11 days** ([CenterPoint after-action](https://www.centerpointenergy.com/en-us/Documents/GHRI%20Tracker/CenterPoint_Beryl_After_Action_Final_Report.pdf)). EIA’s national 2024 spike is, in large part, Beryl plus Helene plus Milton ([EIA](https://www.eia.gov/todayinenergy/detail.php?id=66744)).
 - **Carolinas and Florida, 2024.** Helene and Milton took down transmission, distribution, and substations. South Carolina’s average customer lost on the order of **50 hours** that year, an outlier that is still a real year in a real state ([EIA](https://www.eia.gov/todayinenergy/detail.php?id=66744)).
-- **California, on purpose.** Utilities turn lines off when wind and dry fuel make a spark into a fire. A Public Safety Power Shutoff can run a day or two, sometimes longer, across many counties at once. Oregon, Colorado, Idaho, and Hawaii have copied the tool ([CPUC on PSPS](https://www.cpuc.ca.gov/psps/)). The wire is aging and the climate is drier. The “fix” is a planned blackout.
+- **California, on purpose.** Utilities turn lines off when wind and dry fuel make a spark into a fire. A Public Safety Power Shutoff can run a day or two, sometimes longer, across many counties at once. Oregon, Colorado, Idaho, and Hawaii have copied the tool ([CPUC on PSPS](https://www.cpuc.ca.gov/psps/)). The wire is aging and the climate is drier. The tool they use is a planned blackout.
 - **Portland metro, January 2024.** Ice and wind took out hundreds of thousands of customers. Some sat in the cold for about a week. At least ten deaths were tied to that week: hypothermia, trees, lines, fires ([KGW](https://www.kgw.com/article/news/local/the-story/pge-rate-hike-power-outage-winter-storm-january-2024/283-93f2ccf9-c4ff-4e4d-942d-80cd83976788)).
 
 The national scoreboard is the EIA reliability tables: with major events included, the average customer’s yearly minutes without power jumped from **342 in 2023** to **611 in 2024**. Strip the major events and you still have about **two hours** a year of ordinary failure, the everyday signature of trees, old cable, and deferred maintenance ([EIA Table 11.3](https://www.eia.gov/electricity/annual/html/epa_11_03.html)).
 
-Seattle’s buried 1960s cable is not a Seattle-only object. It is what “run to failure” looks like when the failure arrives in a lot of cities in the same decade.
+The same aging-cable problem is not limited to Seattle. It is what “run to failure” looks like when the failure arrives in a lot of cities in the same decade.
 
 ---
 
 ## The same story, elsewhere
 
-Aging plant and thin reserve are not an American hobby.
+Aging plants and thin reserve are not only an American problem.
 
 **Spain and Portugal, April 28, 2025.** A voltage collapse took down most of the Iberian grid, the worst European blackout in about twenty years. Portugal’s transmission was back in about 12 hours. Spain’s took about 16. Elevators, trains, and hospitals ran on whatever backup they had. The official investigation is public ([ENTSO-E expert panel](https://eepublicdownloads.blob.core.windows.net/public-cdn-container/clean-documents/Publications/2025/iberian-blackout/Final%20Report%20on%20the%20Grid%20Incident%20in%20Spain%20and%20Portugal%20on%2028%20April%202025.pdf)).
 
-**South Africa, years on end.** Eskom’s aging coal fleet could not meet load, so the country lived on scheduled “load shedding”: hours a day, by neighborhood, for years. When the plants run better, the blackouts ease. When they do not, the schedule returns. That is what a generation shortfall looks like as a way of life, not a storm week ([Eskom system updates](https://www.eskom.co.za/eskoms-winter-2025-power-system-outlook-loadshedding-is-expected-to-be-avoided-provided-unplanned-maintenance-remains-below-13gw/)).
+**South Africa, years on end.** Eskom’s aging coal fleet could not meet load, so the country lived on scheduled “load shedding”: hours a day, by neighborhood, for years. When the plants run better, the blackouts ease. When they do not, the schedule returns. That is what a generation shortfall looks like as an everyday schedule, not a one-week storm ([Eskom system updates](https://www.eskom.co.za/eskoms-winter-2025-power-system-outlook-loadshedding-is-expected-to-be-avoided-provided-unplanned-maintenance-remains-below-13gw/)).
 
 **Puerto Rico.** After Hurricane Maria and through the years after, an old, storm-hit grid left households on diesel and long dark stretches. It is a US territory living the end state of deferred rebuild.
 
-The lesson for a US house is not that Madrid or Johannesburg is about to happen on your block next Tuesday. It is that a rich country is not exempt. If the plants are late and the wires are past their life, the outage becomes ordinary. Seattle’s 15-year cable program and South Africa’s load-shedding calendar are the same physics at different speeds: not enough working infrastructure for the load that is already there.
+The point for a US house is that a rich country is not exempt. If the plants are late and the wires are past their life, outages become ordinary. Seattle’s 15-year cable program and South Africa’s load-shedding calendar are the same problem at different speeds: not enough working infrastructure for the load that is already there.
 
 ---
 
 ## How uptime saves lives
 
-Electricity is no longer only lights and television. For a growing share of households it is a medical device, a climate-control system, and the pump that keeps water clean. When it stays on, people do not die of the second accident: the dark house in the heat, the freeze, the silent concentrator.
+Electricity is no longer only lights and television. For a growing share of households it is a medical device, a climate-control system, and the pump that keeps water clean. When it stays on, people are less likely to die from what follows the outage: a dark house in a heat wave, a freeze, or a medical device that stops.
 
 **Heat.** Air conditioning is life-safety equipment in a heat wave. Older adults, infants, and people on certain medicines cannot dump heat. A multi-day outage in July is not an inconvenience. It is a medical event in the living room. The house that keeps 8 kW on through that week is a house that keeps people out of the ER.
 
@@ -72,7 +72,7 @@ Electricity is no longer only lights and television. For a growing share of hous
 
 **The rest of the street.** Traffic lights, cell sites, and 911 answering all have hours of battery or diesel, not weeks. A house that stays up does not restore the city. It keeps the people in that house off the overwhelmed hospital list while the city is down.
 
-Seattle’s story already has the small version: a toddler who coughs when the purifier stops, a parent who cannot keep the house warm, a remote class that assumes the wall outlet works. Scale that by 4.6 million Medicare households and by every heat wave and ice storm, and uptime is a public-health number, not a convenience feature.
+Seattle’s story already has the small version: a toddler who coughs when the purifier stops, a parent who cannot keep the house warm, a remote class that assumes the wall outlet works. Scale that by 4.6 million Medicare households and by every heat wave and ice storm, and keeping power on is a public-health issue.
 
 ---
 
@@ -90,6 +90,6 @@ If the country is heading into a decade or two of tight reserve and old wires, t
 
 ---
 
-## What this document is
+## What this chapter covered
 
-This is the need: more electricity, older wires, longer dark hours, and a medical dependence on the outlet that did not exist at this scale when the 1960s cable went in. The examples are Seattle, Texas, Houston, the Carolinas, California, Portland, and the same failure mode abroad. The life-safety case is heat, cold, home medical gear, carbon monoxide, and water. Chapter 2 is the product and the payback. This chapter is why the product is not a toy.
+This is the need: more electricity, older wires, longer dark hours, and a medical dependence on the outlet that did not exist at this scale when the 1960s cable went in. The examples are Seattle, Texas, Houston, the Carolinas, California, Portland, and the same failure mode abroad. The life-safety case is heat, cold, home medical gear, carbon monoxide, and water. Chapter 2 is the product and the payback.

@@ -4,7 +4,7 @@
  <text x="24" y="48" font-size="11" fill="#444">Fresh fuel is cold on the truck. First heat is licensed startup after burial. Locks in before the crane returns.</text>
 
  <defs>
- <marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+ <marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
  <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a1a1a"/>
  </marker>
  </defs>
@@ -33,7 +33,9 @@
  <text x="168" y="280" font-size="11" font-weight="700" fill="#fff">LOCK + LIFT</text>
 
  <text x="30" y="170" font-size="10" fill="#444">Drums locked IN. Heat = 0. No decay heat (fresh fuel).</text>
- <text x="600" y="170" font-size="10" fill="#444">First heat. Trace-heat Na if needed.</text>
- <text x="760" y="170" font-size="10" fill="#444">35 kWth steady.</text>
+ <text x="600" y="168" font-size="10" fill="#444">First heat.</text>
+ <text x="600" y="180" font-size="10" fill="#444">Trace-heat Na if needed.</text>
+ <text x="760" y="168" font-size="10" fill="#444">35 kWth</text>
+ <text x="760" y="180" font-size="10" fill="#444">steady.</text>
  <text x="30" y="330" font-size="11" fill="#444">Overtemp or licensed trip drives drums IN (analog, two channels). Wait until decay heat &lt; 0.4 kW (~1 day) before lift. Owner phone cannot move drums.</text>
 </svg>
