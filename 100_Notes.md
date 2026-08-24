@@ -46,6 +46,24 @@ When a headline says “backyard nuclear,” check the megawatts. If the number 
 
 ---
 
+## The “hot tub in your backyard” sentence (2007 to now)
+
+The *pitch* is old. Factory-sealed. Buried. Truck in, truck out. Powers homes. No operator on the lot. That paragraph has been in print since about 2007. What they were selling was a **small plant**, not a house appliance.
+
+**Read “hot tub” as the reactor can, not the site.** Hyperion’s module was about **1.5 m across and 2 to 2.5 m tall**, the size of a residential hot tub or two stacked ([Gizmodo, 2007](https://gizmodo.com/hot-tub-nuclear-reactor-could-power-cities-326125); [Fortune, 2010](https://money.cnn.com/2010/03/10/technology/nukes_backyard.fortune/); [Power magazine](https://www.powermag.com/the-race-to-commercialize-mininuclear-reactors/): five-foot-diameter hydride can in a concrete vault about **ten feet underground**). Fortune called the reactor plus protective cabinet “the size of a hot tub” (eight feet by five feet). That is the *object that comes on the truck*. It is not the full footprint. Conversion gear, access, a vault, and a security story still make a plant pad. Hyperion itself said the whole assembly, including the electricity-generating side, sits on **less than an acre**. A Backyard Generating Station asks for about a **10 by 10 foot** patch of grass.
+
+**Read “homes” as a town, not a meter.** Hyperion was **25 to 27 MWe**, sold as power for about **20,000 homes** at about **$25 million** a unit ([Guardian, 9 Nov 2008](https://www.theguardian.com/environment/2008/nov/09/miniature-nuclear-reactors-los-alamos); [Phys.org](https://phys.org/news/2008-11-mini-nuclear-power-homes.html); [Fox](https://www.foxnews.com/story/portable-nuclear-hot-tubs-could-power-america)). That is **about 3,000 times** the electrical size of BGS-8 (8 kWe). ZDNet asked “[A micro nuclear reactor in your garden?](https://www.zdnet.com/article/a-micro-nuclear-reactor-in-your-garden/)” and still meant that 20,000-home box. Fortune titled it “[Nukes in my backyard](https://money.cnn.com/2010/03/10/technology/nukes_backyard.fortune/).” Buried about 15 feet. Swap the can when the core is done. They told the NRC the same logistics in 2010: sealed at the factory, sited underground, returned after seven to ten years ([NRC letter, 25 Feb 2010](https://www.nrc.gov/docs/ML1006/ML100630081.pdf)). Nothing shipped.
+
+**Toshiba said a smaller version of the same sentence.** Rapid-L press in 2007–2008 sold a **200 kWe**, about 20 by 6 foot, 40-year, no-control-rod box for an apartment building, a city block, a basement, or a garage ([Wired, “Toshiba’s Home Nuclear Reactor”](https://www.wired.com/2007/12/toshibas-home-n/); [Engadget, “for your garage?”](https://www.engadget.com/2007-12-19-toshibas-building-a-micro-nuclear-reactor-for-your-garage.html); [Grist](https://grist.org/article/for-reals/)). The Guardian repeated 200 kW / one building next to Hyperion. That was a JAXA/Toshiba space-and-remote concept getting turned into a consumer gadget by blogs. Japan 2008, US/Europe 2009. Did not happen. Even on paper it is **25 times** BGS-8, and it was not a playset-dose lawn with a chase into one house.
+
+**Toshiba 4S / Galena (2004)** used the buried-battery, 30-year, crane-out line for a **town of about 700** at **10 MWe** ([UAF write-up](https://www.uaf.edu/acep-blog/nuclear-power-and-the-perils-of-pioneering.php)). Never built.
+
+**The sentence is still in use.** Aalo’s site still says a trucked **10 MWe** unit is “enough to power **10,000 homes**” ([aalo.com](https://www.aalo.com/)). That is **about 1,250 times** BGS-8. The customer is a data center or a neighborhood, not a single meter.
+
+So: **buried, sealed, no on-site opening, “powers homes”** has been public for about 18 years. What has not been a closed design is **one house, 5 to 10 kWe, septic-tank vault, playset-dose grass, chase into a utility room, compared to rooftop solar at the same meter.** Hyperion used “backyard” and “hot tub” for a 25 MW hole. That is still a plant. The Backyard Generating Station is still a different object. The kit is not novel. The customer and the size class look novel. No one has sold 8 kWe to a homeowner as an appliance.
+
+---
+
 ## What is the same
 
 These are the honest overlaps. Do not overclaim past them.
@@ -94,7 +112,7 @@ Do not say the Backyard Generating Station invented TRISO, heat pipes, or Stirli
 
 Do not say a 100-year sealed yard life is already proven. It is not. The pieces are. The century is a specification.
 
-Do not say “backyard reactor” as if Hyperion or Aalo already did this. They used the word for a much larger box.
+Do not say “backyard reactor” as if Hyperion or Aalo already did this. They used the word for a 10 to 25 MWe plant. “Hot tub” was the reactor can, not the site. See the press section above.
 
 Do not say a fridge-sized home reactor is already a product. It is a video.
 
@@ -120,3 +138,27 @@ One-liners that sell:
 - **Set it like a tank. Use it like solar.**
 
 The title page already has a close version of the first: “One house. One backyard generating station. Electricity and heat, day and night, for 100 years.” Keep the product name on the book. Use “appliance” when you are selling the class.
+
+### First public teaser (X)
+
+Posted 24 August 2026 by Michael Cyger ([@MichaelCyger](https://x.com/MichaelCyger/status/2091879494026150396)). Concept only. No PDF, no diagrams, no Chapter 8. This is a public disclosure of the product idea (one house, 8 kW appliance, buried, nuclear, playset lawn, 100-year closed life, priced like home solar-plus-battery at scale). US inventor grace year for a patent, if any, runs from this date. Most other countries treat a public post as prior art against a later filing.
+
+Text as posted:
+
+I've been playing around with the design of a generating station for a single house.
+
+An appliance producing 8 kW, steady.
+
+Same size class as rooftop solar, except it runs when the sun is down or it's snowing.
+
+Priced like home solar-plus-battery, once it is at scale.
+
+Electricity, plus heat for floors, a tank, or a greenhouse.
+
+Small. Safe. Buried in the backyard. Nuclear, of course.
+
+Designed to sit closed for 100 years.
+
+A playset can sit on the grass.
+
+I may put the design out, or open source it. Not sure yet.
