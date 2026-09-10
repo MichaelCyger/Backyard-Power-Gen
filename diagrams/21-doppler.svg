@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 560" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="560" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 21. Doppler: why hotter means less splitting</text>
+ <text x="24" y="48" font-size="11" fill="#444">U-238 has narrow energy traps (resonances). Heat jiggles the nuclei. The traps look wider to a moving neutron. More neutrons fall in. Fewer are left to split U-235.</text>
+
+ <!-- cold -->
+ <rect x="40" y="80" width="500" height="280" rx="6" fill="#fff" stroke="#bbb"/>
+ <text x="290" y="110" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle">Cold fuel</text>
+ <!-- axis -->
+ <line x1="80" y1="300" x2="500" y2="300" stroke="#111"/>
+ <line x1="80" y1="140" x2="80" y2="300" stroke="#111"/>
+ <text x="290" y="330" font-size="11" fill="#444" text-anchor="middle">neutron energy</text>
+ <text x="48" y="220" font-size="11" fill="#444" transform="rotate(-90 48 220)">capture</text>
+ <!-- narrow peaks -->
+ <path d="M120,300 L120,160 L130,300 L200,300 L200,150 L212,300 L300,300 L300,170 L310,300 L400,300 L400,155 L412,300 L490,300" fill="none" stroke="#c45c26" stroke-width="2"/>
+ <text x="290" y="360" font-size="12" fill="#333" text-anchor="middle">Narrow resonances. A neutron can slip between them.</text>
+
+ <!-- hot -->
+ <rect x="560" y="80" width="500" height="280" rx="6" fill="#fff" stroke="#bbb"/>
+ <text x="810" y="110" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle">Hot fuel</text>
+ <line x1="600" y1="300" x2="1020" y2="300" stroke="#111"/>
+ <line x1="600" y1="140" x2="600" y2="300" stroke="#111"/>
+ <text x="810" y="330" font-size="11" fill="#444" text-anchor="middle">neutron energy</text>
+ <text x="568" y="220" font-size="11" fill="#444" transform="rotate(-90 568 220)">capture</text>
+ <!-- wide shorter peaks -->
+ <path d="M640,300 L640,200 L670,300 L720,300 L720,190 L760,300 L830,300 L830,210 L870,300 L940,300 L940,195 L980,300 L1010,300" fill="none" stroke="#8a3a1a" stroke-width="3"/>
+ <text x="810" y="360" font-size="12" fill="#333" text-anchor="middle">Wider resonances. More neutrons get caught in U-238.</text>
+
+ <text x="40" y="430" font-size="13" font-weight="700" fill="#1a1a1a">House sentence</text>
+ <text x="40" y="454" font-size="13" fill="#333">If the core tries to run away, heat itself applies the brake, in milliseconds, without a person or a motor. That brake lives in the uranium, not in an app.</text>
+ <text x="40" y="490" font-size="13" font-weight="700" fill="#1a1a1a">Physics sentence</text>
+ <text x="40" y="514" font-size="13" fill="#333">Doppler broadening of U-238 (and U-235) capture resonances. Negative fuel-temperature coefficient. Graphite moderator-temperature coefficient can be slightly positive; net power coefficient must still be negative 20 C to 750 C. Prompt jump is limited by this, by delayed neutrons, and by DB-11 (little excess reactivity).</text>
+</svg>

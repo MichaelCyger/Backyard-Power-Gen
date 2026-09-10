@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 700" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="700" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 17. How the reaction is meant to stop</text>
+ <text x="24" y="48" font-size="11" fill="#444">Four layers, fastest first. The owner phone is not on this list. Glass dump is last-ditch and is not credited until it is tested.</text>
+
+ <!-- layer 1 -->
+ <rect x="40" y="80" width="1020" height="120" rx="6" fill="#fff" stroke="#c45c26" stroke-width="2"/>
+ <rect x="40" y="80" width="160" height="120" rx="6" fill="#c45c26"/>
+ <text x="120" y="130" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">1. Doppler</text>
+ <text x="120" y="150" font-size="11" fill="#f0d0c0" text-anchor="middle">milliseconds</text>
+ <text x="220" y="110" font-size="13" font-weight="700" fill="#1a1a1a">Fuel gets hotter: U-238 traps widen, more neutrons get caught, fewer left to split.</text>
+ <text x="220" y="132" font-size="13" fill="#333">No moving part. No software. This is the ordinary protection against a sudden rise.</text>
+ <text x="220" y="154" font-size="13" fill="#333">Graphite can go slightly the other way in some layouts. The core must be laid out so that,</text>
+ <text x="220" y="176" font-size="13" fill="#333">from room temperature to 750 C, hotter still means less splitting overall.</text>
+
+ <!-- layer 2 -->
+ <rect x="40" y="220" width="1020" height="120" rx="6" fill="#fff" stroke="#2a4a2a" stroke-width="2"/>
+ <rect x="40" y="220" width="160" height="120" rx="6" fill="#2a4a2a"/>
+ <text x="120" y="270" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">2. Drums</text>
+ <text x="120" y="290" font-size="11" fill="#cfe0cf" text-anchor="middle">seconds</text>
+ <text x="220" y="250" font-size="13" font-weight="700" fill="#1a1a1a">Six B4C drums in the reflector. Springs or gravity drive them IN on overtemp.</text>
+ <text x="220" y="272" font-size="13" fill="#333">Analog. Two channels. Loss of oil pump or Stirling set raises condenser T and trips them.</text>
+ <text x="220" y="294" font-size="13" fill="#333">One drum stuck out: the others still hold the core below a self-sustaining rise.</text>
+ <text x="220" y="316" font-size="13" fill="#333">Leftover splitting-power stays small, so one failure cannot run away on the fast neutrons.</text>
+
+ <!-- layer 3 -->
+ <rect x="40" y="360" width="1020" height="120" rx="6" fill="#fff" stroke="#5c5c5c" stroke-width="2"/>
+ <rect x="40" y="360" width="160" height="120" rx="6" fill="#5c5c5c"/>
+ <text x="120" y="402" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">3. Size + earth</text>
+ <text x="120" y="422" font-size="11" fill="#ddd" text-anchor="middle">hours to days</text>
+ <text x="220" y="390" font-size="13" font-weight="700" fill="#1a1a1a">After drums IN, leftover heat is a space heater, then a heat lamp, then less.</text>
+ <text x="220" y="412" font-size="13" fill="#333">No pump required. 42 t of vault plus soil take &lt; 1 kW. A 1,000 MW plant cannot say this.</text>
+ <text x="220" y="434" font-size="13" fill="#333">A 10-second prompt blip at 35 kW is 350 kJ: a tenth of a kilowatt-hour into a lot of graphite.</text>
+ <text x="220" y="456" font-size="13" fill="#333">There is no 3 GWth inventory to dump. That is the size argument, in numbers.</text>
+
+ <!-- layer 4 -->
+ <rect x="40" y="500" width="1020" height="120" rx="6" fill="#fff" stroke="#6b3a1f" stroke-width="2"/>
+ <rect x="40" y="500" width="160" height="120" rx="6" fill="#6b3a1f"/>
+ <text x="120" y="542" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">4. Glass dump</text>
+ <text x="120" y="562" font-size="11" fill="#f0d0c0" text-anchor="middle">last ditch</text>
+ <text x="220" y="530" font-size="13" font-weight="700" fill="#1a1a1a">Hopper above the core: 80 kg glass frit + 15 kg boron carbide. Plug melts at about 750 C.</text>
+ <text x="220" y="552" font-size="13" fill="#333">Gravity pour. Boron kills reactivity. Glass wets and sets. No power required.</text>
+ <text x="220" y="574" font-size="13" fill="#333">Expected use: once in never. Not credited for normal operation until a furnace test exists.</text>
+ <text x="220" y="596" font-size="13" fill="#333">The fuel and drums are designed so the vault does not get here.</text>
+</svg>

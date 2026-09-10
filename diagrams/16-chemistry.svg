@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 720" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="720" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 16. Nuclear chemistry over a century</text>
+ <text x="24" y="48" font-size="11" fill="#444">Almost all of this stays inside the TRISO coats. The paint-can at end of life is the same heavy metal, rearranged.</text>
+
+ <defs>
+  <marker id="a16" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+   <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a1a1a"/>
+  </marker>
+ </defs>
+
+ <!-- start inventory -->
+ <rect x="40" y="80" width="240" height="120" rx="6" fill="#c45c26"/>
+ <text x="160" y="110" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">At first start</text>
+ <text x="160" y="132" font-size="12" fill="#fff" text-anchor="middle">30 kg heavy metal</text>
+ <text x="160" y="152" font-size="12" fill="#f0d0c0" text-anchor="middle">5.93 kg U-235 (19.75%)</text>
+ <text x="160" y="172" font-size="12" fill="#f0d0c0" text-anchor="middle">24.07 kg U-238</text>
+ <text x="160" y="188" font-size="11" fill="#f0d0c0" text-anchor="middle">plus Er or Gd poison</text>
+
+ <!-- split arrows -->
+ <line x1="280" y1="110" x2="360" y2="80" stroke="#111" stroke-width="2" marker-end="url(#a16)"/>
+ <line x1="280" y1="140" x2="360" y2="200" stroke="#111" stroke-width="2" marker-end="url(#a16)"/>
+ <line x1="280" y1="165" x2="360" y2="320" stroke="#111" stroke-width="2" marker-end="url(#a16)"/>
+
+ <rect x="365" y="60" width="280" height="70" rx="6" fill="#8a3a1a"/>
+ <text x="505" y="88" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">Fission of U-235 (and later Pu)</text>
+ <text x="505" y="108" font-size="12" fill="#f0d0c0" text-anchor="middle">~1.35 kg fission-equivalent in 100 y</text>
+
+ <rect x="365" y="170" width="280" height="88" rx="6" fill="#6b3a1f"/>
+ <text x="505" y="198" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">U-238 captures a neutron -> U-239</text>
+ <text x="505" y="218" font-size="12" fill="#f0d0c0" text-anchor="middle">23.5 min -> Np-239</text>
+ <text x="505" y="236" font-size="12" fill="#f0d0c0" text-anchor="middle">2.4 d -> Pu-239  (some of this splits)</text>
+
+ <rect x="365" y="290" width="280" height="70" rx="6" fill="#2a4a2a"/>
+ <text x="505" y="318" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">Burnable poison</text>
+ <text x="505" y="338" font-size="12" fill="#cfe0cf" text-anchor="middle">Gd-155/157 or Er-167  eaten as fuel is</text>
+ <text x="505" y="354" font-size="12" fill="#cfe0cf" text-anchor="middle">used up, so drums barely move</text>
+
+ <!-- products -->
+ <line x1="645" y1="95" x2="720" y2="95" stroke="#111" stroke-width="2" marker-end="url(#a16)"/>
+ <rect x="725" y="55" width="340" height="200" rx="6" fill="#fff" stroke="#bbb"/>
+ <text x="745" y="82" font-size="13" font-weight="700" fill="#1a1a1a">Fission products (in the buffer)</text>
+ <text x="745" y="108" font-size="12" fill="#333">Noble gases: Xe, Kr  (held, not vented)</text>
+ <text x="745" y="128" font-size="12" fill="#333">I-131 (short), Cs-137, Sr-90 (long)</text>
+ <text x="745" y="148" font-size="12" fill="#333">Xe-135: strong poison while running</text>
+ <text x="745" y="168" font-size="12" fill="#333">Sm-149: builds, then saturates</text>
+ <text x="745" y="196" font-size="12" fill="#333">These are why used fuel is hot</text>
+ <text x="745" y="214" font-size="12" fill="#333">after shutdown. Neutrons stop.</text>
+ <text x="745" y="232" font-size="12" fill="#333">Gammas from the fragments continue.</text>
+
+ <line x1="645" y1="214" x2="720" y2="300" stroke="#111" stroke-width="2" marker-end="url(#a16)"/>
+ <rect x="725" y="275" width="340" height="90" rx="6" fill="#5c5c5c"/>
+ <text x="895" y="310" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">End of life, still in the particles</text>
+ <text x="895" y="332" font-size="12" fill="#ddd" text-anchor="middle">~14 kg leftover HM + products</text>
+ <text x="895" y="350" font-size="12" fill="#ddd" text-anchor="middle">paint-can class at a licensed site</text>
+
+ <!-- bottom notes -->
+ <text x="40" y="410" font-size="13" font-weight="700" fill="#1a1a1a">What is not happening</text>
+ <text x="40" y="432" font-size="13" fill="#333">The 30 kg does not vanish. About 16 kg of heavy metal is consumed. That means those</text>
+ <text x="40" y="450" font-size="13" fill="#333">atoms have split or changed. About 1.35 kg is the U-235-equivalent that actually</text>
+ <text x="40" y="468" font-size="13" fill="#333">split. Several kilograms that can still split remain at year 100. End of life is</text>
+ <text x="40" y="486" font-size="13" fill="#333">not an empty tank.</text>
+
+ <text x="40" y="522" font-size="13" font-weight="700" fill="#1a1a1a">Kernel chemistry</text>
+ <text x="40" y="544" font-size="13" fill="#333">UCO is uranium oxide plus uranium carbide. Oxygen and carbon together keep the</text>
+ <text x="40" y="562" font-size="13" fill="#333">kernel from making too much CO, which would over-pressure the particle. That is</text>
+ <text x="40" y="580" font-size="13" fill="#333">why UCO, not plain UO2, is the US coated-particle kernel.</text>
+
+ <text x="40" y="616" font-size="13" fill="#333">A little radioactivity is also made in the stainless. It rides out with the vault.</text>
+ <text x="40" y="634" font-size="13" fill="#333">None of this chemistry is handled on the lot. Factory in, crane out.</text>
+</svg>

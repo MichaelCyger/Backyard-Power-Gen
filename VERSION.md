@@ -1,12 +1,31 @@
 # Version history
 
-High-level log of the Backyard Generating Station book (chapters 1 through 8). Notes files (`100_Notes.md`, `_writing_style.md`) are not part of the compiled book.
+High-level log of the Backyard Generating Station book (chapters 1 through 9). Notes files (`100_Notes.md`, `_writing_style.md`) are not part of the compiled book.
 
-**Current version: 1.0**
+**Current version: 1.1**
 
-The compiled reading copy is `Backyard-{version}.pdf` (currently `Backyard-1.0.pdf`). Rebuild it with `python3 build_pdf.py` after you change a chapter. The filename follows `VERSION` in `build_pdf.py`.
+The compiled reading copy is `Backyard-{version}.pdf` (currently `Backyard-1.1.pdf`). Rebuild it with `python3 build_pdf.py` after you change a chapter. The filename follows `VERSION` in `build_pdf.py`.
 
 When you ship a new version, add a section at the top of the list below. Say what a reader would notice, not every line edit. Bump the number on this page and in `build_pdf.py`. The next build writes a new file named for that number.
+
+---
+
+## 1.1 — 9 September 2026
+
+Chapter 9: the fuel, the core, sodium in the heat pipes, first principles, shutdown, and a short contrast with US water plants and sodium fast reactors.
+
+**What a reader would notice**
+
+- New chapter, **9 The Fuel**, after the spec. Dual audience: homeowner story first, then the mechanism
+- Thirteen new drawings (Figures 9 to 21): TRISO particle, particle-to-core, core makeup, heat pipe, fission, neutron life, thermal vs fast, chemistry, shutdown ladder, PWR/BWR/BGS, two sodiums, scale, Doppler
+- Type stated in the open: heat-pipe microreactor, TRISO-UCO, graphite moderator, thermal spectrum. Not a fast reactor. Not a water plant
+- Sodium is milliliters in 24 sealed pipes, not a pumped pool. TerraPower Natrium (Kemmerer, Wyoming, construction 2026) is the pool: 345 MWe fast, about 40,000 times BGS-8
+- Shutdown as a ladder: Doppler, drums, size plus earth, glass dump last
+- Honest limit: the stack is the safety case; a 100-year yard life is still a specification
+- Chapters 2 to 8, the notes file, and the writing-style order now point at Chapter 9 for fuel physics
+- If Chapter 9 and Chapter 8 disagree, Chapter 8 still wins for engineering
+
+**Locked product is unchanged.** Chapter 8 numbers are unchanged. This version is the explanation chapter the spec was missing.
 
 ---
 

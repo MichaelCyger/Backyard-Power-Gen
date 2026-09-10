@@ -1,6 +1,6 @@
 # Notes: what already exists, and what does not
 
-This file is not a homeowner chapter. It is a plain-language map of prior work. Chapters 1 to 7 stay on the house, the yard, and the bill. Chapter 8 is the engineering design basis. This note is only: what the core already is, what other people already built or proposed, and why the Backyard Generating Station is a different object.
+This file is not a homeowner chapter. It is a plain-language map of prior work. Chapters 1 to 7 stay on the house, the yard, and the bill. Chapter 8 is the engineering design basis. Chapter 9 is the fuel, the core, sodium in the heat pipes, first principles, and a short contrast with US water plants and sodium fast reactors (including TerraPower Natrium). This note is only: what the core already is, what other people already built or proposed, and why the Backyard Generating Station is a different object.
 
 The short version: the insides are a known kit. The product is not.
 
@@ -31,6 +31,7 @@ None of the rows below is a single-family product. They are the cousins.
 | --- | --- | --- | --- |
 | NASA Kilopower / KRUSTY | 1 to 10 kWe | Space: a habitat, a rover, the Moon | Closest *electrical* size. Heat pipes and Stirling. Not a yard. Not a house heat loop. Not a consumer appliance. |
 | Westinghouse eVinci | about 5 MWe | Mines, remote towns, industry, military | Same fuel-and-heat-pipe family. About **500 to 1,000 houses**, not one. Target life about 8 years. |
+| TerraPower Natrium (Kemmerer, WY) | 345 MWe (500 with salt) | Grid, coal-site replacement | Sodium-cooled **fast** reactor. Tons of circulating sodium, pumps, HALEU metal. NRC construction permit March 2026. Construction started April 2026. About **40,000 times** BGS-8. Chapter 9 is why heat-pipe milliliters are not this machine. |
 | Westinghouse AstroVinci | 10 kWe to 2 MWe | Satellites and lunar power | Same family scaled down. Space, not a subdivision. |
 | Antares R1, Radiant Kaleidos, and similar | about 0.1 to 2 MWe | Remote sites, military, microgrids | Factory boxes. Still village-to-base scale. |
 | USNC MMR | a few MWe | Remote sites, industry | Buried on purpose. Still a plant, not a septic-tank vault for one meter. |
@@ -70,7 +71,7 @@ These are the honest overlaps. Do not overclaim past them.
 
 **The way heat is made.** Splitting atoms in coated particles, at a power density that is low on purpose. A large plant runs hot and hard in each liter of core. This vault, Kilopower, and eVinci all want the opposite: a trickle of heat in a lot of mass, so leftover heat after shutdown is small and the metal ages slowly.
 
-**How heat leaves the core.** Heat pipes. No vault pump you service. That is already the Kilopower and eVinci answer.
+**How heat leaves the core.** Heat pipes. No vault pump you service. That is already the Kilopower and eVinci answer. It is not the Natrium answer (a pumped sodium pool). Chapter 9 draws both.
 
 **How electricity is made, in the baseline.** A Stirling on a hot end and a cool end. Demonstrated at house-scale watts in a NASA test. Demonstrated as a commercial box on other heat sources. Not demonstrated as a 100-year object welded inside a buried vault. That is why the converter lives at the house.
 
@@ -114,6 +115,8 @@ Do not say a 100-year sealed yard life is already proven. It is not. The pieces 
 
 Do not say “backyard reactor” as if Hyperion or Aalo already did this. They used the word for a 10 to 25 MWe plant. “Hot tub” was the reactor can, not the site. See the press section above.
 
+Do not say this is a fast reactor, or “the Wyoming reactor in a backyard.” Natrium is a 345 MWe sodium-cooled fast plant. This vault is thermal, graphite-moderated, with milliliters of sodium in sealed heat pipes. Chapter 9 is that contrast.
+
 Do not say a fridge-sized home reactor is already a product. It is a video.
 
 Do not say the core is unproven in the same breath as “nobody has done house scale.” Both can be true: the *kit* is known, the *appliance* is not.
@@ -122,7 +125,7 @@ Do not say the core is unproven in the same breath as “nobody has done house s
 
 ## One sentence for a lawyer or an investor
 
-The core is Kilopower- and eVinci-class physics (TRISO, HALEU, heat pipes, drums, Stirling on the house side) pointed at one meter. The novelty, if any, is the product: a factory-sealed, septic-tank-sized vault, 5 to 10 kWe, heat and electricity into a house, playset-dose lawn, 100-year lock, crane-out swap, and a size-based appliance ask. Prior art is full of the kit. It is empty of that customer.
+The core is Kilopower- and eVinci-class physics (thermal TRISO, HALEU, heat pipes, drums, Stirling on the house side) pointed at one meter. It is not a sodium-cooled fast reactor. The novelty, if any, is the product: a factory-sealed, septic-tank-sized vault, 5 to 10 kWe, heat and electricity into a house, playset-dose lawn, 100-year lock, crane-out swap, and a size-based appliance ask. Prior art is full of the kit. It is empty of that customer.
 
 ---
 

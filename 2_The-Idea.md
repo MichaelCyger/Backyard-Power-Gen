@@ -116,11 +116,11 @@ The numbers stay small on purpose.
 
 A house-scale electrical output of 5 to 10 kW goes with about **20 to 40 kW of heat** from the core. That is furnace scale, not power-plant scale. After the unit is shut down, the leftover heat that has to go somewhere drops to about as much as a small space heater, then lower over the following hours and days. Dirt, concrete, and time can take that. There is no cooling tower.
 
-Fuel use at this output, over a century, is measured in kilograms, not tons: about **30 kilograms (about 66 pounds) at first start**, a paint-can of heavy metal inside a beer-keg-to-dishwasher-sized core, itself inside the septic-tank vault. By the end of life, on the order of 15 to 25 kilograms of that heavy metal has been used up. Chapter 8 is the arithmetic. The vault is the thing the crane sees. The core is never a backyard project.
+Fuel use at this output, over a century, is measured in kilograms, not tons: about **30 kilograms (about 66 pounds) at first start**, a paint-can of heavy metal inside a beer-keg-to-dishwasher-sized core, itself inside the septic-tank vault. By the end of life, on the order of 15 to 25 kilograms of that heavy metal has been used up. Chapter 8 is the arithmetic. Chapter 9 is the fuel, the graphite, the sodium in the pipes, and the physics of how the reaction is meant to stop. The vault is the thing the crane sees. The core is never a backyard project.
 
 Because the core is run cold and slow (a trickle of heat in a lot of mass), it can be built for a very long sealed life. Material mixed into the fuel is used up as the fuel is used up, so the output stays even. There is no refueling truck. There is no hatch for the owner.
 
-The fuel and the core are built so heat itself slows the reaction: hotter means less splitting, in milliseconds, without a person or a motor. That is the ordinary safety case. A last-ditch layer above the core can melt and set into a glass-like mass if the vault ever got far hotter than it should. That is not expected to run. The design is meant to never get there. The unit is too small for leftover heat to run away, it sits in earth, and it does not rely on a pump staying on.
+The fuel and the core are built so heat itself slows the reaction: hotter means less splitting, in milliseconds, without a person or a motor. That is the ordinary safety case. Chapter 9 is that Doppler brake, the drums, and the last-ditch glass. A last-ditch layer above the core can melt and set into a glass-like mass if the vault ever got far hotter than it should. That is not expected to run. The design is meant to never get there. The unit is too small for leftover heat to run away, it sits in earth, and it does not rely on a pump staying on.
 
 ### From the factory to first power
 
@@ -286,4 +286,4 @@ A replacement price should be sold as a **swap**: new unit, removal, haul, and p
 
 ## What this chapter covered
 
-This is the idea at house scale, and only house scale: one family, one yard, one meter, compared to solar at that same meter. The later chapters are 3 Yard Safety, 4 The House, 5 The Vault, 6 The Approval, and 7 The Swap. The claim here is that the physics is in the right size class, the house already has ways to use the heat, the owner’s life can stay simple, and the end of the story is a licensed crew and a crane.
+This is the idea at house scale, and only house scale: one family, one yard, one meter, compared to solar at that same meter. The later chapters are 3 Yard Safety, 4 The House, 5 The Vault, 6 The Approval, 7 The Swap, 8 Vault Spec, and 9 The Fuel. The claim here is that the physics is in the right size class, the house already has ways to use the heat, the owner’s life can stay simple, and the end of the story is a licensed crew and a crane.

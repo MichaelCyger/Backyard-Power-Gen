@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 680" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="680" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 12. One sodium heat pipe (no pump)</text>
+ <text x="24" y="48" font-size="12" fill="#444">A closed metal tube with a little sodium inside. Heat rides as vapor to the cool end. Liquid climbs back in the wick. Sodium never leaves this tube.</text>
+
+ <rect x="60" y="80" width="300" height="200" rx="8" fill="#c45c26" stroke="#222"/>
+ <text x="210" y="108" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">Hot fuel</text>
+ <text x="210" y="126" font-size="11" fill="#f0d0c0" text-anchor="middle">graphite + coated particles</text>
+ <text x="210" y="144" font-size="11" fill="#f0d0c0" text-anchor="middle">650 to 750 C</text>
+
+ <rect x="175" y="140" width="70" height="430" rx="8" fill="#f7e4c4" stroke="#8a5010" stroke-width="3"/>
+ <rect x="183" y="150" width="10" height="412" fill="#c4a06a"/>
+ <rect x="229" y="150" width="10" height="412" fill="#c4a06a"/>
+ <rect x="195" y="158" width="30" height="395" fill="#f0d0a0"/>
+
+ <polygon points="210,185 220,210 200,210" fill="#8a3a1a"/>
+ <polygon points="210,250 220,275 200,275" fill="#8a3a1a"/>
+ <polygon points="210,320 220,345 200,345" fill="#8a3a1a"/>
+ <polygon points="210,390 220,415 200,415" fill="#8a3a1a"/>
+ <text x="255" y="280" font-size="12" font-weight="700" fill="#8a3a1a">vapor</text>
+ <text x="255" y="296" font-size="11" fill="#8a3a1a">heat rides down</text>
+ <text x="255" y="312" font-size="11" fill="#8a3a1a">about 600 C</text>
+
+ <polygon points="188,480 188,445 182,456" fill="#2a6f9a"/>
+ <polygon points="188,400 188,365 182,376" fill="#2a6f9a"/>
+ <polygon points="188,320 188,285 182,296" fill="#2a6f9a"/>
+ <text x="60" y="380" font-size="12" font-weight="700" fill="#2a6f9a">liquid</text>
+ <text x="60" y="396" font-size="11" fill="#2a6f9a">climbs the wick</text>
+ <text x="60" y="412" font-size="11" fill="#2a6f9a">back to the heat</text>
+
+ <rect x="155" y="530" width="110" height="44" fill="#2a6f9a" stroke="#222"/>
+ <text x="210" y="548" font-size="12" fill="#fff" text-anchor="middle" font-weight="700">cool end</text>
+ <text x="210" y="564" font-size="11" fill="#d0e4f0" text-anchor="middle">vapor turns liquid</text>
+
+ <rect x="155" y="584" width="110" height="40" fill="#5c5c5c" stroke="#222"/>
+ <text x="210" y="608" font-size="12" fill="#fff" text-anchor="middle">oil takes heat</text>
+ <line x1="265" y1="604" x2="400" y2="604" stroke="#c47a2a" stroke-width="6"/>
+ <text x="210" y="648" font-size="11" fill="#6a3a08" text-anchor="middle">oil to house, double-wall (not sodium)</text>
+
+ <rect x="430" y="70" width="640" height="580" rx="8" fill="#fff" stroke="#ddd"/>
+ <text x="450" y="112" font-size="14" font-weight="700" fill="#1a1a1a">What you are looking at</text>
+ <text x="450" y="138" font-size="13" fill="#333">Each of the 24 pipes is one sealed metal tube, about as</text>
+ <text x="450" y="156" font-size="13" fill="#333">thick as a fat marker. A few milliliters of sodium live</text>
+ <text x="450" y="174" font-size="13" fill="#333">inside. There is no pump and no sodium loop.</text>
+ <text x="450" y="214" font-size="14" font-weight="700" fill="#1a1a1a">The four-step cycle</text>
+ <text x="450" y="240" font-size="13" fill="#333">1. Heat from the fuel boils the sodium at the hot end.</text>
+ <text x="450" y="260" font-size="13" fill="#333">2. Vapor shoots to the cool end. The heat rides along.</text>
+ <text x="450" y="280" font-size="13" fill="#333">3. Vapor condenses. Heat leaves the pipe into the oil.</text>
+ <text x="450" y="300" font-size="13" fill="#333">4. Liquid soaks into the wick and climbs back up.</text>
+ <text x="450" y="340" font-size="14" font-weight="700" fill="#1a1a1a">Two walls, different from the oil</text>
+ <text x="450" y="366" font-size="13" fill="#333">The heat pipe itself is one sealed tube (first wall).</text>
+ <text x="450" y="384" font-size="13" fill="#333">The steel can around the whole core is the second wall.</text>
+ <text x="450" y="402" font-size="13" fill="#333">If a pipe leaks, sodium stays in that can, in inert gas,</text>
+ <text x="450" y="420" font-size="13" fill="#333">and freezes (sodium melts at 98 C). The oil pipes that</text>
+ <text x="450" y="438" font-size="13" fill="#333">leave the vault are a separate double-wall loop.</text>
+ <text x="450" y="478" font-size="14" font-weight="700" fill="#1a1a1a">If one pipe dies</text>
+ <text x="450" y="504" font-size="13" fill="#333">That tube is out. The other 23 still carry 35 kW.</text>
+ <text x="450" y="522" font-size="13" fill="#333">Two dead: still enough. Three dead: make a little less</text>
+ <text x="450" y="540" font-size="13" fill="#333">electricity. There is no water in the core to lose.</text>
+ <text x="450" y="580" font-size="14" font-weight="700" fill="#1a1a1a">Life</text>
+ <text x="450" y="606" font-size="13" fill="#333">Designed to sit closed for on the order of 100 years.</text>
+ <text x="450" y="624" font-size="13" fill="#333">Space tests ran years, not a century. Spare pipes are</text>
+ <text x="450" y="642" font-size="13" fill="#333">why one frozen tube is an ordinary fault, not a crisis.</text>
+</svg>

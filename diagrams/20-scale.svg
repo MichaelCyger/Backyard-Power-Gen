@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 580" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="580" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 20. Why size is a safety number</text>
+ <text x="24" y="48" font-size="11" fill="#444">Electrical output and fuel inventory, log-friendly bars. Decay heat and accident energy scale with the machine.</text>
+
+ <!-- electrical -->
+ <text x="40" y="90" font-size="14" font-weight="700" fill="#1a1a1a">Electricity (log-ish bars, labeled true values)</text>
+
+ <text x="40" y="128" font-size="12" fill="#333">US PWR</text>
+ <rect x="160" y="110" width="900" height="24" fill="#1e4a6e"/>
+ <text x="170" y="127" font-size="12" fill="#fff">~1,000 MWe</text>
+
+ <text x="40" y="168" font-size="12" fill="#333">Natrium</text>
+ <rect x="160" y="150" width="310" height="24" fill="#8a3a1a"/>
+ <text x="170" y="167" font-size="12" fill="#fff">345 MWe (500 with salt)</text>
+
+ <text x="40" y="208" font-size="12" fill="#333">BGS-8</text>
+ <rect x="160" y="190" width="8" height="24" fill="#c45c26"/>
+ <text x="176" y="207" font-size="12" fill="#c45c26">8 kWe  (bar is 8 pixels; PWR bar is 1,000)</text>
+
+ <!-- fuel -->
+ <text x="40" y="260" font-size="14" font-weight="700" fill="#1a1a1a">Heavy metal at first start (order of magnitude)</text>
+
+ <text x="40" y="298" font-size="12" fill="#333">US PWR</text>
+ <rect x="160" y="280" width="900" height="24" fill="#1e4a6e"/>
+ <text x="170" y="297" font-size="12" fill="#fff">~80 to 120 tonnes  (UO2, ~4 to 5% U-235)</text>
+
+ <text x="40" y="338" font-size="12" fill="#333">Natrium</text>
+ <rect x="160" y="320" width="80" height="24" fill="#8a3a1a"/>
+ <text x="250" y="337" font-size="12" fill="#8a3a1a">tonnes of HALEU metal (plant-scale core)</text>
+
+ <text x="40" y="378" font-size="12" fill="#333">BGS-8</text>
+ <rect x="160" y="360" width="4" height="24" fill="#c45c26"/>
+ <text x="172" y="377" font-size="12" fill="#c45c26">30 kg (66 lb)  paint-can</text>
+
+ <text x="40" y="430" font-size="13" font-weight="700" fill="#1a1a1a">What that means after shutdown</text>
+ <text x="40" y="452" font-size="13" fill="#333">A US water plant still has megawatts of leftover heat. It needs water, pumps or</text>
+ <text x="40" y="470" font-size="13" fill="#333">passive water systems, and a site. This vault: about 0.45 kW after an hour, 0.24 kW</text>
+ <text x="40" y="488" font-size="13" fill="#333">after a day. A 42-ton box and the earth can take that without a pump.</text>
+ <text x="40" y="516" font-size="13" fill="#333">Accident energy scales the same way. 35 kW for 10 s is 350 kJ. That is not a</text>
+ <text x="40" y="534" font-size="13" fill="#333">neighborhood event. Size does not replace the ceramic coats, drums, or the shield.</text>
+ <text x="40" y="552" font-size="13" fill="#333">It does put a ceiling on how bad a bad day can be.</text>
+</svg>

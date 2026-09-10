@@ -42,7 +42,7 @@ Nothing shields to zero, and the yard already has background. **The vault is bui
 
 ## What has to be stopped
 
-The vault holds a small nuclear core. While it is on, two kinds of radiation try to leave: **gammas** (like very hard X-rays) and **neutrons** (heavy, uncharged particles from splitting atoms). After it is shut down, leftover heat fades and the neutron problem fades with it. Gammas from the used fuel stay inside the same vault.
+The vault holds a small nuclear core. While it is on, two kinds of radiation try to leave: **gammas** (like very hard X-rays) and **neutrons** (heavy, uncharged particles from splitting atoms). After it is shut down, leftover heat fades and the neutron problem fades with it. Gammas from the used fuel stay inside the same vault. Chapter 9 is what those neutrons are doing in the core, and why graphite and boron are in the story.
 
 Gammas are stopped by dense things. Lead and thick concrete are the point of the lining. A few inches of lead and a thick concrete wall cut gammas by a huge factor. Ten feet of dirt on top cut them again.
 

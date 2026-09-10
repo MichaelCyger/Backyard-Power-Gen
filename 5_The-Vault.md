@@ -1,6 +1,6 @@
 # The Vault
 
-The vault is the sealed box in the hole. Chapter 3 is why the lawn stays a lawn. Chapter 4 is how heat and power leave through the floor. This chapter is what is inside, why it can sit closed for on the order of a century, and why it is furnace-scale rather than a commercial plant.
+The vault is the sealed box in the hole. Chapter 3 is why the lawn stays a lawn. Chapter 4 is how heat and power leave through the floor. This chapter is what is inside, why it can sit closed for on the order of a century, and why it is furnace-scale rather than a commercial plant. Chapter 9 is the fuel itself: composition, core makeup, how sodium moves, first principles, and how the reaction is meant to stop.
 
 A 1,000 MW plant is a million kilowatts. This vault makes **5 to 10 kWe** of electricity and about **20 to 40 kW of heat**. That is about **1/100,000 to 1/200,000** the electrical size of the plant people picture. It is furnace scale, not campus scale.
 
@@ -53,7 +53,7 @@ The core is run **cold and slow**: a trickle of heat in a lot of mass. That is h
 
 ## The paint-can of fuel
 
-Fuel use at this output, over a century, is measured in kilograms, not tons. Chapter 8 works the inventory: about **30 kilograms (about 66 pounds) at first start**, still a paint-can of heavy metal inside the core, inside the vault. By the end of life, on the order of **15 to 25 kilograms has been used up**. The vault is almost all shield and box. The crane is for the box.
+Fuel use at this output, over a century, is measured in kilograms, not tons. Chapter 8 works the inventory: about **30 kilograms (about 66 pounds) at first start**, still a paint-can of heavy metal inside the core, inside the vault. By the end of life, on the order of **15 to 25 kilograms has been used up**. Chapter 9 is what that paint-can is made of (coated particles, graphite, about 20% U-235) and why it is not a water-plant fuel rod. The vault is almost all shield and box. The crane is for the box.
 
 Material mixed into the fuel is used up as the fuel is used up, so the output stays even. There is no refueling truck. There is no hatch. At the end, what cannot be recycled is still in that paint-can size class at a licensed site (Chapter 7).
 
@@ -67,7 +67,7 @@ A commercial plant needs staff, pumps, and a tower because leftover heat after s
 
 If power is pulled faster or slower, the battery and the inverter in the utility room take the jump. The core is not asked to follow the dryer. It makes a steady trickle.
 
-If the core ever tries to run away (a sudden rise in splitting), the fuel and the geometry are chosen so heat itself slows the reaction: hotter means less splitting, in milliseconds, without a person or a motor. That is a materials fact, not a software mode. That passive slowing is the ordinary protection. It is why the last-ditch glass layer below is not expected to run.
+If the core ever tries to run away (a sudden rise in splitting), the fuel and the geometry are chosen so heat itself slows the reaction: hotter means less splitting, in milliseconds, without a person or a motor. That is a materials fact, not a software mode. That passive slowing is the ordinary protection. Chapter 9 is the Doppler picture, the drum springs, and the cases that do and do not shut the core down. It is why the last-ditch glass layer below is not expected to run.
 
 If the vault ever got far hotter than it should anyway, a passive layer above the core is meant to melt, flow, and set into a glass-like mass that stills the reaction and locks the insides in place. The whole vault stays one object. That is last-ditch only. The fuel and the drums are designed so the vault does not get there.
 
@@ -99,4 +99,4 @@ It is a 20 to 40 kW heat source in a factory-sealed vault, about 1/100,000 the e
 
 ## What this chapter covered
 
-This is the vault: layers, furnace-scale heat, two products (electricity and warmth), heat pipes to an oil chase to Stirling engines in the utility room, a paint-can of fuel, no pumps you service in the yard, a glass dump that is not expected to run, and a truck that carries a locked box. Chapter 3 is the grass. Chapter 4 is the utility room. Chapter 6 is the stamp. The machine is designed so the yard never needs a hatch.
+This is the vault: layers, furnace-scale heat, two products (electricity and warmth), heat pipes to an oil chase to Stirling engines in the utility room, a paint-can of fuel, no pumps you service in the yard, a glass dump that is not expected to run, and a truck that carries a locked box. Chapter 3 is the grass. Chapter 4 is the utility room. Chapter 6 is the stamp. Chapter 9 is the fuel and the first principles. The machine is designed so the yard never needs a hatch.

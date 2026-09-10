@@ -2,7 +2,7 @@
 
 **Document type:** Preliminary design basis (not a licensed safety analysis).  
 **Unit:** Backyard Generating Station, type **BGS-8**. The 8 is the electrical size (8 kWe), not “the eighth try.” This is the first type unit. Family band is 5 to 10 kWe.  
-**Audience:** Mechanical, nuclear, shielding, and electrical engineers. Chapter 5 is the homeowner story. This file is what you size, buy, and analyze.
+**Audience:** Mechanical, nuclear, shielding, and electrical engineers. Chapter 5 is the homeowner story of the vault. Chapter 9 is the fuel, the core, sodium in the heat pipes, first principles, and the contrast with water plants and sodium fast reactors. This file is what you size, buy, and analyze.
 
 In one paragraph: a sealed heat source in a septic-tank vault, **3.0 m (10 ft) of soil above the lid**, heat pipes to a double-wall oil chase, electricity made in the **utility room** by replaceable Stirling engines. The vault is the shield. Dirt is bonus. Dose is designed with the lid bare. The core kit (TRISO, heat pipes, drums, Stirling) is a known class of hardware, licensed or built from that class, not a new reaction.
 
@@ -26,7 +26,7 @@ No owner hatch. No in-vault service pumps. Power conversion that wears is on the
 | DB-8 | Vault sits **flooded**. External water is allowed. Inner boundary remains leak-tight. |
 | DB-9 | Factory assembled **subcritical, shutdown locks in**. First heat only after burial and licensed startup. Locks in before crane-out. |
 | DB-10 | No vault-side pump required for core cooling or shutdown decay heat. |
-| DB-11 | Excess reactivity after shutdown margin shall be **<0.8$** so a single failure cannot make the core prompt-critical. |
+| DB-11 | Excess reactivity after shutdown margin shall be **under 0.8 dollars** so a single failure cannot make the core prompt-critical. |
 | DB-12 | Last-ditch borosilicate + B₄C dump, fusible, no power required. Not credited for normal operation. |
 | DB-13 | All in-vault materials are items a US nuclear or ASME shop can buy or already fabricates. No exotic materials. |
 
@@ -142,7 +142,7 @@ Soil far-field plus 28°C at the wall after a few hours. Acceptable. **Do not us
 
 ## 3. Core
 
-In plain language: the core is a beer-keg-sized graphite block full of coated uranium particles (TRISO), not a pool of water and not a bundle of bare rods. About 20% of the uranium is U-235. Sodium sits only inside sealed heat pipes. There is no water in the core and nothing that can “boil dry.” Heat pipes fail by freezing in place. Heritage is Kilopower / KRUSTY and eVinci-class hardware, scaled to house power, not a new reaction.
+In plain language: the core is a beer-keg-sized graphite block full of coated uranium particles (TRISO), not a pool of water and not a bundle of bare rods. About 20% of the uranium is U-235. Sodium sits only inside sealed heat pipes. There is no water in the core and nothing that can “boil dry.” Heat pipes fail by freezing in place. Chapter 9 is that machine in English: fuel, graphite, sodium in the pipes, and how the reaction is meant to stop.
 
 ### 3.1 Type (baseline)
 
@@ -203,7 +203,7 @@ The following are **acceptance criteria** for the lattice model. Do not invent a
 | All drums out, cold, clean (beyond design) | Still < prompt critical; DB-11 |
 | Flooded inner vessel (water ingress) | k_eff **decreases** or stays subcritical (void / spectrum shall be analyzed both ways) |
 
-Drum / rod worth: **B₄C control drums** in the reflector (eVinci / Kilopower style), 6 drums. Shutdown margin ≥ 1.0$ with most reactive drum stuck withdrawn. Mechanical locks pin drums in the in (absorbing) position for transport. Licensed startup is a keyed, two-person rotation to the operating arc. The owner key does not exist.
+Drum / rod worth: **B₄C control drums** in the reflector (eVinci / Kilopower style), 6 drums. Shutdown margin at least 1.0 dollar with most reactive drum stuck withdrawn. Mechanical locks pin drums in the in (absorbing) position for transport. Licensed startup is a keyed, two-person rotation to the operating arc. The owner key does not exist.
 
 Burnable poison designed so drum motion over 100 years is slow (a few degrees per decade), not weekly.
 
@@ -246,6 +246,8 @@ In plain language: sodium stays inside 24 sealed heat pipes. Those pipes hand he
 | Wick | Sintered or annular-gap, space/heat-pipe vendor practice (ACT, Thermacore class) |
 | Freeze | Na melts at 98°C. Startup from a cold truck uses trace heaters on the condenser block (powered from the house during licensed startup only) **or** a NaK subset (3 pipes) that are liquid at room temp to bootstrap |
 | Fail-in-place | One pipe fail: 23 × 1.6 = 36.8 kW, still above 35. Two fail: 35.2 kW. Three fail: derate electrical output. |
+| Walls | Single sealed envelope. Second barrier is the inner vessel (inert fill). Not a double-wall heat pipe. The oil chase is the double-wall loop, because it leaves the vault. |
+| Design life | 100 y sealed, same as the vault. Qualification at that life is a §16 item. Fail-in-place plus spares is the operational safety net. |
 
 Kilopower/KRUSTY ran sodium heat pipes on a real critical core. This is the most manufacturable high-T, no-pump choice.
 
@@ -680,7 +682,7 @@ Until those rows are green, this is a **design specification**, not a signed rea
 
 ## 18. Diagrams
 
-Vector drawings live in `/diagrams/`. They are type-unit schematics, not fabrication drawings. Dimensions match §§3, 6, and 8.
+Vector drawings live in `/diagrams/`. They are type-unit schematics, not fabrication drawings. Figures 1 to 8 match §§3, 6, and 8. Figures 9 to 21 are the Chapter 9 first-principles set.
 
 ### 18.1 Site section
 
@@ -714,6 +716,10 @@ Vector drawings live in `/diagrams/`. They are type-unit schematics, not fabrica
 
 ![Figure 8. Vault vertical cutaway](diagrams/08-vault-cutaway.svg)
 
+### 18.9 Fuel, neutrons, sodium, shutdown (Chapter 9)
+
+Figures 9 through 21 are the fuel-and-physics set. They live in Chapter 9 so this file can stay the tables you size and buy against. Types: TRISO particle, particle-to-core, core makeup, heat pipe, one fission, neutron life, thermal vs fast, chemistry, shutdown ladder, PWR/BWR/BGS, two sodiums, scale, Doppler.
+
 ---
 
 ## 19. Type-unit data sheet (BGS-8)
@@ -742,8 +748,8 @@ Vector drawings live in `/diagrams/`. They are type-unit schematics, not fabrica
 
 ## 20. What this chapter covered
 
-This is the vault and core **design specification**: power, fuel, pipes, layers, mass, dose targets, states, and buyable parts. Chapter 5 is the same machine in English. Chapter 3 is the grass. Chapter 4 is the utility room. Chapter 6 is the stamp. Chapter 7 is the crane.
+This is the vault and core **design specification**: power, fuel, pipes, layers, mass, dose targets, states, and buyable parts. Chapter 5 is the same machine in English. Chapter 9 is the fuel and the first principles. Chapter 3 is the grass. Chapter 4 is the utility room. Chapter 6 is the stamp. Chapter 7 is the crane.
 
 The arithmetic in §2, §3.3, §4.1, §4.3, §6.1, §6.5, §8 is closed. Rechecked in version 1.0: 8 kWe / 0.25 = 32 kWth, specified 35 kWth; 8 × 8,760 = 70,080 kWh/y; 35 kW × 100 y = 1,278 MWd; 16 kg consumed at 80 GWd/t; 30 kg at first start; 24 × 1.6 kW = 38.4 kW pipes; oil 0.40 kg/s; vault ~42 t, will not float; playset 5 × 365/8,760 = 0.21 mrem/y. The dose **stack** in §6.3 is an engineering starting geometry. The **dose number** on the lawn is a requirement until MCNP says it is a result.
 
-If a line in this file and a line in Chapter 5 disagree, this file wins for engineering, and Chapter 5 should be updated to match (heavy metal at first start is 30 kg, not 10 kg).
+If a line in this file and a line in Chapter 5 or Chapter 9 disagree, this file wins for engineering, and those chapters should be updated to match (heavy metal at first start is 30 kg, not 10 kg).

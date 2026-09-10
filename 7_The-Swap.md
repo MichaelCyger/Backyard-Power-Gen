@@ -26,7 +26,7 @@ The truck goes to a licensed facility, not to the town dump.
 
 **The box.** Lead, steel, and concrete are recycled or reused where that is possible. The vault was almost all shield and box. That mass is ordinary industrial material once it is clean enough for the facility’s rules.
 
-**The fuel.** The work began as about **30 kilograms (66 pounds) at first start** (Chapter 8). After a century, what cannot be recycled or reused is still in that size class. It goes into a paint-can receptacle at a licensed site. It does not stay on the property or in the hole.
+**The fuel.** The work began as about **30 kilograms (66 pounds) at first start** (Chapter 8). Chapter 9 is what that heavy metal is (TRISO-UCO particles in graphite) and what is left in them after a century. After a century, what cannot be recycled or reused is still in that size class. It goes into a paint-can receptacle at a licensed site. It does not stay on the property or in the hole.
 
 The owner never takes title to a waste drum. Take-back is the factory’s (or the licensed operator’s) job, paid as part of the swap.
 
@@ -79,4 +79,4 @@ Until that day, there is no refueling truck and the vault stays sealed. After th
 
 ## What this chapter covered
 
-This is the end: locks in, crane out, same hole, recycle the box, leftover fuel to a licensed site, and a replacement price that already includes leaving. An existing house stays on the utility while the crew digs. The dark window, if there is one, is hours. Chapters 3 to 6 are how the yard, the house, the vault, and the stamp make that day ordinary. The household does not keep any part of the old vault.
+This is the end: locks in, crane out, same hole, recycle the box, leftover fuel to a licensed site, and a replacement price that already includes leaving. An existing house stays on the utility while the crew digs. The dark window, if there is one, is hours. Chapters 3 to 6 are how the yard, the house, the vault, and the stamp make that day ordinary. Chapter 9 is what is inside the paint-can that leaves on the truck. The household does not keep any part of the old vault.

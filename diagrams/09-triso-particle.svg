@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="620" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 9. One TRISO particle (typical of the class, not a shop drawing)</text>
+ <text x="24" y="48" font-size="11" fill="#444">About 0.9 mm across. Each coat is a sealed can. Fission gas stays in the buffer. There are tens of thousands of these in the core.</text>
+
+ <!-- left: intact particle. right: coats cut away -->
+ <g transform="translate(280,340)">
+  <path d="M0,-170 A170,170 0 0,0 0,170 L0,-170 Z" fill="#c4a574" stroke="#222"/>
+  <path d="M0,-170 A170,170 0 0,1 0,170 L0,0 Z" fill="#c4a574" stroke="#222"/>
+  <path d="M0,-150 A150,150 0 0,1 0,150 L0,0 Z" fill="#3d5c4a" stroke="#222"/>
+  <path d="M0,-122 A122,122 0 0,1 0,122 L0,0 Z" fill="#8a6a4a" stroke="#222"/>
+  <path d="M0,-90 A90,90 0 0,1 0,90 L0,0 Z" fill="#d8c4a0" stroke="#222"/>
+  <circle r="70" fill="#c45c26" stroke="#222"/>
+  <line x1="0" y1="-170" x2="0" y2="170" stroke="#111" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="-8" y="6" font-size="11" fill="#fff" font-weight="700" text-anchor="end">UCO</text>
+  <text x="-90" y="-180" font-size="10" fill="#444">outside</text>
+  <text x="40" y="-180" font-size="10" fill="#444">cutaway</text>
+ </g>
+
+ <g font-size="13" fill="#1a1a1a">
+  <rect x="560" y="90" width="22" height="22" fill="#c45c26" stroke="#222"/><text x="596" y="107">Kernel: uranium oxycarbide (UCO), ~425 um</text>
+  <text x="596" y="126" font-size="11" fill="#444">19.75% U-235, rest U-238. This is where atoms split.</text>
+
+  <rect x="560" y="150" width="22" height="22" fill="#d8c4a0" stroke="#222"/><text x="596" y="167">Buffer: porous carbon, ~100 um</text>
+  <text x="596" y="186" font-size="11" fill="#444">Empty volume. Catches fission gas so the hard coats do not swell.</text>
+
+  <rect x="560" y="210" width="22" height="22" fill="#8a6a4a" stroke="#222"/><text x="596" y="227">Inner pyrocarbon (IPyC), ~40 um</text>
+  <text x="596" y="246" font-size="11" fill="#444">Seals the buffer. Protects the SiC while it is being made.</text>
+
+  <rect x="560" y="270" width="22" height="22" fill="#3d5c4a" stroke="#222"/><text x="596" y="287">Silicon carbide (SiC), ~35 um</text>
+  <text x="596" y="306" font-size="11" fill="#444">The pressure vessel. Stays a ceramic well above 1,600 C.</text>
+
+  <rect x="560" y="330" width="22" height="22" fill="#c4a574" stroke="#222"/><text x="596" y="347">Outer pyrocarbon (OPyC), ~40 um</text>
+  <text x="596" y="366" font-size="11" fill="#444">Binds the particle into the graphite compact.</text>
+ </g>
+
+ <text x="560" y="430" font-size="12" font-weight="700" fill="#1a1a1a">Why a physicist cares</text>
+ <text x="560" y="452" font-size="12" fill="#333">SiC is the fission-product barrier. Buffer strain stays</text>
+ <text x="560" y="470" font-size="12" fill="#333">inside the particle. No vented fuel. No cladding balloon.</text>
+ <text x="560" y="502" font-size="12" font-weight="700" fill="#1a1a1a">Why a homeowner cares</text>
+ <text x="560" y="524" font-size="12" fill="#333">The uranium is not a powder in a pipe. It is locked in</text>
+ <text x="560" y="542" font-size="12" fill="#333">ceramic seeds. The yard never sees a fuel rod.</text>
+
+ <text x="24" y="590" font-size="11" fill="#444">Layers and thicknesses are typical AGR / X-energy / BWXT class. Exact kernel size is a fuel-spec item in Chapter 8.</text>
+</svg>

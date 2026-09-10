@@ -10,7 +10,7 @@ The aim is not to site a 1,000 MW campus behind a house. The aim is to treat a f
 
 A typical commercial generating station is about **1,000 MW**. That is a million kilowatts, a staff, a perimeter, and a town-scale fight.
 
-The Backyard Generating Station makes **5 to 10 kWe** and about **20 to 40 kW of heat**. That heat number is a large home furnace. After shutdown, leftover heat is a small space heater. Next to the 1,000 MW plant, this unit is about **1/100,000 to 1/200,000** the electrical size. Chapter 5 is the physics. The approval claim follows from it:
+The Backyard Generating Station makes **5 to 10 kWe** and about **20 to 40 kW of heat**. That heat number is a large home furnace. After shutdown, leftover heat is a small space heater. Next to the 1,000 MW plant, this unit is about **1/100,000 to 1/200,000** the electrical size. Chapter 5 is the vault at that size. Chapter 9 is the fuel physics that makes leftover heat a space heater and a runaway a small energy. The approval claim follows from it:
 
 - The object is too small for leftover heat to run away into the neighborhood.
 - It ships and sits as one sealed vault. Nobody on the lot opens it.
@@ -87,4 +87,4 @@ Until that exists, every early unit is a special case and will cost like one. Ch
 
 ## What this chapter covered
 
-This is the approval chapter: size as the argument, a factory-sealed appliance rather than a commercial plant, licensed hands at every step that touches the core, and a first stamp that does not exist yet. Chapter 5 is why the size claim is honest. Chapter 7 is the take-back that makes “never opened on the lot” true at the end. The paperwork should look like approving a manufactured appliance, not siting a power plant.
+This is the approval chapter: size as the argument, a factory-sealed appliance rather than a commercial plant, licensed hands at every step that touches the core, and a first stamp that does not exist yet. Chapter 5 is why the size claim is honest. Chapter 9 is the fuel and the shutdown physics behind that claim. Chapter 7 is the take-back that makes “never opened on the lot” true at the end. The paperwork should look like approving a manufactured appliance, not siting a power plant.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compile chapters 1-8 into Backyard-{VERSION}.pdf."""
+"""Compile chapters 1-9 into Backyard-{VERSION}.pdf."""
 
 import re
 from pathlib import Path
@@ -9,8 +9,8 @@ from weasyprint import CSS as WpCSS
 from weasyprint import HTML
 
 ROOT = Path(__file__).resolve().parent
-VERSION = "1.0"
-DATE = "23 August 2026"
+VERSION = "1.1"
+DATE = "9 September 2026"
 AUTHOR = "Michael Cyger"
 EMAIL = "michael@cyger.org"
 OUTPUT = ROOT / f"Backyard-{VERSION}.pdf"
@@ -24,6 +24,7 @@ CHAPTERS = [
     ("6_The-Approval.md", "6. The Approval"),
     ("7_The-Swap.md", "7. The Swap"),
     ("8_Vault-Spec.md", "8. Vault Spec"),
+    ("9_The-Fuel.md", "9. The Fuel"),
 ]
 
 CSS = """

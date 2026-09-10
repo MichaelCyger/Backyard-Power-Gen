@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="620" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 13. One split: where the heat comes from</text>
+ <text x="24" y="48" font-size="12" fill="#444">A slow neutron hits a U-235 atom. The atom splits. Heat, two fragments, and a few new neutrons come out. That stop-in-place of the fragments is the furnace.</text>
+
+ <!-- 1 neutron -->
+ <circle cx="90" cy="200" r="22" fill="#2a6f9a" stroke="#111"/>
+ <text x="90" y="205" font-size="14" fill="#fff" text-anchor="middle" font-weight="700">n</text>
+ <text x="90" y="250" font-size="12" fill="#1a1a1a" text-anchor="middle">slow neutron</text>
+ <text x="90" y="268" font-size="11" fill="#444" text-anchor="middle">already slowed</text>
+ <text x="90" y="284" font-size="11" fill="#444" text-anchor="middle">by graphite</text>
+
+ <polygon points="125,200 165,200 165,192 195,200 165,208 165,200" fill="#1a1a1a"/>
+
+ <!-- 2 U-235 -->
+ <circle cx="280" cy="200" r="52" fill="#c45c26" stroke="#222"/>
+ <text x="280" y="196" font-size="16" fill="#fff" text-anchor="middle" font-weight="700">U-235</text>
+ <text x="280" y="216" font-size="11" fill="#f0d0c0" text-anchor="middle">the fuel atom</text>
+ <text x="280" y="270" font-size="12" fill="#1a1a1a" text-anchor="middle">neutron goes in</text>
+ <text x="280" y="288" font-size="11" fill="#444" text-anchor="middle">nucleus becomes unstable</text>
+
+ <polygon points="345,200 395,192 395,208" fill="#1a1a1a"/>
+
+ <!-- 3 split -->
+ <text x="455" y="120" font-size="14" font-weight="700" fill="#c45c26">splits</text>
+ <ellipse cx="500" cy="150" rx="55" ry="28" fill="#8a3a1a"/>
+ <text x="500" y="146" font-size="12" fill="#fff" text-anchor="middle" font-weight="700">fragment</text>
+ <text x="500" y="162" font-size="10" fill="#f0d0c0" text-anchor="middle">e.g. barium</text>
+ <polygon points="340,175 430,155 422,162" fill="#c45c26"/>
+
+ <ellipse cx="500" cy="255" rx="55" ry="28" fill="#8a3a1a"/>
+ <text x="500" y="251" font-size="12" fill="#fff" text-anchor="middle" font-weight="700">fragment</text>
+ <text x="500" y="267" font-size="10" fill="#f0d0c0" text-anchor="middle">e.g. krypton</text>
+ <polygon points="340,225 430,250 422,242" fill="#c45c26"/>
+
+ <text x="500" y="310" font-size="11" fill="#444" text-anchor="middle">These slam into the kernel and stop.</text>
+ <text x="500" y="326" font-size="11" fill="#444" text-anchor="middle">That stop is heat.</text>
+
+ <!-- neutrons out -->
+ <circle cx="680" cy="130" r="16" fill="#2a6f9a" stroke="#111"/>
+ <text x="680" y="135" font-size="12" fill="#fff" text-anchor="middle" font-weight="700">n</text>
+ <circle cx="730" cy="185" r="16" fill="#2a6f9a" stroke="#111"/>
+ <text x="730" y="190" font-size="12" fill="#fff" text-anchor="middle" font-weight="700">n</text>
+ <circle cx="680" cy="240" r="16" fill="#2a6f9a" stroke="#111"/>
+ <text x="680" y="245" font-size="12" fill="#fff" text-anchor="middle" font-weight="700">n</text>
+ <text x="705" y="290" font-size="12" fill="#1a1a1a" text-anchor="middle">2 or 3 new neutrons</text>
+ <text x="705" y="308" font-size="11" fill="#444" text-anchor="middle">born fast. Graphite must</text>
+ <text x="705" y="324" font-size="11" fill="#444" text-anchor="middle">slow them for the next split.</text>
+
+ <!-- energy card -->
+ <rect x="820" y="90" width="250" height="250" rx="8" fill="#fff" stroke="#bbb"/>
+ <text x="845" y="120" font-size="14" font-weight="700" fill="#1a1a1a">About 200 MeV of energy</text>
+ <text x="845" y="150" font-size="12" fill="#333">Most of it: fragments (heat)</text>
+ <text x="845" y="172" font-size="12" fill="#333">A little: new neutrons</text>
+ <text x="845" y="194" font-size="12" fill="#333">A little: gamma rays</text>
+ <text x="845" y="226" font-size="12" fill="#333">35 kW of heat means about</text>
+ <text x="845" y="250" font-size="13" font-weight="700" fill="#c45c26">a million billion splits</text>
+ <text x="845" y="268" font-size="13" font-weight="700" fill="#c45c26">every second</text>
+ <text x="845" y="298" font-size="12" fill="#333">A huge number of tiny events.</text>
+ <text x="845" y="316" font-size="12" fill="#333">Not one explosion.</text>
+
+ <!-- chain explanation: short lines -->
+ <rect x="40" y="360" width="1030" height="230" rx="8" fill="#fff" stroke="#ddd"/>
+ <text x="60" y="390" font-size="14" font-weight="700" fill="#1a1a1a">How that becomes a steady furnace, not a runaway</text>
+ <text x="60" y="420" font-size="13" fill="#333">If, on average, exactly one of those new neutrons causes another split, heat stays even.</text>
+ <text x="60" y="440" font-size="13" fill="#333">If fewer than one, the reaction dies. If more than one, heat rises.</text>
+ <text x="60" y="470" font-size="13" fill="#333">Almost all of the new neutrons come out immediately. A tiny share (about 65 in 10,000) come out</text>
+ <text x="60" y="488" font-size="13" fill="#333">a beat later, from the fragments. Those slow extra neutrons are why drums can steer the core.</text>
+ <text x="60" y="506" font-size="13" fill="#333">If you ever added more splitting-power than that tiny share all at once, the reaction could speed</text>
+ <text x="60" y="524" font-size="13" fill="#333">up faster than the drums can move. The design keeps leftover splitting-power smaller than that.</text>
+ <text x="60" y="546" font-size="13" fill="#333">A bomb is a different geometry with no heat sink. This core is built not to do that.</text>
+ <text x="60" y="572" font-size="12" fill="#444">The two fragments drawn are one common pair (barium and krypton). Real fuel makes a spread of fragments. They stay inside the coated particle.</text>
+</svg>
