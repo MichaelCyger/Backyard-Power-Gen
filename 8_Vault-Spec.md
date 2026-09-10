@@ -2,11 +2,11 @@
 
 **Document type:** Preliminary design basis (not a licensed safety analysis).  
 **Unit:** Backyard Generating Station, type **BGS-8**. The 8 is the electrical size (8 kWe), not “the eighth try.” This is the first type unit. Family band is 5 to 10 kWe.  
-**Audience:** Mechanical, nuclear, shielding, and electrical engineers. Chapter 5 is the homeowner story of the vault. Chapter 9 is the fuel, the core, sodium in the heat pipes, first principles, and the contrast with water plants and sodium fast reactors. This file is what you size, buy, and analyze.
+**Audience:** Mechanical, nuclear, shielding, and electrical engineers. Chapter 5 is the homeowner story of the vault. Chapter 9 is the fuel, the core, sodium in the heat pipes, first principles, and the contrast with water plants and sodium fast reactors. Chapter 10 is the proof plan: which claims are closed arithmetic, which are handbook bounds, and which still need codes, tests, or a stamp. This file is what you size, buy, and analyze.
 
 In one paragraph: a sealed heat source in a septic-tank vault, **3.0 m (10 ft) of soil above the lid**, heat pipes to a double-wall oil chase, electricity made in the **utility room** by replaceable Stirling engines. The vault is the shield. Dirt is bonus. Dose is designed with the lid bare. The core kit (TRISO, heat pipes, drums, Stirling) is a known class of hardware, licensed or built from that class, not a new reaction.
 
-An engineer can use this to start a sign-off package. They cannot stamp the vault from this file alone. Required follow-on work is listed in §16. Numbers below are closed arithmetic or standard handbook values. Where a transport code (**MCNP**, Monte Carlo N-Particle: the standard program that tracks neutrons and gammas through the shield to predict dose), SCALE, or an ASME stress report is mandatory, the spec says so and gives the requirement the code run must meet.
+An engineer can use this to start a sign-off package. They cannot stamp the vault from this file alone. Required follow-on work is listed in §16. Chapter 10 restates each claim as a proof item (Closed, Bound, or Open) and names the spec or test. Numbers below are closed arithmetic or standard handbook values. Where a transport code (**MCNP**, Monte Carlo N-Particle: the standard program that tracks neutrons and gammas through the shield to predict dose), SCALE, or an ASME stress report is mandatory, the spec says so and gives the requirement the code run must meet. Do not invent a k-effective in this file or in Chapter 10.
 
 No owner hatch. No in-vault service pumps. Power conversion that wears is on the house side of the chase. The vault is a sealed heat source.
 
@@ -647,6 +647,8 @@ What this does **not** claim: that MCNP has been run, that 10 CFR 71 is passed, 
 
 ## 16. What an engineer must still run before a stamp
 
+Chapter 10 is the readable version of this table: every design claim, what would count as shown, and which rows need specialized software or equipment. This table stays the engineer checklist.
+
 | Work | Code / method | Pass / fail |
 | --- | --- | --- |
 | Lattice, drums, flood, temperature coefficients | MCNP6 or Serpent + SCALE/KENO | §3.4 table |
@@ -662,7 +664,7 @@ What this does **not** claim: that MCNP has been run, that 10 CFR 71 is passed, 
 | Cold critical | Licensed cell | Matches model |
 | Environmental (NEPA etc.) | Legal | Not this file |
 
-Until those rows are green, this is a **design specification**, not a signed reactor.
+Until those rows are green, this is a **design specification**, not a signed reactor. Chapter 10 expands each row (method, regulation, pass/fail, what you cannot substitute).
 
 ---
 
@@ -682,7 +684,7 @@ Until those rows are green, this is a **design specification**, not a signed rea
 
 ## 18. Diagrams
 
-Vector drawings live in `/diagrams/`. They are type-unit schematics, not fabrication drawings. Figures 1 to 8 match §§3, 6, and 8. Figures 9 to 21 are the Chapter 9 first-principles set.
+Vector drawings live in `/diagrams/`. They are type-unit schematics, not fabrication drawings. Figures 1 to 8 match §§3, 6, and 8. Figures 9 to 21 are the Chapter 9 first-principles set. Figures 22 to 26 are the Chapter 10 proof-plan set.
 
 ### 18.1 Site section
 
@@ -720,6 +722,10 @@ Vector drawings live in `/diagrams/`. They are type-unit schematics, not fabrica
 
 Figures 9 through 21 are the fuel-and-physics set. They live in Chapter 9 so this file can stay the tables you size and buy against. Types: TRISO particle, particle-to-core, core makeup, heat pipe, one fission, neutron life, thermal vs fast, chemistry, shutdown ladder, PWR/BWR/BGS, two sodiums, scale, Doppler.
 
+### 18.10 Proofs (Chapter 10)
+
+Figures 22 through 26 live in Chapter 10: three kinds of proof, decay-heat fit, shield bounds versus MCNP, Carnot versus Stirling, Doppler chain without a coefficient.
+
 ---
 
 ## 19. Type-unit data sheet (BGS-8)
@@ -748,8 +754,8 @@ Figures 9 through 21 are the fuel-and-physics set. They live in Chapter 9 so thi
 
 ## 20. What this chapter covered
 
-This is the vault and core **design specification**: power, fuel, pipes, layers, mass, dose targets, states, and buyable parts. Chapter 5 is the same machine in English. Chapter 9 is the fuel and the first principles. Chapter 3 is the grass. Chapter 4 is the utility room. Chapter 6 is the stamp. Chapter 7 is the crane.
+This is the vault and core **design specification**: power, fuel, pipes, layers, mass, dose targets, states, and buyable parts. Chapter 5 is the same machine in English. Chapter 9 is the fuel and the first principles. Chapter 10 is the proof plan. Chapter 3 is the grass. Chapter 4 is the utility room. Chapter 6 is the stamp. Chapter 7 is the crane.
 
 The arithmetic in §2, §3.3, §4.1, §4.3, §6.1, §6.5, §8 is closed. Rechecked in version 1.0: 8 kWe / 0.25 = 32 kWth, specified 35 kWth; 8 × 8,760 = 70,080 kWh/y; 35 kW × 100 y = 1,278 MWd; 16 kg consumed at 80 GWd/t; 30 kg at first start; 24 × 1.6 kW = 38.4 kW pipes; oil 0.40 kg/s; vault ~42 t, will not float; playset 5 × 365/8,760 = 0.21 mrem/y. The dose **stack** in §6.3 is an engineering starting geometry. The **dose number** on the lawn is a requirement until MCNP says it is a result.
 
-If a line in this file and a line in Chapter 5 or Chapter 9 disagree, this file wins for engineering, and those chapters should be updated to match (heavy metal at first start is 30 kg, not 10 kg).
+If a line in this file and a line in Chapter 5, Chapter 9, or Chapter 10 disagree, this file wins for engineering, and those chapters should be updated to match (heavy metal at first start is 30 kg, not 10 kg).

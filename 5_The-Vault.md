@@ -99,4 +99,4 @@ It is a 20 to 40 kW heat source in a factory-sealed vault, about 1/100,000 the e
 
 ## What this chapter covered
 
-This is the vault: layers, furnace-scale heat, two products (electricity and warmth), heat pipes to an oil chase to Stirling engines in the utility room, a paint-can of fuel, no pumps you service in the yard, a glass dump that is not expected to run, and a truck that carries a locked box. Chapter 3 is the grass. Chapter 4 is the utility room. Chapter 6 is the stamp. Chapter 9 is the fuel and the first principles. The machine is designed so the yard never needs a hatch.
+This is the vault: layers, furnace-scale heat, two products (electricity and warmth), heat pipes to an oil chase to Stirling engines in the utility room, a paint-can of fuel, no pumps you service in the yard, a glass dump that is not expected to run, and a truck that carries a locked box. Chapter 3 is the grass. Chapter 4 is the utility room. Chapter 6 is the stamp. Chapter 9 is the fuel and the first principles. Chapter 10 is the proof plan. The machine is designed so the yard never needs a hatch.

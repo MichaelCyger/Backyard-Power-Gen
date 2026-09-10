@@ -1,6 +1,6 @@
 # Notes: what already exists, and what does not
 
-This file is not a homeowner chapter. It is a plain-language map of prior work. Chapters 1 to 7 stay on the house, the yard, and the bill. Chapter 8 is the engineering design basis. Chapter 9 is the fuel, the core, sodium in the heat pipes, first principles, and a short contrast with US water plants and sodium fast reactors (including TerraPower Natrium). This note is only: what the core already is, what other people already built or proposed, and why the Backyard Generating Station is a different object.
+This file is not a homeowner chapter. It is a plain-language map of prior work. Chapters 1 to 7 stay on the house, the yard, and the bill. Chapter 8 is the engineering design basis. Chapter 9 is the fuel, the core, sodium in the heat pipes, first principles, and a short contrast with US water plants and sodium fast reactors (including TerraPower Natrium). Chapter 10 is the proof plan: closed arithmetic versus handbook bounds versus codes and tests that are still open. This note is only: what the core already is, what other people already built or proposed, and why the Backyard Generating Station is a different object.
 
 The short version: the insides are a known kit. The product is not.
 

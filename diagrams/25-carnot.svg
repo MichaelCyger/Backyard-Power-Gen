@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 500" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="500" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 25. Carnot ceiling versus a real Stirling</text>
+ <text x="24" y="48" font-size="11" fill="#444">Perfect engine between 600 K hot and 320 K cold: 47%. Specified Stirling: 25%, about half that ceiling. Heat and electricity are both products.</text>
+
+ <line x1="90" y1="390" x2="700" y2="390" stroke="#111" stroke-width="1.5"/>
+ <line x1="90" y1="80" x2="90" y2="390" stroke="#111" stroke-width="1.5"/>
+ <text x="40" y="240" font-size="12" fill="#444" transform="rotate(-90 40 240)">efficiency</text>
+
+ <rect x="170" y="164" width="160" height="226" fill="#1e4a6e"/>
+ <text x="250" y="152" font-size="16" font-weight="700" fill="#1a1a1a" text-anchor="middle">47%</text>
+ <text x="250" y="414" font-size="13" fill="#333" text-anchor="middle">Carnot limit</text>
+ <text x="250" y="434" font-size="11" fill="#555" text-anchor="middle">perfect engine</text>
+
+ <rect x="410" y="270" width="160" height="120" fill="#c45c26"/>
+ <text x="490" y="258" font-size="16" font-weight="700" fill="#1a1a1a" text-anchor="middle">25%</text>
+ <text x="490" y="414" font-size="13" fill="#333" text-anchor="middle">Specified Stirling</text>
+ <text x="490" y="434" font-size="11" fill="#555" text-anchor="middle">about half of Carnot</text>
+
+ <rect x="760" y="80" width="300" height="310" rx="8" fill="#fff" stroke="#bbb"/>
+ <text x="910" y="112" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle">Temperatures</text>
+ <text x="780" y="148" font-size="13" fill="#333">T_hot  ~ 600 K</text>
+ <text x="780" y="168" font-size="12" fill="#555">(Stirling hot end)</text>
+ <text x="780" y="200" font-size="13" fill="#333">T_cold ~ 320 K</text>
+ <text x="780" y="220" font-size="12" fill="#555">(cool end ~47 C)</text>
+ <text x="780" y="260" font-size="13" fill="#1a1a1a">eta_C = 1 - 320/600</text>
+ <text x="780" y="280" font-size="13" fill="#1a1a1a">        = 0.47</text>
+ <text x="780" y="316" font-size="13" fill="#333">8 kWe at 25% needs</text>
+ <text x="780" y="336" font-size="13" fill="#333">32 kWth, specify 35.</text>
+ <text x="780" y="368" font-size="13" fill="#333">Leftover 27 kWth is</text>
+ <text x="780" y="388" font-size="13" fill="#333">the heat product.</text>
+
+ <text x="40" y="470" font-size="13" fill="#333">If oil caps at 350 C, Carnot shrinks and 25% is a harder ask. That is a listed-engine problem, not an algebra problem.</text>
+</svg>

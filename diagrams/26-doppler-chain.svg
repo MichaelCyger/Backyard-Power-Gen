@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="640" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 26. From hotter fuel to the Doppler requirement</text>
+ <text x="24" y="48" font-size="11" fill="#444">Logic is Closed. The coefficient is Open. Do not invent pcm per degree or a k-effective.</text>
+
+ <defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+   <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a1a1a"/>
+  </marker>
+ </defs>
+
+ <rect x="40" y="72" width="240" height="88" rx="6" fill="#c45c26"/>
+ <text x="160" y="108" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1. More fissions</text>
+ <text x="160" y="130" font-size="12" fill="#fff" text-anchor="middle">kernel heats first</text>
+ <line x1="280" y1="116" x2="328" y2="116" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arr)"/>
+
+ <rect x="336" y="72" width="240" height="88" rx="6" fill="#8a3a1a"/>
+ <text x="456" y="108" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2. Nuclei jiggle</text>
+ <text x="456" y="130" font-size="12" fill="#fff" text-anchor="middle">Doppler broadening</text>
+ <line x1="576" y1="116" x2="624" y2="116" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arr)"/>
+
+ <rect x="632" y="72" width="240" height="88" rx="6" fill="#5c5c5c"/>
+ <text x="752" y="108" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3. Wider U-238 traps</text>
+ <text x="752" y="130" font-size="12" fill="#fff" text-anchor="middle">more capture, less split</text>
+ <line x1="872" y1="116" x2="920" y2="116" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arr)"/>
+
+ <rect x="928" y="72" width="140" height="88" rx="6" fill="#5a8f4a"/>
+ <text x="998" y="108" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4. k falls</text>
+ <text x="998" y="130" font-size="12" fill="#fff" text-anchor="middle">as T_fuel rises</text>
+
+ <rect x="40" y="200" width="500" height="100" rx="6" fill="#fff" stroke="#c47a2a" stroke-width="2"/>
+ <text x="56" y="230" font-size="13" font-weight="700" fill="#1a1a1a">5. Graphite can go the other way a little</text>
+ <text x="56" y="254" font-size="13" fill="#333">Moderator-temperature coefficient can be slightly positive</text>
+ <text x="56" y="276" font-size="13" fill="#333">in some lattices. That is why Doppler alone is not the spec.</text>
+
+ <rect x="560" y="200" width="508" height="100" rx="6" fill="#fff" stroke="#8a2020" stroke-width="2"/>
+ <text x="576" y="230" font-size="13" font-weight="700" fill="#8a2020">6. The requirement (Open: SCALE / MCNP)</text>
+ <text x="576" y="254" font-size="13" fill="#333">Net power coefficient negative from 20 C to 750 C.</text>
+ <text x="576" y="276" font-size="13" fill="#333">Hotter still means less splitting overall.</text>
+
+ <rect x="40" y="328" width="1028" height="120" rx="6" fill="#fff" stroke="#bbb"/>
+ <text x="56" y="358" font-size="13" font-weight="700" fill="#1a1a1a">7. Leftover splitting-power is a separate rule (DB-11)</text>
+ <text x="56" y="384" font-size="13" fill="#333">Delayed neutrons are about 65 in 10,000 (thermal U-235 class). A dollar of reactivity is that share.</text>
+ <text x="56" y="406" font-size="13" fill="#333">After shutdown margin, leftover excess stays under 0.8 dollars so one failure cannot go prompt-critical.</text>
+ <text x="56" y="428" font-size="13" fill="#333">Shutdown margin at least 1.0 dollar with the most reactive drum stuck withdrawn. No made-up k-effective in this book.</text>
+
+ <text x="40" y="490" font-size="13" font-weight="700" fill="#1a1a1a">House sentence</text>
+ <text x="40" y="514" font-size="13" fill="#333">If the core tries to run away, heat itself applies the brake in milliseconds, without a person or a motor. That brake lives in the uranium, not in an app.</text>
+ <text x="40" y="546" font-size="13" font-weight="700" fill="#1a1a1a">What would count as shown</text>
+ <text x="40" y="570" font-size="13" fill="#333">A lattice run with packing fraction, C/U, enrichment, poisons, and drums: negative net power coefficient, plus the Chapter 8 section 3.4 k-effective table.</text>
+ <text x="40" y="598" font-size="13" fill="#333">This drawing is the chain. It is not the coefficient.</text>
+</svg>

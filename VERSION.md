@@ -1,12 +1,32 @@
 # Version history
 
-High-level log of the Backyard Generating Station book (chapters 1 through 9). Notes files (`100_Notes.md`, `_writing_style.md`) are not part of the compiled book.
+High-level log of the Backyard Generating Station book (chapters 1 through 10). Notes files (`100_Notes.md`, `_writing_style.md`) are not part of the compiled book.
 
-**Current version: 1.1**
+**Current version: 1.2**
 
-The compiled reading copy is `Backyard-{version}.pdf` (currently `Backyard-1.1.pdf`). Rebuild it with `python3 build_pdf.py` after you change a chapter. The filename follows `VERSION` in `build_pdf.py`.
+The compiled reading copy is `Backyard-{version}.pdf` (currently `Backyard-1.2.pdf`). Rebuild it with `python3 build_pdf.py` after you change a chapter. The filename follows `VERSION` in `build_pdf.py`.
 
 When you ship a new version, add a section at the top of the list below. Say what a reader would notice, not every line edit. Bump the number on this page and in `build_pdf.py`. The next build writes a new file named for that number.
+
+---
+
+## 1.2 — 9 September 2026
+
+Chapter 10: an honest proof plan. Closed arithmetic on the page. Handbook bounds that are not a signed result. Open rows that still need codes, tests, or a stamp.
+
+**What a reader would notice**
+
+- New chapter, **10 The Proofs**, after the fuel chapter. Dual audience: house sentence, then the method and the pass number
+- Every design claim restated as a proof item: Closed, Bound, or Open
+- Closed pieces finished in the open: power, burnup inventory, fission rate, decay-heat fit, pipe count vs 35 kW, oil flow, vault mass vs float, playset ratio, fluence order of magnitude
+- Handbook bounds that are not a substitute for transport: tenth-value layers, inverse square, Carnot 47% vs Stirling 25%
+- Doppler traced from “hotter means less splitting” to the negative net-power-coefficient rule and DB-11, with no fake coefficient and no invented k-effective
+- Outside work named with the spec or test: MCNP/SCALE/ORIGEN, heat-pipe stands, ASME/ASCE, 10 CFR 71 Type B, AGR/HTGR fuel data, glass-dump furnace, licensed cold-critical, UL/IEEE/NFPA, 10 CFR 20/70/73/74, NQA-1
+- 10 CFR 53 exists (final rule effective 29 April 2026) as an optional **commercial plant** path, including microreactors. It is not a house-appliance stamp. Chapter 6’s product certificate still does not exist
+- Five new drawings (Figures 22 to 26)
+- Chapter 8 §16 points at Chapter 10. If they disagree, Chapter 8 still wins for engineering
+
+**Locked product is unchanged.** Chapter 8 numbers are unchanged. This version does not claim the Open rows are green.
 
 ---
 
