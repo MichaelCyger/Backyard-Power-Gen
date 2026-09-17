@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "hooks": {
+    "afterFileEdit": [
+      {
+        "command": ".cursor/hooks/sync-github.sh",
+        "timeout": 180
+      }
+    ],
+    "stop": [
+      {
+        "command": ".cursor/hooks/sync-github.sh",
+        "timeout": 180
+      }
+    ]
+  }
+}

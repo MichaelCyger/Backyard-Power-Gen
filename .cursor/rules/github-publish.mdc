@@ -1,0 +1,16 @@
+---
+description: Keep the private GitHub copy in sync with chapters 1-10. Never publish notes.
+alwaysApply: true
+---
+
+# GitHub publish (chapters 1-10 only)
+
+This Dropbox folder is the source. GitHub is a private review copy of the book.
+
+After any change to chapters 1-10, `diagrams/`, `VERSION.md`, `build_pdf.py`, `LICENSE`, or `README.md`:
+
+1. Make **version numbers match** in `build_pdf.py` (`VERSION`), `VERSION.md` (`**Current version:**`), `README.md` (`**Version X**`), and the PDF filename `Backyard-{VERSION}.pdf`.
+2. Rebuild the PDF with `python3 build_pdf.py` if chapters, diagrams, or `build_pdf.py` changed.
+3. Run `python3 scripts/sync_github.py`. That is what updates GitHub.
+
+Never copy `100_Notes.md` or `_writing_style.md` to GitHub. Never push local `master` to origin; it has notes. GitHub's default branch is `published`.

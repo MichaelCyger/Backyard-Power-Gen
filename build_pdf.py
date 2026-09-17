@@ -9,8 +9,8 @@ from weasyprint import CSS as WpCSS
 from weasyprint import HTML
 
 ROOT = Path(__file__).resolve().parent
-VERSION = "1.2"
-DATE = "9 September 2026"
+VERSION = "1.3"
+DATE = "17 September 2026"
 AUTHOR = "Michael Cyger"
 EMAIL = "michael@cyger.org"
 OUTPUT = ROOT / f"Backyard-{VERSION}.pdf"
@@ -33,14 +33,14 @@ CSS = """
   size: letter;
   margin: 0.85in 0.9in 1.15in 0.9in;
   @top-center {
-    content: "Backyard Generating Station  ·  Confidential";
+    content: "Backyard Generating Station  ·  Concept design basis";
     font-family: Inter, "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 10pt;
     color: #555;
     letter-spacing: 0.02em;
   }
   @bottom-left {
-    content: "Confidential. Not for distribution.  ·  Version """ + VERSION + """  ·  """ + DATE + """  ·  """ + AUTHOR + """";
+    content: "© 2026 """ + AUTHOR + """. All rights reserved.  ·  Version """ + VERSION + """  ·  """ + DATE + """";
     font-family: Inter, "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 8.5pt;
     color: #444;
@@ -383,13 +383,19 @@ def rewrite_heading(text: str, title: str) -> str:
 def main() -> None:
     parts = [
         '<div class="title-page">',
-        '<p class="title-kicker">Confidential. Not for distribution.</p>',
+        '<p class="title-kicker">Concept design basis. Not a DIY build. Not a licensed plant.</p>',
         "<h1>Backyard Generating Station</h1>",
         '<p class="title-meta">Version {0}</p>'.format(VERSION),
         '<p class="title-meta">{0}</p>'.format(DATE),
         (
             '<p class="title-note">One house. One backyard generating station. '
             "Electricity and heat, day and night, for 100 years.</p>"
+        ),
+        (
+            '<p class="title-note">This document is a concept design basis. '
+            "It is not a DIY project, not construction drawings, and not a "
+            "licensed plant or appliance. No patent rights are granted. "
+            "Commercial use requires a written license.</p>"
         ),
         '<p class="title-meta title-author">{0}</p>'.format(AUTHOR),
         '<p class="title-meta">{0}</p>'.format(EMAIL),

@@ -2,11 +2,26 @@
 
 High-level log of the Backyard Generating Station book (chapters 1 through 10). Notes files (`100_Notes.md`, `_writing_style.md`) are not part of the compiled book.
 
-**Current version: 1.2**
+**Current version: 1.3**
 
-The compiled reading copy is `Backyard-{version}.pdf` (currently `Backyard-1.2.pdf`). Rebuild it with `python3 build_pdf.py` after you change a chapter. The filename follows `VERSION` in `build_pdf.py`.
+The compiled reading copy is `Backyard-{version}.pdf` (currently `Backyard-1.3.pdf`). Rebuild it with `python3 build_pdf.py` after you change a chapter. The filename follows `VERSION` in `build_pdf.py`.
 
-When you ship a new version, add a section at the top of the list below. Say what a reader would notice, not every line edit. Bump the number on this page and in `build_pdf.py`. The next build writes a new file named for that number.
+When you ship a new version, add a section at the top of the list below. Say what a reader would notice, not every line edit. Bump the number on this page, in `build_pdf.py`, and in `README.md`. The next build writes a new file named for that number.
+
+---
+
+## 1.3 — 17 September 2026
+
+Copyright, license, and a public-facing stamp. Locked engineering is unchanged.
+
+**What a reader would notice**
+
+- Title page and page footers: copyright Michael Cyger, concept design basis. No “Confidential. Not for distribution.”
+- Not a DIY build. Not a licensed plant or appliance
+- LICENSE: read and share with attribution; no commercial use; no patent grant. Commercial use needs a written license
+- README carries the same version number as this file and the PDF
+
+**Locked product is unchanged.** Chapter 8 numbers are unchanged.
 
 ---
 
