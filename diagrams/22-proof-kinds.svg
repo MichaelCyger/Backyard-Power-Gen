@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 520" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="520" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 22. Three kinds of proof in this chapter</text>
+ <text x="24" y="48" font-size="11" fill="#444">Closed arithmetic is on the page. Handbook bounds size parts. Open rows need codes, tests, or a stamp. Do not mix them.</text>
+
+ <rect x="40" y="80" width="320" height="280" rx="8" fill="#fff" stroke="#5a8f4a" stroke-width="3"/>
+ <rect x="40" y="80" width="320" height="44" rx="8" fill="#5a8f4a"/>
+ <rect x="40" y="110" width="320" height="14" fill="#5a8f4a"/>
+ <text x="200" y="108" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">Closed</text>
+ <text x="56" y="160" font-size="13" fill="#1a1a1a">Ordinary algebra from the</text>
+ <text x="56" y="180" font-size="13" fill="#1a1a1a">type-unit numbers.</text>
+ <text x="56" y="212" font-size="13" fill="#333">8 kWe / 0.25 = 32 kWth</text>
+ <text x="56" y="232" font-size="13" fill="#333">Specify 35 kWth</text>
+ <text x="56" y="252" font-size="13" fill="#333">24 x 1.6 kW vs 35 kWth</text>
+ <text x="56" y="272" font-size="13" fill="#333">42 t will not float</text>
+ <text x="56" y="292" font-size="13" fill="#333">Playset 365 / 8,760</text>
+ <text x="56" y="328" font-size="12" fill="#5a8f4a">Recheck the algebra. Not a license.</text>
+
+ <rect x="390" y="80" width="320" height="280" rx="8" fill="#fff" stroke="#c47a2a" stroke-width="3"/>
+ <rect x="390" y="80" width="320" height="44" rx="8" fill="#c47a2a"/>
+ <rect x="390" y="110" width="320" height="14" fill="#c47a2a"/>
+ <text x="550" y="108" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">Bound</text>
+ <text x="406" y="160" font-size="13" fill="#1a1a1a">Handbook estimate. Sizes the</text>
+ <text x="406" y="180" font-size="13" fill="#1a1a1a">part. Not a signed result.</text>
+ <text x="406" y="212" font-size="13" fill="#333">Tenth-value layers</text>
+ <text x="406" y="232" font-size="13" fill="#333">Inverse square (1/r squared)</text>
+ <text x="406" y="252" font-size="13" fill="#333">Carnot 47% vs Stirling 25%</text>
+ <text x="406" y="272" font-size="13" fill="#333">Way decay-heat fit</text>
+ <text x="406" y="292" font-size="13" fill="#333">Fluence order of magnitude</text>
+ <text x="406" y="328" font-size="12" fill="#c47a2a">Do not treat TVLs as lawn dose.</text>
+
+ <rect x="740" y="80" width="320" height="280" rx="8" fill="#fff" stroke="#8a2020" stroke-width="3"/>
+ <rect x="740" y="80" width="320" height="44" rx="8" fill="#8a2020"/>
+ <rect x="740" y="110" width="320" height="14" fill="#8a2020"/>
+ <text x="900" y="108" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">Open</text>
+ <text x="756" y="160" font-size="13" fill="#1a1a1a">Needs a code, a test stand,</text>
+ <text x="756" y="180" font-size="13" fill="#1a1a1a">or a regulation.</text>
+ <text x="756" y="212" font-size="13" fill="#333">k-effective (MCNP / SCALE)</text>
+ <text x="756" y="232" font-size="13" fill="#333">Lawn dose (MCNP)</text>
+ <text x="756" y="252" font-size="13" fill="#333">Type B (10 CFR 71)</text>
+ <text x="756" y="272" font-size="13" fill="#333">ASME stresses, heat pipes</text>
+ <text x="756" y="292" font-size="13" fill="#333">Cold critical, glass furnace</text>
+ <text x="756" y="328" font-size="12" fill="#8a2020">Do not invent the output.</text>
+
+ <text x="40" y="400" font-size="13" font-weight="700" fill="#1a1a1a">House sentence</text>
+ <text x="40" y="424" font-size="13" fill="#333">The book can finish the kitchen-table math. It cannot stamp a core. A later revision turns Open rows green when the runs and tests exist.</text>
+ <text x="40" y="456" font-size="13" font-weight="700" fill="#1a1a1a">Engineering sentence</text>
+ <text x="40" y="480" font-size="13" fill="#333">Chapter 8 remains the design basis. This chapter is the proof plan. If the two disagree, Chapter 8 wins.</text>
+</svg>

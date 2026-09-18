@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="420" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 4. Electrical one-line</text>
+ <text x="24" y="48" font-size="11" fill="#444">Vault is heat-only. Stirling, inverter, gateway, and battery live in the utility room. Gateway required so the house can run when the street is dark.</text>
+
+ <defs>
+ <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+ <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a1a1a"/>
+ </marker>
+ </defs>
+
+ <rect x="40" y="160" width="130" height="80" fill="#c45c26"/>
+ <text x="68" y="196" font-size="12" fill="#fff" font-weight="700">Vault</text>
+ <text x="58" y="216" font-size="10" fill="#fff">heat only</text>
+
+ <line x1="170" y1="200" x2="222" y2="200" stroke="#c47a2a" stroke-width="3" marker-end="url(#arr)"/>
+ <text x="178" y="190" font-size="10" fill="#8a5010">oil</text>
+
+ <rect x="230" y="160" width="160" height="80" fill="#2a6f9a"/>
+ <text x="248" y="196" font-size="12" fill="#fff" font-weight="700">Stirling x5</text>
+ <text x="252" y="216" font-size="10" fill="#fff">10 kWe installed</text>
+
+ <line x1="390" y1="200" x2="442" y2="200" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arr)"/>
+ <text x="400" y="190" font-size="10" fill="#333">DC</text>
+
+ <rect x="450" y="160" width="140" height="80" fill="#1e4a6e"/>
+ <text x="478" y="206" font-size="12" fill="#fff" font-weight="700">Inverter</text>
+
+ <line x1="590" y1="200" x2="642" y2="200" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arr)"/>
+ <text x="598" y="190" font-size="10" fill="#333">240 V</text>
+
+ <rect x="650" y="160" width="140" height="80" fill="#3d6b8a"/>
+ <text x="678" y="206" font-size="12" fill="#fff" font-weight="700">Gateway</text>
+
+ <line x1="790" y1="175" x2="842" y2="175" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arr)"/>
+ <rect x="850" y="150" width="200" height="50" fill="#5a8f4a"/>
+ <text x="888" y="180" font-size="12" fill="#fff" font-weight="700">House panel</text>
+
+ <path d="M790 200 L820 200 L820 280 L842 280" fill="none" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arr)"/>
+ <rect x="850" y="256" width="200" height="50" fill="#6a6a6a"/>
+ <text x="878" y="286" font-size="12" fill="#fff" font-weight="700">Utility (export)</text>
+
+ <line x1="520" y1="240" x2="520" y2="312" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arr)"/>
+ <rect x="430" y="320" width="180" height="56" fill="#3d6b4a"/>
+ <text x="448" y="344" font-size="12" fill="#fff" font-weight="700">Battery 27-40 kWh</text>
+ <text x="458" y="362" font-size="10" fill="#fff">10-15 kW peak</text>
+
+ <text x="40" y="390" font-size="11" fill="#444">Without the gateway the inverter trips when the grid dies (anti-islanding). Chapter 1 life-safety case requires the gateway.</text>
+</svg>

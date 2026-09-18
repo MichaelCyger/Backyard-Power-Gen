@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 680" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="680" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 11. Core makeup (vertical cut, cartridge only)</text>
+ <text x="24" y="48" font-size="11" fill="#444">Beer-keg to dishwasher. Graphite all the way through. Sodium only inside the 24 pipes. No water. Hopper is last-ditch, not day-to-day.</text>
+
+ <!-- vessel -->
+ <rect x="160" y="70" width="280" height="540" rx="8" fill="#8a8a8a" stroke="#222" stroke-width="2"/>
+ <!-- reflector -->
+ <rect x="185" y="95" width="230" height="490" fill="#4a4a4a"/>
+ <!-- hopper -->
+ <polygon points="250,110 375,110 355,165 270,165" fill="#6b3a1f" stroke="#222"/>
+ <text x="292" y="142" font-size="10" fill="#fff">glass + B4C</text>
+ <text x="278" y="156" font-size="9" fill="#f0d0c0">plug 750 C</text>
+ <!-- axial reflector top -->
+ <rect x="250" y="175" width="100" height="28" fill="#5a5a5a"/>
+ <!-- active core -->
+ <rect x="250" y="203" width="100" height="200" fill="#c45c26" stroke="#222"/>
+ <!-- heat pipes -->
+ <line x1="270" y1="203" x2="270" y2="470" stroke="#f0d0a0" stroke-width="4"/>
+ <line x1="300" y1="203" x2="300" y2="470" stroke="#f0d0a0" stroke-width="4"/>
+ <line x1="330" y1="203" x2="330" y2="470" stroke="#f0d0a0" stroke-width="4"/>
+ <!-- axial reflector bottom -->
+ <rect x="250" y="403" width="100" height="28" fill="#5a5a5a"/>
+ <!-- drums in reflector -->
+ <rect x="198" y="240" width="22" height="90" rx="4" fill="#2a4a2a" stroke="#111"/>
+ <rect x="380" y="240" width="22" height="90" rx="4" fill="#2a4a2a" stroke="#111"/>
+ <text x="194" y="335" font-size="9" fill="#fff">B4C</text>
+ <text x="378" y="335" font-size="9" fill="#fff">B4C</text>
+ <!-- condenser -->
+ <rect x="240" y="450" width="120" height="32" fill="#3d5c4a" stroke="#222"/>
+ <text x="258" y="470" font-size="11" fill="#fff">HP condenser</text>
+ <rect x="240" y="482" width="120" height="36" fill="#5c5c5c" stroke="#222"/>
+ <text x="270" y="504" font-size="11" fill="#fff">floor HX</text>
+ <!-- oil out -->
+ <line x1="360" y1="500" x2="455" y2="500" stroke="#c47a2a" stroke-width="4"/>
+ <text x="370" y="492" font-size="10" fill="#6a3a08">oil to chase</text>
+
+ <!-- dim -->
+ <line x1="150" y1="203" x2="150" y2="403" stroke="#111"/>
+ <text x="70" y="310" font-size="11" fill="#111">500 mm</text>
+ <line x1="250" y1="620" x2="350" y2="620" stroke="#111"/>
+ <text x="268" y="640" font-size="11" fill="#111">400 mm</text>
+ <line x1="185" y1="600" x2="415" y2="600" stroke="#111"/>
+ <text x="250" y="590" font-size="11" fill="#111">640 mm with reflector</text>
+
+ <g font-size="12" fill="#1a1a1a">
+  <text x="520" y="100" font-weight="700">Inside the inner vessel</text>
+  <text x="520" y="128">Helium or inert fill around the graphite.</text>
+  <text x="520" y="146">Not a pressure cooker. Design pressure d 0.5 MPa.</text>
+
+  <text x="520" y="186" font-weight="700">Active core</text>
+  <text x="520" y="208">400 mm diameter x 500 mm tall. 62.8 liters.</text>
+  <text x="520" y="226">35 kW / 62.8 L = 0.56 kW per liter.</text>
+  <text x="520" y="244">A US PWR is about 100 kW per liter. This core</text>
+  <text x="520" y="262">is about 200 times less dense. That is the</text>
+  <text x="520" y="280">100-year fluence trick.</text>
+
+  <text x="520" y="320" font-weight="700">24 sodium heat pipes + 4 plugged spares</text>
+  <text x="520" y="342">22 mm tubes through the graphite, down to</text>
+  <text x="520" y="360">the condenser in the vault floor.</text>
+
+  <text x="520" y="400" font-weight="700">6 B4C drums in the reflector</text>
+  <text x="520" y="422">Locked IN on the truck. Licensed startup</text>
+  <text x="520" y="440">rotates an arc. Owner has no key.</text>
+
+  <text x="520" y="480" font-weight="700">Graphite is moderator and reflector</text>
+  <text x="520" y="502">It slows neutrons so U-235 will split, and</text>
+  <text x="520" y="520">bounces leaking neutrons back in.</text>
+  <text x="520" y="538">That is why this is not a fast reactor.</text>
+ </g>
+</svg>

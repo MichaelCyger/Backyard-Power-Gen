@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 580" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="580" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 15. Thermal core vs fast core</text>
+ <text x="24" y="48" font-size="11" fill="#444">Same element (sodium) can show up in both. The spectrum is what differs. This vault is the left column. TerraPower Natrium is the right.</text>
+
+ <!-- left: thermal BGS -->
+ <rect x="40" y="80" width="500" height="460" rx="8" fill="#fff" stroke="#bbb"/>
+ <rect x="40" y="80" width="500" height="44" rx="8" fill="#3d6b4a"/>
+ <rect x="40" y="102" width="500" height="22" fill="#3d6b4a"/>
+ <text x="290" y="108" font-size="16" fill="#fff" text-anchor="middle" font-weight="700">Thermal (this vault)</text>
+
+ <text x="64" y="156" font-size="14" font-weight="700" fill="#1a1a1a">Moderator: graphite</text>
+ <text x="64" y="178" font-size="13" fill="#333">Neutrons slowed to ~0.025 eV before the next split.</text>
+
+ <text x="64" y="214" font-size="14" font-weight="700" fill="#1a1a1a">Fuel: TRISO-UCO in graphite</text>
+ <text x="64" y="236" font-size="13" fill="#333">19.75% U-235. Ceramic particles, not metal pins.</text>
+
+ <text x="64" y="272" font-size="14" font-weight="700" fill="#1a1a1a">Sodium: inside 24 heat pipes</text>
+ <text x="64" y="294" font-size="13" fill="#333">A few milliliters per tube. No pool. No pump.</text>
+ <text x="64" y="312" font-size="13" fill="#333">Sodium is a heat taxi, not the neutron story.</text>
+
+ <text x="64" y="348" font-size="14" font-weight="700" fill="#1a1a1a">Power: 8 kWe / 35 kWth</text>
+ <text x="64" y="370" font-size="13" fill="#333">House furnace scale. One meter.</text>
+
+ <text x="64" y="406" font-size="14" font-weight="700" fill="#1a1a1a">If you remove the graphite</text>
+ <text x="64" y="428" font-size="13" fill="#333">Most neutrons stay fast. U-235 fission drops.</text>
+ <text x="64" y="446" font-size="13" fill="#333">This lattice is not designed to run that way.</text>
+
+ <text x="64" y="490" font-size="13" fill="#444">Family: Kilopower / eVinci-class heat-pipe</text>
+ <text x="64" y="508" font-size="13" fill="#444">microreactor, scaled to a house, not a copy.</text>
+
+ <!-- right: fast SFR -->
+ <rect x="560" y="80" width="500" height="460" rx="8" fill="#fff" stroke="#bbb"/>
+ <rect x="560" y="80" width="500" height="44" rx="8" fill="#8a3a1a"/>
+ <rect x="560" y="102" width="500" height="22" fill="#8a3a1a"/>
+ <text x="810" y="108" font-size="16" fill="#fff" text-anchor="middle" font-weight="700">Fast (Natrium-class SFR)</text>
+
+ <text x="584" y="156" font-size="14" font-weight="700" fill="#1a1a1a">Moderator: none</text>
+ <text x="584" y="178" font-size="13" fill="#333">Neutrons stay ~0.1 to 1 MeV. That is the design.</text>
+
+ <text x="584" y="214" font-size="14" font-weight="700" fill="#1a1a1a">Fuel: HALEU metal (typical SFR)</text>
+ <text x="584" y="236" font-size="13" fill="#333">Pins in a sodium pool. Different can, different spectrum.</text>
+
+ <text x="584" y="272" font-size="14" font-weight="700" fill="#1a1a1a">Sodium: the primary coolant</text>
+ <text x="584" y="294" font-size="13" fill="#333">Tons of liquid metal, pumped through the core,</text>
+ <text x="584" y="312" font-size="13" fill="#333">then an intermediate loop, then steam or salt.</text>
+
+ <text x="584" y="348" font-size="14" font-weight="700" fill="#1a1a1a">Power: 345 MWe (Natrium)</text>
+ <text x="584" y="370" font-size="13" fill="#333">~40,000 times BGS-8. A plant, with staff.</text>
+
+ <text x="584" y="406" font-size="14" font-weight="700" fill="#1a1a1a">Why go fast</text>
+ <text x="584" y="428" font-size="13" fill="#333">Better breeding, some waste-actinide arguments,</text>
+ <text x="584" y="446" font-size="13" fill="#333">high power density, no water-pressure vessel.</text>
+
+ <text x="584" y="490" font-size="13" fill="#444">Family: BN-800, CFR-600, PRISM / Natrium.</text>
+ <text x="584" y="508" font-size="13" fill="#444">Same sodium word. Different machine.</text>
+</svg>

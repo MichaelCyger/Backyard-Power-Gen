@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="640" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 19. Two uses of sodium</text>
+ <text x="24" y="48" font-size="11" fill="#444">Heat-pipe milliliters vs a pumped pool of tons. Same metal, different job. Natrium (Kemmerer, Wyoming) is the pool.</text>
+
+ <!-- BGS -->
+ <rect x="30" y="70" width="510" height="540" rx="8" fill="#fff" stroke="#bbb"/>
+ <rect x="30" y="70" width="510" height="44" fill="#c45c26"/>
+ <text x="285" y="98" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">BGS-8 heat pipes</text>
+
+ <rect x="80" y="140" width="120" height="100" fill="#c45c26" stroke="#222"/>
+ <text x="140" y="198" font-size="12" fill="#fff" text-anchor="middle">graphite core</text>
+ <!-- three pipes -->
+ <rect x="250" y="150" width="18" height="220" rx="4" fill="#f0d0a0" stroke="#8a5010"/>
+ <rect x="280" y="150" width="18" height="220" rx="4" fill="#f0d0a0" stroke="#8a5010"/>
+ <rect x="310" y="150" width="18" height="220" rx="4" fill="#f0d0a0" stroke="#8a5010"/>
+ <rect x="230" y="370" width="120" height="36" fill="#5c5c5c"/>
+ <text x="290" y="392" font-size="11" fill="#fff" text-anchor="middle">oil HX</text>
+ <text x="400" y="200" font-size="12" fill="#333">Na sealed</text>
+ <text x="400" y="218" font-size="12" fill="#333">in each tube</text>
+ <text x="400" y="250" font-size="12" fill="#333">no pump</text>
+ <text x="400" y="268" font-size="12" fill="#333">fail = freeze</text>
+
+ <text x="50" y="440" font-size="13" font-weight="700" fill="#1a1a1a">Inventory: milliliters per pipe</text>
+ <text x="50" y="464" font-size="13" fill="#333">24 operating pipes, 1.6 kW each.</text>
+ <text x="50" y="484" font-size="13" fill="#333">Sodium never mixes with house water or oil.</text>
+ <text x="50" y="504" font-size="13" fill="#333">A leak is one frozen tube, not a building fire.</text>
+ <text x="50" y="524" font-size="13" fill="#333">Spectrum is still thermal (graphite).</text>
+ <text x="50" y="556" font-size="13" fill="#444">Heritage: Kilopower / KRUSTY, eVinci-class.</text>
+ <text x="50" y="576" font-size="13" fill="#444">8 kWe. One house. No staff gate.</text>
+
+ <!-- Natrium -->
+ <rect x="560" y="70" width="510" height="540" rx="8" fill="#fff" stroke="#bbb"/>
+ <rect x="560" y="70" width="510" height="44" fill="#8a3a1a"/>
+ <text x="815" y="98" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">Natrium-class sodium pool</text>
+
+ <!-- pool -->
+ <rect x="620" y="140" width="200" height="180" rx="6" fill="#f0d0a0" stroke="#8a5010" stroke-width="2"/>
+ <rect x="680" y="175" width="80" height="90" fill="#8a3a1a"/>
+ <text x="720" y="228" font-size="11" fill="#fff" text-anchor="middle">fast core</text>
+ <text x="720" y="348" font-size="11" fill="#8a5010" text-anchor="middle">liquid Na pool</text>
+ <!-- pump -->
+ <circle cx="860" cy="200" r="22" fill="#5c5c5c"/>
+ <text x="860" y="205" font-size="9" fill="#fff" text-anchor="middle">pump</text>
+ <path d="M820 230 H838" stroke="#8a5010" stroke-width="4"/>
+ <!-- IHX / salt -->
+ <rect x="900" y="160" width="70" height="80" fill="#c47a2a"/>
+ <text x="935" y="198" font-size="10" fill="#fff" text-anchor="middle">IHX</text>
+ <text x="935" y="214" font-size="9" fill="#fff" text-anchor="middle">/ salt</text>
+ <path d="M882 200 H900" stroke="#8a5010" stroke-width="3"/>
+ <text x="840" y="270" font-size="11" fill="#333">intermediate Na</text>
+ <text x="840" y="286" font-size="11" fill="#333">then steam or salt</text>
+
+ <text x="580" y="400" font-size="13" font-weight="700" fill="#1a1a1a">Inventory: tons of circulating sodium</text>
+ <text x="580" y="424" font-size="13" fill="#333">Primary pool plus intermediate loop.</text>
+ <text x="580" y="444" font-size="13" fill="#333">Pumps. Sodium-to-salt or sodium-to-steam.</text>
+ <text x="580" y="464" font-size="13" fill="#333">Low pressure (a real SFR advantage vs a PWR).</text>
+ <text x="580" y="484" font-size="13" fill="#333">Spectrum is fast. No graphite moderator.</text>
+ <text x="580" y="516" font-size="13" fill="#444">Kemmerer, WY: 345 MWe, salt storage to 500 MWe.</text>
+ <text x="580" y="536" font-size="13" fill="#444">NRC construction permit March 2026.</text>
+ <text x="580" y="556" font-size="13" fill="#444">Nuclear construction started April 2026.</text>
+ <text x="580" y="576" font-size="13" fill="#444">A plant. ~40,000 times BGS-8 electrically.</text>
+</svg>

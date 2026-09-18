@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1000" height="540" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 6. Floor chase labyrinth</text>
+ <text x="24" y="48" font-size="11" fill="#444">No straight line from the core to the grass. Two 90-degree bends, BPE-lined. Streaming is an MCNP tally (50 microrem/h or less at the house-end pipe).</text>
+
+ <rect x="60" y="80" width="360" height="360" fill="#9a9a92" stroke="#333" stroke-width="2"/>
+ <text x="150" y="105" font-size="12" font-weight="700" fill="#1a1a1a">Vault bottom shield</text>
+ <rect x="140" y="130" width="200" height="80" fill="#c45c26"/>
+ <text x="188" y="176" font-size="12" fill="#fff" font-weight="700">Core (above)</text>
+ <rect x="160" y="230" width="80" height="140" fill="#3d6b8a"/>
+ <rect x="160" y="330" width="200" height="50" fill="#3d6b8a"/>
+ <rect x="300" y="280" width="50" height="100" fill="#3d6b8a"/>
+ <text x="172" y="268" font-size="10" fill="#fff">BPE</text>
+ <text x="172" y="282" font-size="10" fill="#fff">lined</text>
+
+ <defs>
+ <marker id="chaseArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+ <path d="M 0 0 L 10 5 L 0 10 z" fill="#c47a2a"/>
+ </marker>
+ </defs>
+ <path d="M200 230 L200 355 L325 355 L325 300 L508 300" fill="none" stroke="#c47a2a" stroke-width="8" marker-end="url(#chaseArr)"/>
+ <path d="M200 230 L200 355 L325 355 L325 300 L500 300" fill="none" stroke="#f0d0a0" stroke-width="3"/>
+ <circle cx="200" cy="220" r="6" fill="#8a5010"/>
+ <text x="70" y="270" font-size="10" fill="#333">1st</text>
+ <text x="70" y="284" font-size="10" fill="#333">90 deg</text>
+ <text x="358" y="284" font-size="10" fill="#1a1a1a">2nd 90 deg</text>
+ <text x="220" y="344" font-size="10" fill="#fff">labyrinth</text>
+ <text x="470" y="268" font-size="11" fill="#6a3a08" text-anchor="middle">double-wall</text>
+ <text x="470" y="282" font-size="11" fill="#6a3a08" text-anchor="middle">oil + wires</text>
+
+ <rect x="520" y="200" width="420" height="220" fill="#e8dcc8" stroke="#5a4a38" stroke-width="2"/>
+ <text x="620" y="230" font-size="13" font-weight="700" fill="#1a1a1a">Utility room (serviceable)</text>
+ <text x="550" y="260" font-size="12" fill="#333">Oil pump - Stirling units - heat exchanger</text>
+ <text x="550" y="282" font-size="12" fill="#333">Inverter - gateway - battery</text>
+ <text x="550" y="314" font-size="12" fill="#333">No core shine line of sight.</text>
+ <text x="550" y="336" font-size="12" fill="#333">Leak here is hazmat, not a core event.</text>
+ <text x="550" y="368" font-size="12" fill="#333">Frost: below frost line or trickle / heater.</text>
+
+ <text x="60" y="480" font-size="12" fill="#8a2020" font-weight="700">Forbidden: any hole through the lid (would point at the playset).</text>
+ <text x="60" y="504" font-size="11" fill="#444">Allowed through floor only: 2 x oil (process + containment), instrument bundle, startup-heater power (locked out after start), ground.</text>
+</svg>

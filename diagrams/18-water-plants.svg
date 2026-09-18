@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="640" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 18. US water plants vs this vault</text>
+ <text x="24" y="48" font-size="11" fill="#444">Same physics family (thermal fission). Different fluid, pressure, and size. Not to scale.</text>
+
+ <!-- PWR -->
+ <rect x="30" y="70" width="340" height="540" rx="8" fill="#fff" stroke="#bbb"/>
+ <rect x="30" y="70" width="340" height="40" fill="#1e4a6e"/>
+ <text x="200" y="96" font-size="14" fill="#fff" text-anchor="middle" font-weight="700">PWR (most US plants)</text>
+ <text x="50" y="134" font-size="12" fill="#333">Water stays liquid in the core.</text>
+ <text x="50" y="152" font-size="12" fill="#333">Steam is made in a second loop.</text>
+ <!-- simple pwr schematic -->
+ <rect x="80" y="175" width="70" height="90" rx="4" fill="#2a6f9a"/>
+ <text x="115" y="228" font-size="10" fill="#fff" text-anchor="middle">core</text>
+ <rect x="200" y="185" width="50" height="70" rx="4" fill="#5c5c5c"/>
+ <text x="225" y="226" font-size="9" fill="#fff" text-anchor="middle">SG</text>
+ <path d="M150 200 H200" stroke="#2a6f9a" stroke-width="3" fill="none"/>
+ <path d="M150 240 H200" stroke="#2a6f9a" stroke-width="3" fill="none"/>
+ <path d="M250 200 Q290 200 290 160" stroke="#888" stroke-width="2" fill="none"/>
+ <rect x="270" y="120" width="50" height="36" fill="#6a6a6a"/>
+ <text x="295" y="142" font-size="9" fill="#fff" text-anchor="middle">turbine</text>
+ <text x="50" y="290" font-size="12" fill="#1a1a1a">Moderator + coolant: water</text>
+ <text x="50" y="310" font-size="12" fill="#1a1a1a">Fuel: UO2 pellets, ~4 to 5% U-235</text>
+ <text x="50" y="330" font-size="12" fill="#1a1a1a">Pressure: ~15 MPa (2,200 psi)</text>
+ <text x="50" y="350" font-size="12" fill="#1a1a1a">Power: ~1,000 MWe</text>
+ <text x="50" y="370" font-size="12" fill="#1a1a1a">Power density: ~100 kW/L</text>
+ <text x="50" y="400" font-size="12" fill="#333">If water leaves the core, fuel</text>
+ <text x="50" y="418" font-size="12" fill="#333">can overheat (LOCA). Emergency</text>
+ <text x="50" y="436" font-size="12" fill="#333">pumps and a huge inventory of</text>
+ <text x="50" y="454" font-size="12" fill="#333">decay heat are the plant problem.</text>
+ <text x="50" y="484" font-size="12" fill="#333">Zirconium + hot steam can make</text>
+ <text x="50" y="502" font-size="12" fill="#333">hydrogen. That is a water-reactor</text>
+ <text x="50" y="520" font-size="12" fill="#333">accident path. This vault has no</text>
+ <text x="50" y="538" font-size="12" fill="#333">Zr cladding and no core water.</text>
+ <text x="50" y="570" font-size="12" fill="#444">Staff, tower, 18-month refuel.</text>
+
+ <!-- BWR -->
+ <rect x="380" y="70" width="340" height="540" rx="8" fill="#fff" stroke="#bbb"/>
+ <rect x="380" y="70" width="340" height="40" fill="#3d6b8a"/>
+ <text x="550" y="96" font-size="14" fill="#fff" text-anchor="middle" font-weight="700">BWR (US boiling plants)</text>
+ <text x="400" y="134" font-size="12" fill="#333">Water boils in the core. Steam</text>
+ <text x="400" y="152" font-size="12" fill="#333">goes straight to the turbine.</text>
+ <rect x="470" y="175" width="70" height="90" rx="4" fill="#4a90a4"/>
+ <text x="505" y="220" font-size="10" fill="#fff" text-anchor="middle">core</text>
+ <text x="505" y="234" font-size="9" fill="#d0e4f0" text-anchor="middle">boils</text>
+ <path d="M505 175 V130" stroke="#888" stroke-width="3" fill="none"/>
+ <rect x="480" y="100" width="50" height="28" fill="#6a6a6a"/>
+ <text x="505" y="118" font-size="9" fill="#fff" text-anchor="middle">turbine</text>
+ <text x="400" y="290" font-size="12" fill="#1a1a1a">Moderator + coolant: water</text>
+ <text x="400" y="310" font-size="12" fill="#1a1a1a">Fuel: UO2 pellets, ~4 to 5%</text>
+ <text x="400" y="330" font-size="12" fill="#1a1a1a">Pressure: ~7 MPa (1,000 psi)</text>
+ <text x="400" y="350" font-size="12" fill="#1a1a1a">Power: ~1,000 MWe class</text>
+ <text x="400" y="370" font-size="12" fill="#1a1a1a">Same thermal-spectrum family</text>
+ <text x="400" y="400" font-size="12" fill="#333">Same LOCA idea: lose the water,</text>
+ <text x="400" y="418" font-size="12" fill="#333">lose the cooling. Radioactive</text>
+ <text x="400" y="436" font-size="12" fill="#333">steam is in the turbine loop.</text>
+ <text x="400" y="454" font-size="12" fill="#333">Void coefficient is part of the</text>
+ <text x="400" y="472" font-size="12" fill="#333">control story (bubbles in the</text>
+ <text x="400" y="490" font-size="12" fill="#333">core change reactivity).</text>
+ <text x="400" y="520" font-size="12" fill="#333">This vault has no voids to track.</text>
+ <text x="400" y="538" font-size="12" fill="#333">Nothing in the core boils.</text>
+ <text x="400" y="570" font-size="12" fill="#444">Staff, tower, periodic refuel.</text>
+
+ <!-- BGS -->
+ <rect x="730" y="70" width="340" height="540" rx="8" fill="#fff" stroke="#bbb"/>
+ <rect x="730" y="70" width="340" height="40" fill="#c45c26"/>
+ <text x="900" y="96" font-size="14" fill="#fff" text-anchor="middle" font-weight="700">BGS-8 (this vault)</text>
+ <text x="750" y="134" font-size="12" fill="#333">No water in the core. Heat pipes</text>
+ <text x="750" y="152" font-size="12" fill="#333">to oil. Stirling at the house.</text>
+ <rect x="820" y="175" width="70" height="70" rx="4" fill="#c45c26"/>
+ <text x="855" y="216" font-size="10" fill="#fff" text-anchor="middle">core</text>
+ <path d="M855 245 V290" stroke="#f0d0a0" stroke-width="4"/>
+ <rect x="820" y="290" width="70" height="28" fill="#5c5c5c"/>
+ <text x="855" y="308" font-size="9" fill="#fff" text-anchor="middle">oil HX</text>
+ <text x="750" y="350" font-size="12" fill="#1a1a1a">Moderator: graphite</text>
+ <text x="750" y="370" font-size="12" fill="#1a1a1a">Fuel: TRISO-UCO, 19.75% U-235</text>
+ <text x="750" y="390" font-size="12" fill="#1a1a1a">Pressure: d 0.5 MPa</text>
+ <text x="750" y="410" font-size="12" fill="#1a1a1a">Power: 8 kWe / 35 kWth</text>
+ <text x="750" y="430" font-size="12" fill="#1a1a1a">Power density: 0.56 kW/L</text>
+ <text x="750" y="460" font-size="12" fill="#333">No LOCA in the water-plant sense.</text>
+ <text x="750" y="478" font-size="12" fill="#333">A dead heat pipe freezes in place.</text>
+ <text x="750" y="496" font-size="12" fill="#333">Decay heat is a space heater.</text>
+ <text x="750" y="514" font-size="12" fill="#333">No turbine, no tower, no hatch.</text>
+ <text x="750" y="544" font-size="12" fill="#333">~1/100,000 the electrical size</text>
+ <text x="750" y="562" font-size="12" fill="#333">of a 1,000 MW plant.</text>
+ <text x="750" y="590" font-size="12" fill="#444">Factory sealed. Crane-out swap.</text>
+</svg>

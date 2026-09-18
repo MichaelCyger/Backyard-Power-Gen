@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 520" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="520" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 10. From one seed to the core</text>
+ <text x="24" y="48" font-size="11" fill="#444">Particles are pressed into graphite cylinders (compacts). Compacts sit in channels in a graphite block. Heat pipes and control drums share that block.</text>
+
+ <defs>
+  <marker id="a10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+   <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a1a1a"/>
+  </marker>
+ </defs>
+
+ <!-- 1 particle -->
+ <circle cx="110" cy="230" r="48" fill="#c45c26" stroke="#222"/>
+ <circle cx="110" cy="230" r="36" fill="none" stroke="#3d5c4a" stroke-width="8"/>
+ <text x="110" y="320" font-size="13" font-weight="700" text-anchor="middle" fill="#1a1a1a">1. Particle</text>
+ <text x="110" y="340" font-size="11" text-anchor="middle" fill="#444">~1 mm  TRISO</text>
+ <text x="110" y="356" font-size="11" text-anchor="middle" fill="#444">own sealed can</text>
+
+ <line x1="170" y1="230" x2="230" y2="230" stroke="#111" stroke-width="2" marker-end="url(#a10)"/>
+
+ <!-- 2 compact -->
+ <rect x="250" y="150" width="70" height="170" rx="8" fill="#6a6a6a" stroke="#222"/>
+ <g fill="#c45c26">
+  <circle cx="272" cy="175" r="5"/><circle cx="298" cy="175" r="5"/>
+  <circle cx="272" cy="198" r="5"/><circle cx="298" cy="198" r="5"/>
+  <circle cx="272" cy="221" r="5"/><circle cx="298" cy="221" r="5"/>
+  <circle cx="272" cy="244" r="5"/><circle cx="298" cy="244" r="5"/>
+  <circle cx="272" cy="267" r="5"/><circle cx="298" cy="267" r="5"/>
+  <circle cx="272" cy="290" r="5"/><circle cx="298" cy="290" r="5"/>
+ </g>
+ <text x="285" y="350" font-size="13" font-weight="700" text-anchor="middle" fill="#1a1a1a">2. Compact</text>
+ <text x="285" y="370" font-size="11" text-anchor="middle" fill="#444">graphite cylinder</text>
+ <text x="285" y="386" font-size="11" text-anchor="middle" fill="#444">~35 vol% TRISO</text>
+
+ <line x1="340" y1="230" x2="400" y2="230" stroke="#111" stroke-width="2" marker-end="url(#a10)"/>
+
+ <!-- 3 block -->
+ <rect x="420" y="120" width="200" height="230" fill="#5a5a5a" stroke="#222"/>
+ <g fill="#8a8a8a" stroke="#222">
+  <rect x="445" y="145" width="18" height="180"/>
+  <rect x="475" y="145" width="18" height="180"/>
+  <rect x="505" y="145" width="18" height="180"/>
+  <rect x="535" y="145" width="18" height="180"/>
+  <rect x="565" y="145" width="18" height="180"/>
+ </g>
+ <g fill="#f0d0a0" stroke="#8a5010">
+  <rect x="448" y="148" width="6" height="174"/>
+  <rect x="508" y="148" width="6" height="174"/>
+  <rect x="568" y="148" width="6" height="174"/>
+ </g>
+ <g fill="#c45c26">
+  <rect x="478" y="148" width="12" height="174"/>
+  <rect x="538" y="148" width="12" height="174"/>
+ </g>
+ <text x="520" y="380" font-size="13" font-weight="700" text-anchor="middle" fill="#1a1a1a">3. Graphite block</text>
+ <text x="520" y="400" font-size="11" text-anchor="middle" fill="#444">fuel channels + heat pipes</text>
+ <text x="520" y="416" font-size="11" text-anchor="middle" fill="#444">moderator is the block itself</text>
+
+ <line x1="640" y1="230" x2="700" y2="230" stroke="#111" stroke-width="2" marker-end="url(#a10)"/>
+
+ <!-- 4 core -->
+ <circle cx="860" cy="235" r="110" fill="#4a4a4a" stroke="#222"/>
+ <circle cx="860" cy="235" r="70" fill="#c45c26" stroke="#222"/>
+ <g fill="#2a4a2a" stroke="#111">
+  <circle cx="860" cy="125" r="12"/>
+  <circle cx="955" cy="180" r="12"/>
+  <circle cx="955" cy="290" r="12"/>
+  <circle cx="860" cy="345" r="12"/>
+  <circle cx="765" cy="290" r="12"/>
+  <circle cx="765" cy="180" r="12"/>
+ </g>
+ <g fill="#f0d0a0">
+  <circle cx="860" cy="210" r="4"/><circle cx="880" cy="225" r="4"/>
+  <circle cx="840" cy="225" r="4"/><circle cx="860" cy="255" r="4"/>
+  <circle cx="835" cy="250" r="4"/><circle cx="885" cy="250" r="4"/>
+ </g>
+ <text x="860" y="400" font-size="13" font-weight="700" text-anchor="middle" fill="#1a1a1a">4. Core</text>
+ <text x="860" y="420" font-size="11" text-anchor="middle" fill="#444">400 mm x 500 mm</text>
+ <text x="860" y="436" font-size="11" text-anchor="middle" fill="#444">30 kg HM, 6 B4C drums</text>
+
+ <text x="24" y="490" font-size="11" fill="#444">Heavy metal at first start is 30 kg (66 lb) inside that orange disk. The septic-tank vault around it is almost all shield. This figure is the idea, not a shop drawing.</text>
+</svg>

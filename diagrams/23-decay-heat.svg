@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 560" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="560" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 23. Leftover heat after shutdown (Way fit, 35 kWth)</text>
+ <text x="24" y="48" font-size="11" fill="#444">Sizing curve only. Sign-off uses ANSI/ANS-5.1 from a real isotope inventory. P/P0 = 0.066 t^(-0.2), t in seconds.</text>
+
+ <line x1="80" y1="420" x2="1040" y2="420" stroke="#111" stroke-width="1.5"/>
+ <line x1="80" y1="90" x2="80" y2="420" stroke="#111" stroke-width="1.5"/>
+ <text x="36" y="260" font-size="12" fill="#444" transform="rotate(-90 36 260)">kW leftover</text>
+
+ <!-- scale: 2.31 kW = 280 px, so 1 kW = 121 px. Bars from y=420 down -->
+ <!-- 2.31 kW -> 280 -->
+ <rect x="140" y="140" width="140" height="280" fill="#c45c26"/>
+ <text x="210" y="128" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle">2.31 kW</text>
+ <text x="210" y="444" font-size="13" fill="#333" text-anchor="middle">1 second</text>
+ <text x="210" y="464" font-size="11" fill="#555" text-anchor="middle">large heater</text>
+
+ <!-- 0.45 kW -> 54 -->
+ <rect x="380" y="366" width="140" height="54" fill="#8a3a1a"/>
+ <text x="450" y="354" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle">0.45 kW</text>
+ <text x="450" y="444" font-size="13" fill="#333" text-anchor="middle">1 hour</text>
+ <text x="450" y="464" font-size="11" fill="#555" text-anchor="middle">small heater</text>
+
+ <!-- 0.24 kW -> 29 -->
+ <rect x="620" y="391" width="140" height="29" fill="#5c5c5c"/>
+ <text x="690" y="379" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle">0.24 kW</text>
+ <text x="690" y="444" font-size="13" fill="#333" text-anchor="middle">1 day</text>
+ <text x="690" y="464" font-size="11" fill="#555" text-anchor="middle">heat lamp</text>
+
+ <!-- 0.16 kW -> 19 -->
+ <rect x="860" y="401" width="140" height="19" fill="#2a6f9a"/>
+ <text x="930" y="389" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle">0.16 kW</text>
+ <text x="930" y="444" font-size="13" fill="#333" text-anchor="middle">7 days</text>
+ <text x="930" y="464" font-size="11" fill="#555" text-anchor="middle">thermal night-light</text>
+
+ <text x="80" y="504" font-size="13" fill="#333">DB-10: no vault pump. 42 t and earth take less than 1 kW. Lift waits until about 0.4 kW (about a day).</text>
+ <text x="80" y="528" font-size="13" fill="#333">Do not dump operating 35 kW into soil. That path is about 2,000 K on the same crude conduction formula.</text>
+</svg>

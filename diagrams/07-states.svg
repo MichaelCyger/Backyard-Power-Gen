@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 360" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+ <rect width="1100" height="360" fill="#f7f6f2"/>
+ <text x="24" y="28" font-size="16" font-weight="700" fill="#1a1a1a">Figure 7. Vault states</text>
+ <text x="24" y="48" font-size="11" fill="#444">Fresh fuel is cold on the truck. First heat is licensed startup after burial. Locks in before the crane returns.</text>
+
+ <defs>
+ <marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+ <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a1a1a"/>
+ </marker>
+ </defs>
+
+ <g font-size="11" font-weight="700" fill="#fff">
+ <rect x="30" y="90" width="120" height="54" rx="5" fill="#5c5c5c"/><text x="48" y="122">FACTORY</text>
+ <rect x="180" y="90" width="120" height="54" rx="5" fill="#5c5c5c"/><text x="192" y="122">TRANSPORT</text>
+ <rect x="330" y="90" width="100" height="54" rx="5" fill="#5c5c5c"/><text x="358" y="122">SET</text>
+ <rect x="460" y="90" width="110" height="54" rx="5" fill="#3d6b8a"/><text x="478" y="122">CONNECT</text>
+ <rect x="600" y="90" width="130" height="54" rx="5" fill="#c45c26"/><text x="618" y="122">LIC. START</text>
+ <rect x="760" y="90" width="90" height="54" rx="5" fill="#2a7a3a"/><text x="786" y="122">RUN</text>
+ <rect x="880" y="90" width="180" height="54" rx="5" fill="#8a3a1a"/><text x="918" y="122">SHUTDOWN</text>
+ </g>
+
+ <line x1="150" y1="117" x2="178" y2="117" stroke="#111" stroke-width="2" marker-end="url(#a2)"/>
+ <line x1="300" y1="117" x2="328" y2="117" stroke="#111" stroke-width="2" marker-end="url(#a2)"/>
+ <line x1="430" y1="117" x2="458" y2="117" stroke="#111" stroke-width="2" marker-end="url(#a2)"/>
+ <line x1="570" y1="117" x2="598" y2="117" stroke="#111" stroke-width="2" marker-end="url(#a2)"/>
+ <line x1="730" y1="117" x2="758" y2="117" stroke="#111" stroke-width="2" marker-end="url(#a2)"/>
+ <line x1="850" y1="117" x2="878" y2="117" stroke="#111" stroke-width="2" marker-end="url(#a2)"/>
+
+ <line x1="970" y1="144" x2="970" y2="200" stroke="#111" stroke-width="2"/>
+ <line x1="970" y1="200" x2="200" y2="200" stroke="#111" stroke-width="2"/>
+ <line x1="200" y1="200" x2="200" y2="250" stroke="#111" stroke-width="2" marker-end="url(#a2)"/>
+ <rect x="130" y="250" width="140" height="50" rx="5" fill="#5c5c5c"/>
+ <text x="168" y="280" font-size="11" font-weight="700" fill="#fff">LOCK + LIFT</text>
+
+ <text x="30" y="170" font-size="10" fill="#444">Drums locked IN. Heat = 0. No decay heat (fresh fuel).</text>
+ <text x="600" y="168" font-size="10" fill="#444">First heat.</text>
+ <text x="600" y="180" font-size="10" fill="#444">Trace-heat Na if needed.</text>
+ <text x="760" y="168" font-size="10" fill="#444">35 kWth</text>
+ <text x="760" y="180" font-size="10" fill="#444">steady.</text>
+ <text x="30" y="330" font-size="11" fill="#444">Overtemp or licensed trip drives drums IN (analog, two channels). Wait until decay heat &lt; 0.4 kW (~1 day) before lift. Owner phone cannot move drums.</text>
+</svg>
