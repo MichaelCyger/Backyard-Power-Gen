@@ -49,3 +49,5 @@ Blue underlined text is a link. That is the only GitHub skill you need. The tabs
 Copyright © 2026 Michael Cyger. All rights reserved. You may read and share the text with attribution. Commercial use requires a written license. No patent rights are granted. Full terms: [LICENSE](LICENSE).
 
 Author: Michael Cyger · [Message me on LinkedIn](https://www.linkedin.com/in/cyger/)
+
+An easy way to open this page again is [Backyard.green](https://backyard.green).
