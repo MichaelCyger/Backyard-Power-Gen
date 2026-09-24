@@ -4,7 +4,7 @@ High-level log of the Backyard Generating Station book (chapters 1 through 10). 
 
 **Current version: 1.5**
 
-The compiled reading copy is `Backyard-{version}.pdf` (currently `Backyard-1.4.pdf`). Rebuild it with `python3 build_pdf.py` after you change a chapter. The filename follows `VERSION` in `build_pdf.py`.
+The compiled reading copy is `Backyard-{version}.pdf` (currently `Backyard-1.5.pdf`). Rebuild it with `python3 build_pdf.py` after you change a chapter. The filename follows `VERSION` in `build_pdf.py`.
 
 When you ship a new version, add a section at the top of the list below. Say what a reader would notice, not every line edit. Bump the number on this page, in `build_pdf.py`, and in `README.md`. The next build writes a new file named for that number.
 
