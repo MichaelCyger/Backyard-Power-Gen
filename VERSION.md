@@ -24,70 +24,19 @@ The public entry says what the book is, in a few lines, and what green means.
 
 ---
 
-## 1.4 — 18 September 2026
+## Since 1.0
 
-Contact is LinkedIn, not an email address.
+Two additions a reader would notice. The engineering numbers in Chapter 8 did not change.
 
-**What a reader would notice**
+**9 September 2026. The fuel and the proofs.**
 
-- Title page, README, and LICENSE: message on LinkedIn (`linkedin.com/in/cyger`). No email
-- GitHub reading guide and chapter jump links from 1.3 are unchanged
+- **Chapter 9, The Fuel.** The core, the heat pipes, the sodium, and how shutdown is meant to work.
+- **Chapter 10, The Proofs.** Which claims are finished arithmetic, which are handbook bounds, and which still need a code, a test, or a regulator’s stamp.
 
-**Locked product is unchanged.** Chapter 8 numbers are unchanged.
+**17 September 2026. Cleared to be read.**
 
----
-
-## 1.3 — 17 September 2026
-
-Copyright, license, and a public-facing stamp. Locked engineering is unchanged.
-
-**What a reader would notice**
-
-- Title page and page footers: copyright Michael Cyger, concept design basis. No “Confidential. Not for distribution.”
-- Not a DIY build. Not a licensed plant or appliance
-- LICENSE: read and share with attribution; no commercial use; no patent grant. Commercial use needs a written license
-- README carries the same version number as this file and the PDF
-
-**Locked product is unchanged.** Chapter 8 numbers are unchanged.
-
----
-
-## 1.2 — 9 September 2026
-
-Chapter 10: an honest proof plan. Closed arithmetic on the page. Handbook bounds that are not a signed result. Open rows that still need codes, tests, or a stamp.
-
-**What a reader would notice**
-
-- New chapter, **10 The Proofs**, after the fuel chapter. Dual audience: house sentence, then the method and the pass number
-- Every design claim restated as a proof item: Closed, Bound, or Open
-- Closed pieces finished in the open: power, burnup inventory, fission rate, decay-heat fit, pipe count vs 35 kW, oil flow, vault mass vs float, playset ratio, fluence order of magnitude
-- Handbook bounds that are not a substitute for transport: tenth-value layers, inverse square, Carnot 47% vs Stirling 25%
-- Doppler traced from “hotter means less splitting” to the negative net-power-coefficient rule and DB-11, with no fake coefficient and no invented k-effective
-- Outside work named with the spec or test: MCNP/SCALE/ORIGEN, heat-pipe stands, ASME/ASCE, 10 CFR 71 Type B, AGR/HTGR fuel data, glass-dump furnace, licensed cold-critical, UL/IEEE/NFPA, 10 CFR 20/70/73/74, NQA-1
-- 10 CFR 53 exists (final rule effective 29 April 2026) as an optional **commercial plant** path, including microreactors. It is not a house-appliance stamp. Chapter 6’s product certificate still does not exist
-- Five new drawings (Figures 22 to 26)
-- Chapter 8 §16 points at Chapter 10. If they disagree, Chapter 8 still wins for engineering
-
-**Locked product is unchanged.** Chapter 8 numbers are unchanged. This version does not claim the Open rows are green.
-
----
-
-## 1.1 — 9 September 2026
-
-Chapter 9: the fuel, the core, sodium in the heat pipes, first principles, shutdown, and a short contrast with US water plants and sodium fast reactors.
-
-**What a reader would notice**
-
-- New chapter, **9 The Fuel**, after the spec. Dual audience: homeowner story first, then the mechanism
-- Thirteen new drawings (Figures 9 to 21): TRISO particle, particle-to-core, core makeup, heat pipe, fission, neutron life, thermal vs fast, chemistry, shutdown ladder, PWR/BWR/BGS, two sodiums, scale, Doppler
-- Type stated in the open: heat-pipe microreactor, TRISO-UCO, graphite moderator, thermal spectrum. Not a fast reactor. Not a water plant
-- Sodium is milliliters in 24 sealed pipes, not a pumped pool. TerraPower Natrium (Kemmerer, Wyoming, construction 2026) is the pool: 345 MWe fast, about 40,000 times BGS-8
-- Shutdown as a ladder: Doppler, drums, size plus earth, glass dump last
-- Honest limit: the stack is the safety case; a 100-year yard life is still a specification
-- Chapters 2 to 8, the notes file, and the writing-style order now point at Chapter 9 for fuel physics
-- If Chapter 9 and Chapter 8 disagree, Chapter 8 still wins for engineering
-
-**Locked product is unchanged.** Chapter 8 numbers are unchanged. This version is the explanation chapter the spec was missing.
+- Copyright and a license: read and share with attribution. Commercial use needs a written license. No patent rights are granted.
+- Marked as a concept design basis. Not a DIY build. Not a licensed plant or appliance.
 
 ---
 
