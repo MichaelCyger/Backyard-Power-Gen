@@ -9,10 +9,10 @@ from weasyprint import CSS as WpCSS
 from weasyprint import HTML
 
 ROOT = Path(__file__).resolve().parent
-VERSION = "1.3"
-DATE = "17 September 2026"
+VERSION = "1.6"
+DATE = "24 September 2026"
 AUTHOR = "Michael Cyger"
-EMAIL = "michael@cyger.org"
+LINKEDIN = "https://www.linkedin.com/in/cyger/"
 OUTPUT = ROOT / f"Backyard-{VERSION}.pdf"
 
 CHAPTERS = [
@@ -398,7 +398,10 @@ def main() -> None:
             "Commercial use requires a written license.</p>"
         ),
         '<p class="title-meta title-author">{0}</p>'.format(AUTHOR),
-        '<p class="title-meta">{0}</p>'.format(EMAIL),
+        (
+            '<p class="title-meta"><a href="{0}">Message me on LinkedIn</a>'
+            " · linkedin.com/in/cyger</p>".format(LINKEDIN)
+        ),
         "</div>",
         '<div class="toc"><h1>Contents</h1><ol>',
     ]

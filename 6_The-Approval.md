@@ -10,7 +10,7 @@ The aim is not to site a 1,000 MW campus behind a house. The aim is to treat a f
 
 A typical commercial generating station is about **1,000 MW**. That is a million kilowatts, a staff, a perimeter, and a town-scale fight.
 
-The Backyard Generating Station makes **5 to 10 kWe** and about **20 to 40 kW of heat**. That heat number is a large home furnace. After shutdown, leftover heat is a small space heater. Next to the 1,000 MW plant, this unit is about **1/100,000 to 1/200,000** the electrical size. Chapter 5 is the vault at that size. Chapter 9 is the fuel physics that makes leftover heat a space heater and a runaway a small energy. The approval claim follows from it:
+The Backyard Generating Station makes **5 to 10 kWe** and about **20 to 40 kW of heat**. That heat number is a large home furnace. After shutdown, leftover heat is a small space heater. Next to the 1,000 MW plant, this unit is about **1/100,000 to 1/200,000** the electrical size. Chapter 5 is the vault at that size. Chapter 9 is the fuel physics that makes leftover heat a space heater and keeps a power jump small. The approval claim follows from it:
 
 - The object is too small for leftover heat to run away into the neighborhood.
 - It ships and sits as one sealed vault. Nobody on the lot opens it.
@@ -60,7 +60,7 @@ If any of those rows becomes a homeowner weekend job, the product is wrong. The 
 In plain language, the paper would say:
 
 1. This is one manufactured design, not a custom plant.
-2. Thermal power is furnace-scale (tens of kW, not thousands of MW), about 1/100,000 the electrical size of a 1,000 MW plant.
+2. Heat is furnace-scale, tens of kW. Electricity is 5 to 10 kW, about 1/100,000 to 1/200,000 the size of a 1,000 MW plant.
 3. The vault is sealed at the factory and opened only at a licensed facility at the end.
 4. Transport, set, startup, and take-back are licensed steps.
 5. Public dose at the grass is designed to a few mrem a year, with the vault alone as the shield.
@@ -77,7 +77,7 @@ Until that exists, every early unit is a special case and will cost like one. Ch
 
 **Utility interconnection** is a separate yes. A house that can export 35,000 to 59,000 kWh a year will hit sell-back caps and rate design. That is a price-and-tariff issue. It is separate from approval of the core. Chapter 2 already says payback depends on what the utility pays for extra power.
 
-**A federal credit like solar’s** is a separate yes. Solar’s early years used a large investment tax credit. The public case here is carbon-free power at the house, fewer 1,000 MW plants towns refuse, and generation that still works at night. It is a policy path, not a promise.
+**A federal credit like solar’s** is a separate yes. Solar’s early years used a large investment tax credit. The public case here is carbon-free power at the house, fewer 1,000 MW plants towns refuse, and generation that still works at night. Congress would have to pass it. It is not a law yet.
 
 **Insurance, appraisal, and resale** will lag, the way they lagged for rooftop solar. Until this is common, a buried vault plus a utility room will be a new line on a homeowners policy and a new note on an appraisal.
 

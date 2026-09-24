@@ -73,7 +73,7 @@ Afternoon: the house is light. The battery fills. If it is full, the inverter ex
 
 Evening: oven, laundry, screens. The battery covers the peak. The station keeps topping it off. On the off chance the house wants more than the battery still holds (a rare, hard spike), the panel just pulls the rest from the grid, the same way it does today. The lights do not go out. You buy a bit of power for an hour instead of a whole day’s worth.
 
-Night: same as afternoon, except solar is not making power. This is the like-for-like point versus solar. Compare yearly kilowatt-hours at this house, plus what still works when the weather is bad.
+Night: same as afternoon, except solar is not making power. That is the fair comparison with solar: how many kilowatt-hours this house gets in a year, and what still works when the weather is bad.
 
 Heat is a second product of the same day. The station makes electricity and warmth together. In winter that warmth heats the house. In summer the house may only want showers, or it can send the rest to a greenhouse. Later chapters treat the hardware. The idea is simple: use the warmth where a pipe can take it.
 
@@ -120,7 +120,7 @@ Fuel use at this output, over a century, is measured in kilograms, not tons: abo
 
 Because the core is run cold and slow (a trickle of heat in a lot of mass), it can be built for a very long sealed life. Material mixed into the fuel is used up as the fuel is used up, so the output stays even. There is no refueling truck. There is no hatch for the owner.
 
-The fuel and the core are built so heat itself slows the reaction: hotter means less splitting, in milliseconds, without a person or a motor. That is the ordinary safety case. Chapter 9 is that Doppler brake, the drums, and the last-ditch glass. A last-ditch layer above the core can melt and set into a glass-like mass if the vault ever got far hotter than it should. That is not expected to run. The design is meant to never get there. The unit is too small for leftover heat to run away, it sits in earth, and it does not rely on a pump staying on.
+The fuel and the core are built so heat itself slows the reaction: hotter means less splitting, in milliseconds, without a person or a motor. That is the ordinary safety case. Chapter 9 is that heat brake, the control drums, and the last-ditch glass. A last-ditch layer above the core can melt and set into a glass-like mass if the vault ever got far hotter than it should. That is not expected to run. The design is meant to never get there. The unit is too small for leftover heat to run away, it sits in earth, and it does not rely on a pump staying on.
 
 ### From the factory to first power
 
@@ -132,7 +132,7 @@ It is trucked like other permitted heavy freight and set with a crane. The crew 
 
 Only after it is buried and connected does a licensed startup happen. The shutdown locks are released in a controlled procedure. That is the first time the core makes heat. Until that step the vault is cold. At the end of life the same locks go back in before the crane returns.
 
-This is also why a size-based path is part of the idea. A 1,000 MW station is a power plant. A 20 to 40 kW heat source in a factory-sealed vault is an appliance, about 1/100,000 the electrical size of that plant. The project’s aim is not to site a campus behind a house. It is to get a manufactured, never-opened unit approved, or exempted, because it is this small, installed by licensed people, and left closed until a licensed crew takes it away.
+This is also why a size-based path is part of the idea. A 1,000 MW station is a power plant. This vault makes 5 to 10 kW of electricity, about 1/100,000 to 1/200,000 the electrical size of that plant, and about 20 to 40 kW of heat, which is a large home furnace. The project’s aim is not to site a campus behind a house. It is to get a manufactured, never-opened unit approved, or exempted, because it is this small, installed by licensed people, and left closed until a licensed crew takes it away.
 
 ---
 
@@ -158,7 +158,7 @@ Today, at low volume, that set is about **$40,000 to $100,000** (about $8,000 to
 
 - **Early production:** **$130,000 to $260,000** is the honest band while the vault is still a new manufactured object and the Stirling set is still a low-volume part (**$40,000 to $100,000** of that band).
 - **Factory scale** (the vault is an ordinary appliance, built in numbers): a working target is **$70,000 to $125,000** all-in. The vault gets cheaper. The hole, the Stirling set (**$15,000 to $30,000**), the inverter, and the batteries do not vanish.
-- **With a government credit like the one solar received** (a federal investment tax credit, often 30% in solar’s early years, applied to the generating equipment, including the Stirling set): early production could net in a **$90,000 to $180,000** band, and factory scale in a **$50,000 to $90,000** band. That credit is a policy path, not a promise. Solar got one because the country wanted more carbon-free generation at the house. The same argument applies here, with a second one: every house-scale station is a house that does not need a new 1,000 MW plant sited in someone else’s town. Communities already refuse those plants. The United States already generates almost all of the electricity it uses; the stronger public case is carbon-free power at the load, fewer giant stations, and a factory product that does not depend on a roof full of imported panels.
+- **With a government credit like the one solar received** (a federal investment tax credit, often 30% in solar’s early years, applied to the generating equipment, including the Stirling set): early production could net in a **$90,000 to $180,000** band, and factory scale in a **$50,000 to $90,000** band. That credit would have to be written into law. It is not one yet. Solar got one because the country wanted more carbon-free generation at the house. Green, in this book, means that: carbon-free electricity and heat at the house, and output that does not stop when the sun goes down. The same reason applies here. A second reason applies with it: every house-scale station is a house that does not need a new 1,000 MW plant sited in someone else’s town. Communities already refuse those plants. The United States already generates almost all of the electricity it uses; the stronger public case is carbon-free power at the house, fewer giant stations, and a factory product that does not depend on a roof full of imported panels.
 
 ### What a house uses, and how long the check takes to come back
 
@@ -202,6 +202,8 @@ Simple payback is cost divided by a year’s savings **at today’s rate**, as i
 | Backyard Generating Station, extra paid nothing (house offset only) | $50,000 to $90,000 | ~70,000 kWh | About $5,000 to $7,000 | **7 to 18 years** |
 
 Solar’s problem on a high-use house is simple: the array still makes about 10,000 to 14,000 kWh, so most of a $6,700 bill remains. The Backyard Generating Station’s problem is still the sell-back price, not whether it can cover the house.
+
+A bigger monthly bill does not, by itself, pay the station off faster. If the utility pays you about the same cents for extra power that you pay for power you buy, a kilowatt-hour you use and a kilowatt-hour you sell are worth the same money. A $160 bill and a $500 bill then take about the same number of years. The high-use rows get shorter when that house pays more per kilowatt-hour than the utility pays back, or when the utility pays little or nothing for the extra. In those cases more of the station’s output replaces the expensive kilowatt-hours.
 
 ### The grid is getting short, and the rate is going up
 
@@ -255,7 +257,7 @@ A replacement price should be sold as a **swap**: new unit, removal, haul, and p
 ## Benefits
 
 - **Power that does not depend on the roof or the weather.** Nights, storms, and long gray stretches are ordinary running conditions.
-- **A like-for-like bill versus solar.** Same house, same meter, same battery habit, plus heat if the house can take it, compared on delivered energy and sell-back, not on panel count.
+- **The same house, compared with solar.** Same meter, same battery habit, plus heat if the house can take it. Compare kilowatt-hours delivered and what you can sell, not how many panels are on the roof.
 - **Heat the house can already use, or a greenhouse if it cannot.** Floors, tanks, air-handler coils, boiler loops, or year-round growing.
 - **Sell-back when the battery is full.** The electrical path is the one solar already uses.
 - **No holes in the roof.** No array in a wind corridor. No 25-year dependence on roof seals.
@@ -286,4 +288,4 @@ A replacement price should be sold as a **swap**: new unit, removal, haul, and p
 
 ## What this chapter covered
 
-This is the idea at house scale, and only house scale: one family, one yard, one meter, compared to solar at that same meter. The later chapters are 3 Yard Safety, 4 The House, 5 The Vault, 6 The Approval, 7 The Swap, 8 Vault Spec, and 9 The Fuel. The claim here is that the physics is in the right size class, the house already has ways to use the heat, the owner’s life can stay simple, and the end of the story is a licensed crew and a crane.
+This is the idea at house scale, and only house scale: one family, one yard, one meter, compared to solar at that same meter. The later chapters are 3 Yard Safety, 4 The House, 5 The Vault, 6 The Approval, 7 The Swap, 8 Vault Spec, 9 The Fuel, and 10 The Proofs. The claim here is that the physics is in the right size class, the house already has ways to use the heat, the owner’s life can stay simple, and the end of the story is a licensed crew and a crane.

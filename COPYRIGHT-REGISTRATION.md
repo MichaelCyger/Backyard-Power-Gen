@@ -21,10 +21,10 @@ I cannot finish the filing from here: it needs your login and a card. Use these 
 | Year of completion | 2026 |
 | Claimant | Michael Cyger |
 | Work made for hire | No |
-| Publication | **Unpublished** while the GitHub repo is private. The short X post is not this book. If you later make the repo public, this unpublished registration still covers the text. |
+| Publication | **Published.** First publication 24 September 2026, United States. The public copy is the GitHub repo and `Backyard-1.6.pdf`. Do not mark this unpublished. |
 | Limitation of claim | Leave blank unless you are excluding someone else’s figures |
-| Deposit | Upload **`Backyard-1.3.pdf`** (the full book, current version) |
-| Certificate email | michael@cyger.org |
+| Deposit | Upload **`Backyard-1.6.pdf`** (the full book, current version) |
+| Certificate email | Your own address, for the Copyright Office only. Do not put it in the book. |
 
 Pay $45. Save the confirmation number and, when it arrives, the certificate PDF. Put the registration number in `README.md` under the copyright line, for example: `U.S. Copyright Registration No. TXu 2-___-___`.
 

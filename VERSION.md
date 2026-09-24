@@ -2,65 +2,55 @@
 
 High-level log of the Backyard Generating Station book (chapters 1 through 10). Notes files (`100_Notes.md`, `_writing_style.md`) are not part of the compiled book.
 
-**Current version: 1.3**
+**Current version: 1.6**
 
-The compiled reading copy is `Backyard-{version}.pdf` (currently `Backyard-1.3.pdf`). Rebuild it with `python3 build_pdf.py` after you change a chapter. The filename follows `VERSION` in `build_pdf.py`.
+The compiled reading copy is `Backyard-{version}.pdf` (currently `Backyard-1.6.pdf`). Rebuild it with `python3 build_pdf.py` after you change a chapter. The filename follows `VERSION` in `build_pdf.py`.
 
 When you ship a new version, add a section at the top of the list below. Say what a reader would notice, not every line edit. Bump the number on this page, in `build_pdf.py`, and in `README.md`. The next build writes a new file named for that number.
 
 ---
 
-## 1.3 — 17 September 2026
+## 1.6 — 24 September 2026
 
-Copyright, license, and a public-facing stamp. Locked engineering is unchanged.
+Go-live reading pass. A few sentences said one thing and meant another.
 
 **What a reader would notice**
 
-- Title page and page footers: copyright Michael Cyger, concept design basis. No “Confidential. Not for distribution.”
-- Not a DIY build. Not a licensed plant or appliance
-- LICENSE: read and share with attribution; no commercial use; no patent grant. Commercial use needs a written license
-- README carries the same version number as this file and the PDF
+- The size comparison is always 5 to 10 kW of electricity, about 1/100,000 to 1/200,000 of a 1,000 MW plant. Heat stays a separate number, 20 to 40 kW.
+- Chapter 2 says when a bigger electric bill shortens payback, and when it does not
+- House chapters say “heat brake” where they had used the name Doppler before Chapter 9 explains it
 
 **Locked product is unchanged.** Chapter 8 numbers are unchanged.
 
 ---
 
-## 1.2 — 9 September 2026
+## 1.5 — 24 September 2026
 
-Chapter 10: an honest proof plan. Closed arithmetic on the page. Handbook bounds that are not a signed result. Open rows that still need codes, tests, or a stamp.
+The public entry says what the book is, in a few lines, and what green means.
 
 **What a reader would notice**
 
-- New chapter, **10 The Proofs**, after the fuel chapter. Dual audience: house sentence, then the method and the pass number
-- Every design claim restated as a proof item: Closed, Bound, or Open
-- Closed pieces finished in the open: power, burnup inventory, fission rate, decay-heat fit, pipe count vs 35 kW, oil flow, vault mass vs float, playset ratio, fluence order of magnitude
-- Handbook bounds that are not a substitute for transport: tenth-value layers, inverse square, Carnot 47% vs Stirling 25%
-- Doppler traced from “hotter means less splitting” to the negative net-power-coefficient rule and DB-11, with no fake coefficient and no invented k-effective
-- Outside work named with the spec or test: MCNP/SCALE/ORIGEN, heat-pipe stands, ASME/ASCE, 10 CFR 71 Type B, AGR/HTGR fuel data, glass-dump furnace, licensed cold-critical, UL/IEEE/NFPA, 10 CFR 20/70/73/74, NQA-1
-- 10 CFR 53 exists (final rule effective 29 April 2026) as an optional **commercial plant** path, including microreactors. It is not a house-appliance stamp. Chapter 6’s product certificate still does not exist
-- Five new drawings (Figures 22 to 26)
-- Chapter 8 §16 points at Chapter 10. If they disagree, Chapter 8 still wins for engineering
+- README opens on the house, the vault, and a plain definition of green: carbon-free electricity and heat at the house, and power that does not stop when the sun goes down
+- The same definition appears once in Chapter 2, where the solar tax-credit argument already lives
+- Walk-away numbers stay on the README: output, dose, cost, and what is still ahead
 
-**Locked product is unchanged.** Chapter 8 numbers are unchanged. This version does not claim the Open rows are green.
+**Locked product is unchanged.** Chapter 8 numbers are unchanged.
 
 ---
 
-## 1.1 — 9 September 2026
+## Since 1.0
 
-Chapter 9: the fuel, the core, sodium in the heat pipes, first principles, shutdown, and a short contrast with US water plants and sodium fast reactors.
+Two additions a reader would notice. The engineering numbers in Chapter 8 did not change.
 
-**What a reader would notice**
+**9 September 2026. The fuel and the proofs.**
 
-- New chapter, **9 The Fuel**, after the spec. Dual audience: homeowner story first, then the mechanism
-- Thirteen new drawings (Figures 9 to 21): TRISO particle, particle-to-core, core makeup, heat pipe, fission, neutron life, thermal vs fast, chemistry, shutdown ladder, PWR/BWR/BGS, two sodiums, scale, Doppler
-- Type stated in the open: heat-pipe microreactor, TRISO-UCO, graphite moderator, thermal spectrum. Not a fast reactor. Not a water plant
-- Sodium is milliliters in 24 sealed pipes, not a pumped pool. TerraPower Natrium (Kemmerer, Wyoming, construction 2026) is the pool: 345 MWe fast, about 40,000 times BGS-8
-- Shutdown as a ladder: Doppler, drums, size plus earth, glass dump last
-- Honest limit: the stack is the safety case; a 100-year yard life is still a specification
-- Chapters 2 to 8, the notes file, and the writing-style order now point at Chapter 9 for fuel physics
-- If Chapter 9 and Chapter 8 disagree, Chapter 8 still wins for engineering
+- **Chapter 9, The Fuel.** The core, the heat pipes, the sodium, and how shutdown is meant to work.
+- **Chapter 10, The Proofs.** Which claims are finished arithmetic, which are handbook bounds, and which still need a code, a test, or a regulator’s stamp.
 
-**Locked product is unchanged.** Chapter 8 numbers are unchanged. This version is the explanation chapter the spec was missing.
+**17 September 2026. Cleared to be read.**
+
+- Copyright and a license: read and share with attribution. Commercial use needs a written license. No patent rights are granted.
+- Marked as a concept design basis. Not a DIY build. Not a licensed plant or appliance.
 
 ---
 

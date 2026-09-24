@@ -67,7 +67,7 @@ A commercial plant needs staff, pumps, and a tower because leftover heat after s
 
 If power is pulled faster or slower, the battery and the inverter in the utility room take the jump. The core is not asked to follow the dryer. It makes a steady trickle.
 
-If the core ever tries to run away (a sudden rise in splitting), the fuel and the geometry are chosen so heat itself slows the reaction: hotter means less splitting, in milliseconds, without a person or a motor. That is a materials fact, not a software mode. That passive slowing is the ordinary protection. Chapter 9 is the Doppler picture, the drum springs, and the cases that do and do not shut the core down. It is why the last-ditch glass layer below is not expected to run.
+If the core ever tries to run away (a sudden rise in splitting), the fuel and the geometry are chosen so heat itself slows the reaction: hotter means less splitting, in milliseconds, without a person or a motor. That is a materials fact, not a software mode. That passive slowing is the ordinary protection. Chapter 9 draws that heat brake, the drum springs, and the cases that do and do not shut the core down. It is why the last-ditch glass layer below is not expected to run.
 
 If the vault ever got far hotter than it should anyway, a passive layer above the core is meant to melt, flow, and set into a glass-like mass that stills the reaction and locks the insides in place. The whole vault stays one object. That is last-ditch only. The fuel and the drums are designed so the vault does not get there.
 
@@ -93,7 +93,7 @@ The owner does not open it to service it. There is no filter, hatch, or oil chan
 
 It is not safe because the dirt is deep. It is safe because the box is thick, the pipes leave through the floor, the power is furnace-scale, and the locks stay in until a licensed person releases them. Ten feet of soil is the yard you see. The vault still has to meet the lawn dose target if that soil leaves.
 
-It is a 20 to 40 kW heat source in a factory-sealed vault, about 1/100,000 the electrical size of a 1,000 MW plant. That size is the approval argument (Chapter 6).
+It makes 5 to 10 kW of electricity, about 1/100,000 to 1/200,000 the electrical size of a 1,000 MW plant, and 20 to 40 kW of heat, in a factory-sealed vault. That size is the approval argument (Chapter 6).
 
 ---
 

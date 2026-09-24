@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import importlib.util
+import os
 import re
 import shutil
 import subprocess
@@ -14,6 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 STAGING = ROOT / ".publish-github"
 BRANCH = "published"
 NEVER = ("100_Notes.md", "_writing_style.md", "COPYRIGHT-REGISTRATION.md")
+GITHUB_NOREPLY = "121400468+MichaelCyger@users.noreply.github.com"
 
 
 def die(msg: str) -> None:
@@ -47,12 +49,19 @@ def read_readme_version() -> str:
 
 
 def git(args: list[str], cwd: Path, check: bool = True) -> subprocess.CompletedProcess:
+    env = os.environ.copy()
+    if cwd == STAGING:
+        env["GIT_AUTHOR_NAME"] = "Michael Cyger"
+        env["GIT_AUTHOR_EMAIL"] = GITHUB_NOREPLY
+        env["GIT_COMMITTER_NAME"] = "Michael Cyger"
+        env["GIT_COMMITTER_EMAIL"] = GITHUB_NOREPLY
     return subprocess.run(
         ["git", *args],
         cwd=cwd,
         check=check,
         capture_output=True,
         text=True,
+        env=env,
     )
 
 
@@ -121,6 +130,60 @@ def copy_tree(files: list[Path], version: str) -> None:
             leftover.unlink()
 
 
+def chapter_nav(chapters: list[tuple[str, str]], index: int, version: str) -> tuple[str, str]:
+    """GitHub-only prev/next and jump list. Not written into the PDF sources."""
+    n = len(chapters)
+    pdf = f"Backyard-{version}.pdf"
+    start = "[Start](README.md)"
+    pdf_link = f"[Whole book as a PDF]({pdf})"
+    bits = []
+    for j, (fn, title) in enumerate(chapters):
+        if j == index:
+            bits.append(f"**{title}**")
+        else:
+            bits.append(f"[{title}]({fn})")
+    toc = "**Chapters:** " + " · ".join(bits)
+
+    prev = chapters[index - 1] if index > 0 else None
+    nxt = chapters[index + 1] if index + 1 < n else None
+    bar = []
+    if prev:
+        bar.append(f"← [Previous: {prev[1]}]({prev[0]})")
+    bar.append(start)
+    bar.append(pdf_link)
+    if nxt:
+        next_big = f"**Next chapter:** [{nxt[1]}]({nxt[0]})"
+        bar.append(f"**Next:** [{nxt[1]}]({nxt[0]}) →")
+    else:
+        next_big = f"**That was the last chapter.** {start} · {pdf_link}"
+        bar.append("**End of the book.**")
+    trail = " · ".join(bar)
+
+    top = f"{toc}\n\n{trail}\n\n---\n"
+    bottom = (
+        "\n---\n\n"
+        f"You have finished chapter {index + 1} of {n}.\n\n"
+        f"{next_big}\n\n"
+        f"{trail}\n\n"
+        f"{toc}\n"
+    )
+    return top, bottom
+
+
+def inject_github_nav(chapters: list[tuple[str, str]], version: str) -> None:
+    for i, (filename, _title) in enumerate(chapters):
+        path = STAGING / filename
+        text = path.read_text(encoding="utf-8")
+        top, bottom = chapter_nav(chapters, i, version)
+        lines = text.splitlines()
+        if lines and lines[0].startswith("# "):
+            rest = "\n".join(lines[1:]).lstrip("\n")
+            out = f"{lines[0]}\n\n{top}\n{rest}\n{bottom}\n"
+        else:
+            out = f"{top}\n{text.rstrip()}\n{bottom}\n"
+        path.write_text(out, encoding="utf-8")
+
+
 def ensure_staging_repo(url: str) -> None:
     git_dir = STAGING / ".git"
     if git_dir.exists():
@@ -169,6 +232,26 @@ def commit_and_push(version: str) -> None:
     print(f"sync-github: pushed version {version} to origin/{BRANCH}")
 
 
+def replace_github_history(url: str, version: str) -> None:
+    """Orphan the published branch so old blobs (including email) are not reachable."""
+    git_dir = STAGING / ".git"
+    if git_dir.exists():
+        shutil.rmtree(git_dir)
+    git(["init", "-b", BRANCH], STAGING)
+    git(["remote", "add", "origin", url], STAGING)
+    git(["add", "-A"], STAGING)
+    git(
+        [
+            "commit",
+            "-m",
+            f"Backyard Generating Station version {version}",
+        ],
+        STAGING,
+    )
+    git(["push", "--force", "-u", "origin", BRANCH], STAGING)
+    print(f"sync-github: replaced origin/{BRANCH} history with version {version}")
+
+
 def main() -> None:
     for name in NEVER:
         print(f"sync-github: excluding {name}")
@@ -198,7 +281,11 @@ def main() -> None:
     url = remote_url()
     ensure_staging_repo(url)
     copy_tree(files, version)
-    commit_and_push(version)
+    inject_github_nav(mod.CHAPTERS, version)
+    if "--replace-history" in sys.argv:
+        replace_github_history(url, version)
+    else:
+        commit_and_push(version)
 
 
 if __name__ == "__main__":

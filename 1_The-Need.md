@@ -8,7 +8,7 @@ It must also keep the lights on with wires, poles, and buried cables that were t
 
 Those two facts meet at the house. The bill is rising because new plants and new wires cost money. The outages are rising because the old plant and the old wires are failing, or because the utility turns the power off on purpose when wind and dry brush make a live line a fire starter. A house that can keep its own power on is how you stay cool in a heat wave, warm in a freeze, and alive if the machine in the bedroom needs a wall outlet.
 
-The Backyard Generating Station is one answer to that need: generation at the load, compared at the same meter to rooftop solar. This chapter is the need, not the machine.
+The Backyard Generating Station is one answer to that need: power made at the house, compared at the same meter to rooftop solar. This chapter is the need, not the machine.
 
 ---
 
