@@ -79,7 +79,7 @@ Afternoon: the house is light. The battery fills. If it is full, the inverter ex
 
 Evening: oven, laundry, screens. The battery covers the peak. The station keeps topping it off. On the off chance the house wants more than the battery still holds (a rare, hard spike), the panel just pulls the rest from the grid, the same way it does today. The lights do not go out. You buy a bit of power for an hour instead of a whole day’s worth.
 
-Night: same as afternoon, except solar is not making power. This is the like-for-like point versus solar. Compare yearly kilowatt-hours at this house, plus what still works when the weather is bad.
+Night: same as afternoon, except solar is not making power. That is the fair comparison with solar: how many kilowatt-hours this house gets in a year, and what still works when the weather is bad.
 
 Heat is a second product of the same day. The station makes electricity and warmth together. In winter that warmth heats the house. In summer the house may only want showers, or it can send the rest to a greenhouse. Later chapters treat the hardware. The idea is simple: use the warmth where a pipe can take it.
 
@@ -126,7 +126,7 @@ Fuel use at this output, over a century, is measured in kilograms, not tons: abo
 
 Because the core is run cold and slow (a trickle of heat in a lot of mass), it can be built for a very long sealed life. Material mixed into the fuel is used up as the fuel is used up, so the output stays even. There is no refueling truck. There is no hatch for the owner.
 
-The fuel and the core are built so heat itself slows the reaction: hotter means less splitting, in milliseconds, without a person or a motor. That is the ordinary safety case. Chapter 9 is that Doppler brake, the drums, and the last-ditch glass. A last-ditch layer above the core can melt and set into a glass-like mass if the vault ever got far hotter than it should. That is not expected to run. The design is meant to never get there. The unit is too small for leftover heat to run away, it sits in earth, and it does not rely on a pump staying on.
+The fuel and the core are built so heat itself slows the reaction: hotter means less splitting, in milliseconds, without a person or a motor. That is the ordinary safety case. Chapter 9 is that heat brake, the control drums, and the last-ditch glass. A last-ditch layer above the core can melt and set into a glass-like mass if the vault ever got far hotter than it should. That is not expected to run. The design is meant to never get there. The unit is too small for leftover heat to run away, it sits in earth, and it does not rely on a pump staying on.
 
 ### From the factory to first power
 

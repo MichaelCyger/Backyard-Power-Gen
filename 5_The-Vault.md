@@ -73,7 +73,7 @@ A commercial plant needs staff, pumps, and a tower because leftover heat after s
 
 If power is pulled faster or slower, the battery and the inverter in the utility room take the jump. The core is not asked to follow the dryer. It makes a steady trickle.
 
-If the core ever tries to run away (a sudden rise in splitting), the fuel and the geometry are chosen so heat itself slows the reaction: hotter means less splitting, in milliseconds, without a person or a motor. That is a materials fact, not a software mode. That passive slowing is the ordinary protection. Chapter 9 is the Doppler picture, the drum springs, and the cases that do and do not shut the core down. It is why the last-ditch glass layer below is not expected to run.
+If the core ever tries to run away (a sudden rise in splitting), the fuel and the geometry are chosen so heat itself slows the reaction: hotter means less splitting, in milliseconds, without a person or a motor. That is a materials fact, not a software mode. That passive slowing is the ordinary protection. Chapter 9 draws that heat brake, the drum springs, and the cases that do and do not shut the core down. It is why the last-ditch glass layer below is not expected to run.
 
 If the vault ever got far hotter than it should anyway, a passive layer above the core is meant to melt, flow, and set into a glass-like mass that stills the reaction and locks the insides in place. The whole vault stays one object. That is last-ditch only. The fuel and the drums are designed so the vault does not get there.
 

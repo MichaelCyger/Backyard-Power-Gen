@@ -10,7 +10,7 @@
 
 The yard stays usable: grass, a walk, a playset. The Backyard Generating Station sits under **ten feet of soil**, inside a lead-lined concrete vault. That cover is the same idea as other tanks American yards already bury (septic tanks, underground propane, heating-oil tanks). Ten feet on the lid is on the deep side of that habit, closer to a large buried fuel tank than to a shallow septic lid.
 
-The extra dose is meant to be **a few mrem a year if a person lived on the grass over the vault, all day, every day**. That is the conservative number: someone camping on that spot for 8,760 hours. Nobody does that. A playset is an hour here and there. At one hour a day for a year, the extra is a **small fraction of one cross-country flight**, not a flight.
+The extra dose is meant to be **a few mrem a year if a person lived on the grass over the vault, all day, every day**. That is the conservative number: someone on that spot for every hour of a year. Nobody does that. A playset is an hour here and there. At one hour a day for a year, the extra is a **small fraction of one cross-country flight**, not a flight.
 
 That is the design target. The vault does the stopping. The ten feet of dirt is extra. The numbers in this chapter, and in Chapter 8, are written as if that dirt washed off. If the lawn is still safe with a bare lid, it is safe with a playset on ten feet of soil.
 
