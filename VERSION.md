@@ -16,7 +16,7 @@ The public entry says what the book is, in a few lines, and what green means.
 
 **What a reader would notice**
 
-- README opens on the house, the vault, and a plain definition of green: carbon-free electricity and heat at the house, nothing combusted on the property, power that does not stop when the sun goes down
+- README opens on the house, the vault, and a plain definition of green: carbon-free electricity and heat at the house, and power that does not stop when the sun goes down
 - The same definition appears once in Chapter 2, where the solar tax-credit argument already lives
 - Walk-away numbers stay on the README: output, dose, cost, and what is still ahead
 

@@ -6,7 +6,7 @@ A house should be able to make its own power, stay on when the wires are down, h
 
 The Backyard Generating Station is that idea as one buried appliance: a sealed vault about the size of a large septic tank, on a 10 by 10 foot patch of yard, with ten feet of soil on the lid. It is meant to make 5 to 10 kW of electricity around the clock, plus heat, from a very small nuclear core. About 30 kilograms (66 pounds) of fuel at first start.
 
-Green means carbon-free electricity and heat at the house. Nothing is combusted on the property. The output does not stop when the sun goes down.
+Green means carbon-free electricity and heat at the house. The output does not stop when the sun goes down.
 
 A licensed crew sets it. A licensed crew cranes it out. Nobody on the property opens it.
 
