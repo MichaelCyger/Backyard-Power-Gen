@@ -2,7 +2,7 @@
 
 **Chapters:** [1. The Need](1_The-Need.md) · [2. The Idea](2_The-Idea.md) · [3. Yard Safety](3_Yard-Safety.md) · [4. The House](4_The-House.md) · [5. The Vault](5_The-Vault.md) · [6. The Approval](6_The-Approval.md) · [7. The Swap](7_The-Swap.md) · [8. Vault Spec](8_Vault-Spec.md) · **9. The Fuel** · [10. The Proofs](10_The-Proofs.md)
 
-← [Previous: 8. Vault Spec](8_Vault-Spec.md) · [Start](README.md) · [Whole book as a PDF](Backyard-1.5.pdf) · **Next:** [10. The Proofs](10_The-Proofs.md) →
+← [Previous: 8. Vault Spec](8_Vault-Spec.md) · [Start](README.md) · [Whole book as a PDF](Backyard-1.6.pdf) · **Next:** [10. The Proofs](10_The-Proofs.md) →
 
 ---
 
@@ -259,7 +259,7 @@ You have finished chapter 9 of 10.
 
 **Next chapter:** [10. The Proofs](10_The-Proofs.md)
 
-← [Previous: 8. Vault Spec](8_Vault-Spec.md) · [Start](README.md) · [Whole book as a PDF](Backyard-1.5.pdf) · **Next:** [10. The Proofs](10_The-Proofs.md) →
+← [Previous: 8. Vault Spec](8_Vault-Spec.md) · [Start](README.md) · [Whole book as a PDF](Backyard-1.6.pdf) · **Next:** [10. The Proofs](10_The-Proofs.md) →
 
 **Chapters:** [1. The Need](1_The-Need.md) · [2. The Idea](2_The-Idea.md) · [3. Yard Safety](3_Yard-Safety.md) · [4. The House](4_The-House.md) · [5. The Vault](5_The-Vault.md) · [6. The Approval](6_The-Approval.md) · [7. The Swap](7_The-Swap.md) · [8. Vault Spec](8_Vault-Spec.md) · **9. The Fuel** · [10. The Proofs](10_The-Proofs.md)
 

@@ -2,7 +2,7 @@
 
 **Chapters:** [1. The Need](1_The-Need.md) · [2. The Idea](2_The-Idea.md) · [3. Yard Safety](3_Yard-Safety.md) · [4. The House](4_The-House.md) · **5. The Vault** · [6. The Approval](6_The-Approval.md) · [7. The Swap](7_The-Swap.md) · [8. Vault Spec](8_Vault-Spec.md) · [9. The Fuel](9_The-Fuel.md) · [10. The Proofs](10_The-Proofs.md)
 
-← [Previous: 4. The House](4_The-House.md) · [Start](README.md) · [Whole book as a PDF](Backyard-1.5.pdf) · **Next:** [6. The Approval](6_The-Approval.md) →
+← [Previous: 4. The House](4_The-House.md) · [Start](README.md) · [Whole book as a PDF](Backyard-1.6.pdf) · **Next:** [6. The Approval](6_The-Approval.md) →
 
 ---
 
@@ -99,7 +99,7 @@ The owner does not open it to service it. There is no filter, hatch, or oil chan
 
 It is not safe because the dirt is deep. It is safe because the box is thick, the pipes leave through the floor, the power is furnace-scale, and the locks stay in until a licensed person releases them. Ten feet of soil is the yard you see. The vault still has to meet the lawn dose target if that soil leaves.
 
-It is a 20 to 40 kW heat source in a factory-sealed vault, about 1/100,000 the electrical size of a 1,000 MW plant. That size is the approval argument (Chapter 6).
+It makes 5 to 10 kW of electricity, about 1/100,000 to 1/200,000 the electrical size of a 1,000 MW plant, and 20 to 40 kW of heat, in a factory-sealed vault. That size is the approval argument (Chapter 6).
 
 ---
 
@@ -113,7 +113,7 @@ You have finished chapter 5 of 10.
 
 **Next chapter:** [6. The Approval](6_The-Approval.md)
 
-← [Previous: 4. The House](4_The-House.md) · [Start](README.md) · [Whole book as a PDF](Backyard-1.5.pdf) · **Next:** [6. The Approval](6_The-Approval.md) →
+← [Previous: 4. The House](4_The-House.md) · [Start](README.md) · [Whole book as a PDF](Backyard-1.6.pdf) · **Next:** [6. The Approval](6_The-Approval.md) →
 
 **Chapters:** [1. The Need](1_The-Need.md) · [2. The Idea](2_The-Idea.md) · [3. Yard Safety](3_Yard-Safety.md) · [4. The House](4_The-House.md) · **5. The Vault** · [6. The Approval](6_The-Approval.md) · [7. The Swap](7_The-Swap.md) · [8. Vault Spec](8_Vault-Spec.md) · [9. The Fuel](9_The-Fuel.md) · [10. The Proofs](10_The-Proofs.md)
 

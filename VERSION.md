@@ -2,11 +2,25 @@
 
 High-level log of the Backyard Generating Station book (chapters 1 through 10). Notes files (`100_Notes.md`, `_writing_style.md`) are not part of the compiled book.
 
-**Current version: 1.5**
+**Current version: 1.6**
 
-The compiled reading copy is `Backyard-{version}.pdf` (currently `Backyard-1.5.pdf`). Rebuild it with `python3 build_pdf.py` after you change a chapter. The filename follows `VERSION` in `build_pdf.py`.
+The compiled reading copy is `Backyard-{version}.pdf` (currently `Backyard-1.6.pdf`). Rebuild it with `python3 build_pdf.py` after you change a chapter. The filename follows `VERSION` in `build_pdf.py`.
 
 When you ship a new version, add a section at the top of the list below. Say what a reader would notice, not every line edit. Bump the number on this page, in `build_pdf.py`, and in `README.md`. The next build writes a new file named for that number.
+
+---
+
+## 1.6 — 24 September 2026
+
+Go-live reading pass. A few sentences said one thing and meant another.
+
+**What a reader would notice**
+
+- The size comparison is always 5 to 10 kW of electricity, about 1/100,000 to 1/200,000 of a 1,000 MW plant. Heat stays a separate number, 20 to 40 kW.
+- Chapter 2 says when a bigger electric bill shortens payback, and when it does not
+- House chapters say “heat brake” where they had used the name Doppler before Chapter 9 explains it
+
+**Locked product is unchanged.** Chapter 8 numbers are unchanged.
 
 ---
 

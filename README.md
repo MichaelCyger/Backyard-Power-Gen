@@ -1,6 +1,6 @@
 # Backyard Generating Station
 
-**Version 1.5** (24 September 2026)
+**Version 1.6** (24 September 2026)
 
 A house should be able to make its own power, stay on when the wires are down, heat the rooms it already knows how to heat, and sell what it does not use.
 
@@ -38,7 +38,7 @@ Chapters 1–7 are the house story. Chapters 8–10 are the engineering, the fue
 
 ## How to read it
 
-The whole book, in order, is one file: [Backyard-1.5.pdf](Backyard-1.5.pdf). If the page shows a preview, use **Download** and open it on your computer or phone.
+The whole book, in order, is one file: [Backyard-1.6.pdf](Backyard-1.6.pdf). If the page shows a preview, use **Download** and open it on your computer or phone.
 
 Or read it here. Start at [1. The Need](1_The-Need.md). Each chapter has **Next** at the top and the bottom.
 

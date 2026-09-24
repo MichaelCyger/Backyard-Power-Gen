@@ -9,7 +9,7 @@ from weasyprint import CSS as WpCSS
 from weasyprint import HTML
 
 ROOT = Path(__file__).resolve().parent
-VERSION = "1.5"
+VERSION = "1.6"
 DATE = "24 September 2026"
 AUTHOR = "Michael Cyger"
 LINKEDIN = "https://www.linkedin.com/in/cyger/"
