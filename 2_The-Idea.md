@@ -2,7 +2,7 @@
 
 **Chapters:** [1. The Need](1_The-Need.md) · **2. The Idea** · [3. Yard Safety](3_Yard-Safety.md) · [4. The House](4_The-House.md) · [5. The Vault](5_The-Vault.md) · [6. The Approval](6_The-Approval.md) · [7. The Swap](7_The-Swap.md) · [8. Vault Spec](8_Vault-Spec.md) · [9. The Fuel](9_The-Fuel.md) · [10. The Proofs](10_The-Proofs.md)
 
-← [Previous: 1. The Need](1_The-Need.md) · [Start](README.md) · [Whole book as a PDF](Backyard-1.4.pdf) · **Next:** [3. Yard Safety](3_Yard-Safety.md) →
+← [Previous: 1. The Need](1_The-Need.md) · [Start](README.md) · [Whole book as a PDF](Backyard-1.5.pdf) · **Next:** [3. Yard Safety](3_Yard-Safety.md) →
 
 ---
 
@@ -164,7 +164,7 @@ Today, at low volume, that set is about **$40,000 to $100,000** (about $8,000 to
 
 - **Early production:** **$130,000 to $260,000** is the honest band while the vault is still a new manufactured object and the Stirling set is still a low-volume part (**$40,000 to $100,000** of that band).
 - **Factory scale** (the vault is an ordinary appliance, built in numbers): a working target is **$70,000 to $125,000** all-in. The vault gets cheaper. The hole, the Stirling set (**$15,000 to $30,000**), the inverter, and the batteries do not vanish.
-- **With a government credit like the one solar received** (a federal investment tax credit, often 30% in solar’s early years, applied to the generating equipment, including the Stirling set): early production could net in a **$90,000 to $180,000** band, and factory scale in a **$50,000 to $90,000** band. That credit is a policy path, not a promise. Solar got one because the country wanted more carbon-free generation at the house. The same argument applies here, with a second one: every house-scale station is a house that does not need a new 1,000 MW plant sited in someone else’s town. Communities already refuse those plants. The United States already generates almost all of the electricity it uses; the stronger public case is carbon-free power at the load, fewer giant stations, and a factory product that does not depend on a roof full of imported panels.
+- **With a government credit like the one solar received** (a federal investment tax credit, often 30% in solar’s early years, applied to the generating equipment, including the Stirling set): early production could net in a **$90,000 to $180,000** band, and factory scale in a **$50,000 to $90,000** band. That credit is a policy path, not a promise. Solar got one because the country wanted more carbon-free generation at the house. Green, in this book, means that: carbon-free electricity and heat at the house, nothing combusted on the property, and output that does not stop when the sun goes down. The same argument applies here, with a second one: every house-scale station is a house that does not need a new 1,000 MW plant sited in someone else’s town. Communities already refuse those plants. The United States already generates almost all of the electricity it uses; the stronger public case is carbon-free power at the load, fewer giant stations, and a factory product that does not depend on a roof full of imported panels.
 
 ### What a house uses, and how long the check takes to come back
 
@@ -300,7 +300,7 @@ You have finished chapter 2 of 10.
 
 **Next chapter:** [3. Yard Safety](3_Yard-Safety.md)
 
-← [Previous: 1. The Need](1_The-Need.md) · [Start](README.md) · [Whole book as a PDF](Backyard-1.4.pdf) · **Next:** [3. Yard Safety](3_Yard-Safety.md) →
+← [Previous: 1. The Need](1_The-Need.md) · [Start](README.md) · [Whole book as a PDF](Backyard-1.5.pdf) · **Next:** [3. Yard Safety](3_Yard-Safety.md) →
 
 **Chapters:** [1. The Need](1_The-Need.md) · **2. The Idea** · [3. Yard Safety](3_Yard-Safety.md) · [4. The House](4_The-House.md) · [5. The Vault](5_The-Vault.md) · [6. The Approval](6_The-Approval.md) · [7. The Swap](7_The-Swap.md) · [8. Vault Spec](8_Vault-Spec.md) · [9. The Fuel](9_The-Fuel.md) · [10. The Proofs](10_The-Proofs.md)
 

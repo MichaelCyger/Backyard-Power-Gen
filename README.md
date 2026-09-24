@@ -1,8 +1,14 @@
 # Backyard Generating Station
 
-**Version 1.4** (18 September 2026)
+**Version 1.5** (24 September 2026)
 
-A house should be able to make its own power, stay on when the wires are down, heat the rooms it already knows how to heat, and sell what it does not use. The Backyard Generating Station is that idea as one buried appliance: a sealed vault about the size of a large septic tank, on a 10 by 10 foot patch of yard, with ten feet of soil on the lid. It is meant to make 5 to 10 kW of electricity around the clock, plus heat. The heat comes from a very small nuclear core, about 30 kilograms (66 pounds) of fuel at first start. A licensed crew sets it. A licensed crew cranes it out. Nobody on the property opens it.
+A house should be able to make its own power, stay on when the wires are down, heat the rooms it already knows how to heat, and sell what it does not use.
+
+The Backyard Generating Station is that idea as one buried appliance: a sealed vault about the size of a large septic tank, on a 10 by 10 foot patch of yard, with ten feet of soil on the lid. It is meant to make 5 to 10 kW of electricity around the clock, plus heat, from a very small nuclear core. About 30 kilograms (66 pounds) of fuel at first start.
+
+Green means carbon-free electricity and heat at the house. Nothing is combusted on the property. The output does not stop when the sun goes down.
+
+A licensed crew sets it. A licensed crew cranes it out. Nobody on the property opens it.
 
 ## If this is the only page you read
 
@@ -32,7 +38,7 @@ Chapters 1–7 are the house story. Chapters 8–10 are the engineering, the fue
 
 ## How to read it
 
-The whole book, in order, is one file: [Backyard-1.4.pdf](Backyard-1.4.pdf). If the page shows a preview, use **Download** and open it on your computer or phone.
+The whole book, in order, is one file: [Backyard-1.5.pdf](Backyard-1.5.pdf). If the page shows a preview, use **Download** and open it on your computer or phone.
 
 Or read it here. Start at [1. The Need](1_The-Need.md). Each chapter has **Next** at the top and the bottom.
 

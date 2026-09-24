@@ -2,11 +2,25 @@
 
 High-level log of the Backyard Generating Station book (chapters 1 through 10). Notes files (`100_Notes.md`, `_writing_style.md`) are not part of the compiled book.
 
-**Current version: 1.4**
+**Current version: 1.5**
 
 The compiled reading copy is `Backyard-{version}.pdf` (currently `Backyard-1.4.pdf`). Rebuild it with `python3 build_pdf.py` after you change a chapter. The filename follows `VERSION` in `build_pdf.py`.
 
 When you ship a new version, add a section at the top of the list below. Say what a reader would notice, not every line edit. Bump the number on this page, in `build_pdf.py`, and in `README.md`. The next build writes a new file named for that number.
+
+---
+
+## 1.5 — 24 September 2026
+
+The public entry says what the book is, in a few lines, and what green means.
+
+**What a reader would notice**
+
+- README opens on the house, the vault, and a plain definition of green: carbon-free electricity and heat at the house, nothing combusted on the property, power that does not stop when the sun goes down
+- The same definition appears once in Chapter 2, where the solar tax-credit argument already lives
+- Walk-away numbers stay on the README: output, dose, cost, and what is still ahead
+
+**Locked product is unchanged.** Chapter 8 numbers are unchanged.
 
 ---
 
